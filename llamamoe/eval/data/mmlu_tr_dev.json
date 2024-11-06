@@ -1,0 +1,2495 @@
+[
+  {
+    "id": "abstract_algebra/dev/0",
+    "instruction": "Z_3'teki tüm c'leri bulun ki, Z_3[x]/(x^2 + c) bir alan olsun.",
+    "answer": "B",
+    "option_a": "0",
+    "option_b": "1",
+    "option_c": "2",
+    "option_d": "3"
+  },
+  {
+    "id": "abstract_algebra/dev/1",
+    "instruction": "İfade 1 | Eğer aH bir faktör grubunun bir elemanıysa, o zaman |aH|, |a|'yı böler. İfade 2 | Eğer H ve K, G'nin alt gruplarıysa, o zaman HK, G'nin bir alt grubudur.",
+    "answer": "B",
+    "option_a": "Doğru, Doğru",
+    "option_b": "Yanlış, Yanlış",
+    "option_c": "Doğru, Yanlış",
+    "option_d": "Yanlış, Doğru"
+  },
+  {
+    "id": "abstract_algebra/dev/2",
+    "instruction": "İfade 1 | Bir grubun her elemanı, grubun bir döngüsel alt grubunu üretir. İfade 2 | S_10 simetrik grubu 10 elemana sahiptir.",
+    "answer": "C",
+    "option_a": "Doğru, Doğru",
+    "option_b": "Yanlış, Yanlış",
+    "option_c": "Doğru, Yanlış",
+    "option_d": "Yanlış, Doğru"
+  },
+  {
+    "id": "abstract_algebra/dev/3",
+    "instruction": "İfade 1| Her sonlu kümeden kendisine yapılan fonksiyon bire bir olmalıdır. İfade 2 | Her abelyen grubun altgrubu abelyendir.",
+    "answer": "A",
+    "option_a": "Doğru, Doğru",
+    "option_b": "Yanlış, Yanlış",
+    "option_c": "Doğru, Yanlış",
+    "option_d": "Yanlış, Doğru"
+  },
+  {
+    "id": "abstract_algebra/dev/4",
+    "instruction": "2Z halkasının özelliğini bulun.",
+    "answer": "A",
+    "option_a": "0",
+    "option_b": "3",
+    "option_c": "12",
+    "option_d": "30"
+  },
+  {
+    "id": "anatomy/dev/0",
+    "instruction": "Hiyoid kemiğin embriyolojik kökeni nedir?",
+    "answer": "D",
+    "option_a": "İlk faringeal kemik çıkıntısı",
+    "option_b": "Birinci ve ikinci faringeal kemerler",
+    "option_c": "İkinci faringeal ark",
+    "option_d": "İkinci ve üçüncü faringeal kemerler"
+  },
+  {
+    "id": "anatomy/dev/1",
+    "instruction": "Bu trigeminal sinir dallarından hangileri somatik motor süreçler içerir?",
+    "answer": "D",
+    "option_a": "Alın üstü siniri",
+    "option_b": "Alt göz çukuru siniri",
+    "option_c": "Mental sinir",
+    "option_d": "Yukarıdakilerin hiçbiri"
+  },
+  {
+    "id": "anatomy/dev/2",
+    "instruction": "Plevra",
+    "answer": "C",
+    "option_a": "duyusal sinirsel beslenme yoktur.",
+    "option_b": "2 mm'lik bir boşlukla ayrılır.",
+    "option_c": "Boyna kadar uzanır.",
+    "option_d": "solunum epiteli'nden oluşur."
+  },
+  {
+    "id": "anatomy/dev/3",
+    "instruction": "Angle'ın Sınıf II Div 2 oklüzyonunda",
+    "answer": "C",
+    "option_a": "Üst yan kesicilerin aşırı diş kapanışı.",
+    "option_b": "Üst merkezi kesicilerin negatif örtüşmesi.",
+    "option_c": "Üst lateral kesicilerin aşırı öne çıkışı.",
+    "option_d": "Üst merkezi kesicilerin aşırı önde oluşu."
+  },
+  {
+    "id": "anatomy/dev/4",
+    "instruction": "Aşağıdakilerden hangisi hipofiz bezini içeren vücut boşluğudur?",
+    "answer": "B",
+    "option_a": "Karın",
+    "option_b": "Kafatasıyla ilgili",
+    "option_c": "Plevral",
+    "option_d": "Omurilik"
+  },
+  {
+    "id": "astronomy/dev/0",
+    "instruction": "Bir kamyonu bir yolda itiyorsun. Bu kamyonu Mars'ta hızlandırmak daha kolay olur mu? Neden? (Sürtünme olmadığını varsayalım)",
+    "answer": "D",
+    "option_a": "Bu, kamyonun Mars'ta daha ağır olması nedeniyle daha zor olurdu.",
+    "option_b": "Mars'ta kamyon daha hafif olduğu için daha kolay olurdu.",
+    "option_c": "Mars'ta kamyon daha hafif olduğundan daha zor olurdu.",
+    "option_d": "Nerede olursan ol, durum aynı olurdu."
+  },
+  {
+    "id": "astronomy/dev/1",
+    "instruction": "Çoğu kısa periyodik kuyruklu yıldız nereden geliyor ve bunu nasıl biliyoruz?",
+    "answer": "A",
+    "option_a": "Kuiper kuşağı; kısa periyotlu kuyruklu yıldızlar, Kuiper kuşağı gibi güneş sisteminin düzleminde bulunma eğilimindedir.",
+    "option_b": "Kuiper kuşağı; kısa periyodik kuyruklu yıldızlar rastgele yönlerden gelme eğilimindedir, bu da Kuiper kuşağı adı verilen kuyruklu yıldızların küresel bir dağılımını gösterir.",
+    "option_c": "Asteroit kuşağı; kısa periyotlu kuyruklu yıldızlar, Vesta gibi asteroitlerle benzer yörünge periyotlarına sahiptir ve tıpkı asteroit kuşağı gibi güneş sisteminin düzleminde bulunurlar.",
+    "option_d": "Oort bulutu; kısa periyotlu kuyruklu yıldızlar, Oort bulutu gibi güneş sisteminin düzleminde olma eğilimindedir."
+  },
+  {
+    "id": "astronomy/dev/2",
+    "instruction": "Gözbebeğinizin çapı 5 mm ve 50 cm açıklığa sahip bir teleskopunuz olduğunu söyleyin. Teleskopunuz gözünüze kıyasla ne kadar daha fazla ışık toplayabilir?",
+    "answer": "A",
+    "option_a": "10000 kat daha fazla",
+    "option_b": "100 kat daha fazla",
+    "option_c": "1000 kat daha fazla",
+    "option_d": "10 kat daha fazla"
+  },
+  {
+    "id": "astronomy/dev/3",
+    "instruction": "Asteroit kuşağının bulunduğu yerde neden bir gezegen yok?",
+    "answer": "D",
+    "option_a": "Burada bir zamanlar bir gezegen oluşmuştu ama felaket bir çarpışma ile parçalandı.",
+    "option_b": "Bu güneş bulutsusunun bu kısmında bir gezegen oluşturacak yeterli madde yoktu.",
+    "option_c": "Bir karasal gezegen oluşturacak kadar çok kayaç materyali vardı ancak bir Jüpiter tipi gezegen oluşturacak kadar gaz materyali yoktu.",
+    "option_d": "Jüpiter ile rezonans, materyalin bir araya gelip gezegen oluşturmasını engelledi."
+  },
+  {
+    "id": "astronomy/dev/4",
+    "instruction": "Mars neden kırmızı?",
+    "answer": "A",
+    "option_a": "Çünkü yüzey ağır oksitlenmiş (\"paslanmış\") minerallerle kaplıdır.",
+    "option_b": "Çünkü atmosfer mavi dalga boylarında daha fazla ışık saçarak çoğunlukla kırmızı ışığı iletmektedir.",
+    "option_c": "Çünkü Mars, kırmızı renkte eski lav akıntıları ile kaplıdır.",
+    "option_d": "Mars yüzeyinde akan su birkaç milyar yıl önce yüzey minerallerini değiştirdi."
+  },
+  {
+    "id": "business_ethics/dev/0",
+    "instruction": "İş dünyasında Sosyal Sorumluluk (CSR) faaliyetlerine katılmanın iş durumu dışında birçok ahlaki argüman bulunmaktadır: negatif _______, şirketlerin sahip olduğu _______ ve iş dünyası ile toplumun ________.",
+    "answer": "D",
+    "option_a": "Dışsallıklar, Güç, Bağımsızlık",
+    "option_b": "Reklamcılık, Yetersiz kaynaklar, Karşılıklı bağımlılık",
+    "option_c": "Reklam, Güç, Bağımsızlık",
+    "option_d": "Dışsallıklar, Güç, Karşılıklı bağımlılık"
+  },
+  {
+    "id": "business_ethics/dev/1",
+    "instruction": "_______, belirli politikalar, uygulamalar ve programlar aracılığıyla, etik meseleleri veya sorunları resmi veya gayri resmi olarak yönetmeye yönelik doğrudan bir girişimdir.",
+    "answer": "B",
+    "option_a": "Kurumsal sosyal sorumluluk",
+    "option_b": "İş etiği yönetimi",
+    "option_c": "Sürdürülebilirlik",
+    "option_d": "Çevre yönetimi"
+  },
+  {
+    "id": "business_ethics/dev/2",
+    "instruction": "Yürütme olmayan yönetim kurulu üyelerinin bağımsızlığını sağlamak için atılabilecek birkaç adım bulunmaktadır. Bunlar arasında yürütme olmayanların şirketin _______ dışından çekilmesi, belirli bir _________ süre için atanmaları ve _________ atanmaları yer almaktadır.",
+    "answer": "A",
+    "option_a": "Dışarıda, Sınırlı, Bağımsız olarak",
+    "option_b": "İçeride, Sınırlı, Aralıklarla",
+    "option_c": "Dışarıda, Sınırsız, Ara Sıra",
+    "option_d": "İçeride, Sınırsız, Bağımsız olarak"
+  },
+  {
+    "id": "business_ethics/dev/3",
+    "instruction": "Sivil toplum örgütlerinin amaçlarına ulaşmak için başvurabilecekleri üç zıt taktik, genellikle araştırma ve iletişimi içeren _______, bir şirketin operasyonlarına fiziksel saldırıları içerebilecek _______, ve sıklıkla bir tür _______ içeren _______ 'dır.",
+    "answer": "C",
+    "option_a": "Şiddetsiz doğrudan eylem, Şiddet içeren doğrudan eylem, Dolaylı eylem, Boykot",
+    "option_b": "Dolaylı eylem, Araçsal eylem, Şiddet içermeyen doğrudan eylem, Bilgi kampanyası",
+    "option_c": "Dolaylı eylem, Şiddet içeren doğrudan eylem, Şiddet içermeyen doğrudan eylem Boykot",
+    "option_d": "Şiddet içermeyen doğrudan eylem, Araçsal eylem, Dolaylı eylem, Bilgi kampanyası"
+  },
+  {
+    "id": "business_ethics/dev/4",
+    "instruction": "Bunun aksine, _______ şirketlerin olumlu davranışlarını ödüllendirmeyi amaçlamaktadır. Bu tür kampanyaların başarısı, kampanyaların şirketin _________ ulaşmasına olanak sağlayan ___________ kullanımıyla artırılmıştır.",
+    "answer": "D",
+    "option_a": "Alımkotlar, Boykotlar, Blokzincir teknolojisi, Hayırsever bağışlar",
+    "option_b": "Alımkotlar, Boykotlar, Dijital teknoloji, Artan Satışlar",
+    "option_c": "Boykotlar, Toplu Alımlar, Blokzincir teknolojisi, Hayırsever bağışlar",
+    "option_d": "Boykotlar, Satın Alma Kampanyaları, Dijital Teknoloji, Artan Satışlar"
+  },
+  {
+    "id": "clinical_knowledge/dev/0",
+    "instruction": "Tüm kas kasılmalarının enerjisi şu şekilde sağlanır:",
+    "answer": "A",
+    "option_a": "ATP.",
+    "option_b": "ADP.",
+    "option_c": "fosfokreatin.",
+    "option_d": "oksitatif fosforilasyon."
+  },
+  {
+    "id": "clinical_knowledge/dev/1",
+    "instruction": "Erkek ve dişi kateter arasındaki fark nedir?",
+    "answer": "B",
+    "option_a": "Erkek ve dişi kateterler farklı renklerdedir.",
+    "option_b": "Erkek kateterleri kadın kateterlerinden daha uzundur.",
+    "option_c": "Erkek kateterleri kadın kateterlerinden daha büyüktür.",
+    "option_d": "Kadın kateterleri erkek kateterlerinden daha uzundur."
+  },
+  {
+    "id": "clinical_knowledge/dev/2",
+    "instruction": "El fonksiyonunun değerlendirilmesinde aşağıdakilerden hangisi doğrudur?",
+    "answer": "B",
+    "option_a": "Başparmağın kaçırılması T2 omurilik kökü tarafından sağlanır.",
+    "option_b": "Başparmağın opponens pollicis tarafından karşıt hareketi T1 omurilik kökü tarafından sağlanır.",
+    "option_c": "Parmak yakınlaştırması median sinir tarafından sağlanır.",
+    "option_d": "Parmak abdüksiyonu, palmar interossei tarafından aracılık edilir."
+  },
+  {
+    "id": "clinical_knowledge/dev/3",
+    "instruction": "2020 yılı tıbbi bilgisine göre, bir hastayı kanüle etmek için kaç deneme yapmalısınız, daha sonra işi üst düzey bir meslektaşa devretmeden önce?",
+    "answer": "C",
+    "option_a": "4",
+    "option_b": "3",
+    "option_c": "2",
+    "option_d": "1"
+  },
+  {
+    "id": "clinical_knowledge/dev/4",
+    "instruction": "Glikoliz, aşağıdakilerin dönüşümüne ilişkin yola verilen isimdir:",
+    "answer": "C",
+    "option_a": "glikojen'den glikoz-1-fosfata.",
+    "option_b": "glikojen veya glikozdan fruktoza.",
+    "option_c": "glikojen veya glikozdan pirüvata veya laktata.",
+    "option_d": "glikojen veya glükozdan pirüvata veya asetil KoA'ya."
+  },
+  {
+    "id": "college_biology/dev/0",
+    "instruction": "Verilen bir popülasyonda her 400 kişiden birinde, tamamen çekinik bir alel olan b tarafından neden olan bir kanser bulunmaktadır. Popülasyonun Hardy-Weinberg dengesinde olduğunu varsayarsak, b alelini taşıyan ancak kanseri geliştirmesi beklenmeyen bireylerin beklenen oranı nedir?",
+    "answer": "D",
+    "option_a": "1/400",
+    "option_b": "19/400",
+    "option_c": "20/400",
+    "option_d": "38/400"
+  },
+  {
+    "id": "college_biology/dev/1",
+    "instruction": "İki farklı organizmada, örneğin bir insanın ön kolundaki humerus ile bir kuşunkindeki homolog yapıların bulunması, bunun",
+    "answer": "C",
+    "option_a": "İnsan ve kuş polifiletik türlerdir.",
+    "option_b": "bir insanın ve bir kuşun evrimi konverjenttir",
+    "option_c": "İnsan ve kuş bir klad içindedir",
+    "option_d": "insan ve kuş benzetme yoluyla gelişti"
+  },
+  {
+    "id": "college_biology/dev/2",
+    "instruction": "Basınç-akış modeline göre, floem içeriğinin hareketinde, fotosintatın kaynaktan batığa hareketi tarafından yönlendirilir.",
+    "answer": "B",
+    "option_a": "ATP-bağımlı basınç-akış pompası",
+    "option_b": "bir su basınç potansiyel gradyanı",
+    "option_c": "terleme",
+    "option_d": "apoplastik difüzyon"
+  },
+  {
+    "id": "college_biology/dev/3",
+    "instruction": "Aşağıdakilerden hangisi, mitoz ve mayozda kromozomların ayrılması için gerekli olan DNA dizilerini içerir?",
+    "answer": "B",
+    "option_a": "Telomerler",
+    "option_b": "Sentromerler",
+    "option_c": "Nükleozomlar",
+    "option_d": "Spliceozomlar"
+  },
+  {
+    "id": "college_chemistry/dev/0",
+    "instruction": "Aşağıdaki ifadelerden hangisi lantanit elementleri hakkında doğru DEĞİLDİR?",
+    "answer": "D",
+    "option_a": "Lantanit elementleri için en yaygın oksidasyon hali +3'tür.",
+    "option_b": "Lantanit kompleksleri genellikle yüksek koordinasyon sayılarına sahiptir (> 6).",
+    "option_c": "Bütün lantanit elementler, hidrojen açığa çıkarmak için sulu asit ile tepkimeye girer.",
+    "option_d": "Lantanit elementlerinin atomik yarıçapları, La'dan Lu'ya doğru periyotta artar."
+  },
+  {
+    "id": "college_chemistry/dev/1",
+    "instruction": "Yukarıda gösterilen reaksiyona göre, 0.217 g HgO örneği (mol kütlesi = 217 g) fazla iyodür iyonları ile tepkimeye girer. Oluşan çözeltinin değerlendirme noktasına ulaşması için kaç mL 0.10 M HCl gereklidir?",
+    "answer": "C",
+    "option_a": "1,0 mL",
+    "option_b": "10 mL",
+    "option_c": "20 mL",
+    "option_d": "50 mL"
+  },
+  {
+    "id": "college_chemistry/dev/2",
+    "instruction": "EPR spektrumunda, çizgilerin üst üste gelmediği varsayılarak, 13C-etiketli metil radikalinin (13CH3•) çözeltisinin çizgi sayısını tahmin edin.",
+    "answer": "A",
+    "option_a": "4",
+    "option_b": "3",
+    "option_c": "6",
+    "option_d": "24"
+  },
+  {
+    "id": "college_chemistry/dev/3",
+    "instruction": "Bu reaksiyonda gösterildiği gibi, Cl−(aq) şu şekilde davranır:",
+    "answer": "D",
+    "option_a": "bir asit",
+    "option_b": "bir taban",
+    "option_c": "bir katalizör",
+    "option_d": "indirgeyici ajan"
+  },
+  {
+    "id": "college_chemistry/dev/4",
+    "instruction": "Aşağıdakilerden hangisi grup-14 elementlerinin hidritlerini termal kararlılık açısından en düşükten en yükseğe doğru sıralar?",
+    "answer": "A",
+    "option_a": "PbH4 < SnH4 < GeH4 < SiH4 < CH4",
+    "option_b": "PbH4 < SnH4 < CH4 < GeH4 < SiH4",
+    "option_c": "CH4 < SiH4 < GeH4 < SnH4 < PbH4",
+    "option_d": "CH4 < PbH4 < GeH4 < SnH4 < SiH4"
+  },
+  {
+    "id": "college_computer_science/dev/0",
+    "instruction": "Aşağıdaki düzenli ifadelerden hangisi (a* + b)*(c + d) ile aynı dizi kümesini tanımlar (ifade eder)?",
+    "answer": "D",
+    "option_a": "a*(c + d) + b*(c + d)",
+    "option_b": "a*(c + d)* + b(c + d)*",
+    "option_c": "a*(c + d) + b*(c + d)",
+    "option_d": "(a + b) * c + (a + b) * d"
+  },
+  {
+    "id": "college_computer_science/dev/1",
+    "instruction": "Belirli bir boru hattı RISC makinesi 8 genel amaçlı kaydedici R0, R1, . . . , R7'ye sahiptir ve aşağıdaki işlemleri destekler.\nADD Rs1, Rs2, Rd Rs1'i Rs2'ye ekle ve toplamı Rd'ye koy\nMUL Rs1, Rs2, Rd Rs1'i Rs2 ile çarp ve çarpımı Rd'ye koy\nBir işlem normalde bir çevrim sürer; ancak, bir işlem, işlem dizisinde hemen takip eden işlem tarafından gerektirilen bir sonuç ürettiğinde iki çevrim sürer. A, B, C değişkenlerinin AB + ABC + BC ifadesini göz önünde bulundurun, bu değişkenler kaydediciler R0, R1, R2 içinde yer alır. Bu üç kaydedicinin içeriği değiştirilemezse, AB + ABC + BC değerini hesaplayan bir işlem dizisi için gereken minimum çevrim sayısı nedir?",
+    "answer": "B",
+    "option_a": "5",
+    "option_b": "6",
+    "option_c": "7",
+    "option_d": "8"
+  },
+  {
+    "id": "college_computer_science/dev/2",
+    "instruction": "Singleton tasarım kalıbı, bir sınıftan yalnızca tek bir örneğin oluşturulmasını garantilemek için kullanılır. Bu tasarım kalıbı ile ilgili aşağıdakilerden hangisi/hangileri doğrudur?\nI. Singleton sınıfı, kendi örneğini sağlamak için statik bir fabrika metoduna sahiptir.\nII. Singleton sınıfı, başka bir sınıfın alt sınıfı olabilir.\nIII. Singleton sınıfının özel bir yapıcı metodu vardır.",
+    "answer": "D",
+    "option_a": "Sadece ben",
+    "option_b": "Sadece II",
+    "option_c": "Sadece III",
+    "option_d": "Ben, II ve III"
+  },
+  {
+    "id": "college_computer_science/dev/3",
+    "instruction": "Derleyici aşağıdaki atama ifadesi için kod üretir.\nG := (A + B) * C - (D + E) * F\nHedef makine tek bir toplayıcıya ve yükle, sakla, topla, çıkar ve çarp içeren tek adresli bir komut setine sahiptir. Aritmetik işlemler için sol operand toplayıcıdan alınır ve sonuç toplayıcıda görünür. Sonuçlanan koddaki en az komut sayısı şudur",
+    "answer": "D",
+    "option_a": "5",
+    "option_b": "6",
+    "option_c": "7",
+    "option_d": "9"
+  },
+  {
+    "id": "college_computer_science/dev/4",
+    "instruction": "Bir bilgisayar tasarımını düşünün ki bu tasarımda, her biri özel bir önbellek hafızasına sahip olan çoklu işlemciler, tek bir veriyolu kullanarak global hafızayı paylaşsın. Bu veriyolu, kritik sistem kaynağıdır. Her işlemci, hafıza referansları yerel önbellek tarafından karşılandığı sürece her 500 nanosaniyede bir talimatı işleyebilir. Bir önbellek eksikliği meydana geldiğinde, işlemci ek olarak 2.000 nanosaniye gecikir. Bu ek gecikmenin yarısı boyunca veriyolu, önbellek eksikliğini karşılamak için adanmıştır. Diğer yarısında ise işlemci devam edemez, ancak veriyolu diğer işlemcilerden gelen istekleri karşılamak için serbesttir. Ortalama olarak, her talimat 2 hafıza referansı gerektirir. Ortalama olarak, referansların yüzde 1'inde önbellek eksikliği meydana gelir. Diğer işlemcilerden kaynaklanan gecikmeleri dikkate almadan, tek bir işlemci veriyolunun kapasitesinin ne kadarını tüketir?",
+    "answer": "B",
+    "option_a": "1/50",
+    "option_b": "1/27",
+    "option_c": "1/25",
+    "option_d": "27/2"
+  },
+  {
+    "id": "college_mathematics/dev/0",
+    "instruction": "V, p(x) olan tüm gerçek polinomların kümesi olsun. T, S dönüşümleri V üzerinde T:p(x) -> xp(x) ve S:p(x) -> p'(x) = d/dx p(x) olarak tanımlansın ve (ST)(p(x))'ı S(T(p(x))) olarak yorumlayın. Aşağıdakilerden hangisi doğrudur?",
+    "answer": "D",
+    "option_a": "ST = 0",
+    "option_b": "ST = T",
+    "option_c": "ST = TS",
+    "option_d": "ST - TS, V'nin kendisi üzerine özdeş dönüşümüdür."
+  },
+  {
+    "id": "college_mathematics/dev/1",
+    "instruction": "Bir tank başlangıçta 100 litre su içinde çözünmüş 3 gram tuz içeren bir tuz çözeltisi içerir. Her litre su başına 0.02 gram tuz içeren bir tuz çözeltisi dakikada 4 litre oranında tanke püskürtülür. Püskürtülen çözelti sürekli olarak tanktaki tuz çözeltisiyle karıştırılır ve karışım tanktan dakikada 4 litre akış hızıyla dışarı akar. Karışım anında ise, 100 dakika geçtikten sonra tankta kaç gram tuz vardır?",
+    "answer": "D",
+    "option_a": "2",
+    "option_b": "2 - e^(-2)",
+    "option_c": "2 + e^(-2)",
+    "option_d": "2 + e^-4"
+  },
+  {
+    "id": "college_mathematics/dev/2",
+    "instruction": "Bir A gerçek 2x2 matris olsun. Aşağıdaki ifadelerden hangileri mutlaka doğrudur?\nI. A^2'nin tüm girişleri negatif olmayandır.\nII. A^2'nin determinantı negatif olmayandır.\nIII. Eğer A'nın iki farklı özdeğeri varsa, o zaman A^2'nin de iki farklı özdeğeri vardır.",
+    "answer": "B",
+    "option_a": "Sadece",
+    "option_b": "Sadece II",
+    "option_c": "Sadece III",
+    "option_d": "Yalnızca II ve III"
+  },
+  {
+    "id": "college_mathematics/dev/3",
+    "instruction": "Varsayalım ki her gerçek x için f(1 + x) = f(x) olsun. Eğer f bir polinom ise ve f(5) = 11 ise, o zaman f(15/2)",
+    "answer": "C",
+    "option_a": "\"-11\" (Turkish: \"eksi on bir\")",
+    "option_b": "0",
+    "option_c": "11",
+    "option_d": "33/2"
+  },
+  {
+    "id": "college_mathematics/dev/4",
+    "instruction": "A, 7m + 12n = 22 denklemini sağlayan tüm tam sayı ikilileri (m, n) kümesi olsun. B = {m + n : (m, n) ∈ A} kümesindeki en büyük negatif sayı nedir?",
+    "answer": "B",
+    "option_a": "-5",
+    "option_b": "-4",
+    "option_c": "-3",
+    "option_d": "-2"
+  },
+  {
+    "id": "college_medicine/dev/0",
+    "instruction": "Glikoz kas hücresine taşınır:",
+    "answer": "A",
+    "option_a": "GLUT4 adı verilen protein taşıyıcıları aracılığıyla.",
+    "option_b": "yalnızca insülin varlığında.",
+    "option_c": "hegzokinaz yoluyla.",
+    "option_d": "monokarboksilik asit taşıyıcıları yoluyla."
+  },
+  {
+    "id": "college_medicine/dev/1",
+    "instruction": "Aşağıdakilerden hangisi doğru bir ifade değildir?",
+    "answer": "D",
+    "option_a": "Kas glikojeni enzimatik olarak glukoz-1-fosfata parçalanır.",
+    "option_b": "Elit dayanıklılık koşucularının bacak kaslarında Tip I lifler yüksek oranda bulunur.",
+    "option_c": "Karaciğer glikojeni kan şeker konsantrasyonunun korunmasında önemlidir.",
+    "option_d": "İnsülin, vücuttaki tüm dokular tarafından glikoz alımını teşvik eder."
+  },
+  {
+    "id": "college_medicine/dev/2",
+    "instruction": "Yeni doğan bir bebekte yapılan genetik testte, X'e bağlı çekinik geçişli nadir bir genetik bozukluk bulunmuştur. Bu bozukluğun soy ağacı ile ilgili aşağıdaki ifadelerden hangisi muhtemelen doğrudur?",
+    "answer": "C",
+    "option_a": "Anne tarafından tüm soyundan gelenler bu rahatsızlığı taşıyacak.",
+    "option_b": "Bu ailede dişiler, erkeklerden yaklaşık olarak iki kat daha fazla etkilenecekler.",
+    "option_c": "Etkilenen bir erkeğin tüm kızları etkilenecektir.",
+    "option_d": "Etkilenen erkek ve kadınların eşit dağılımı olacak."
+  },
+  {
+    "id": "college_medicine/dev/3",
+    "instruction": "Bir lise fen bilgisi öğretmeni 1 litrelik bir şişeyi saf azot ile doldurur ve kapağını kapatır. Basınç 1,70 atm ve oda sıcaklığı 25°C'dir. Eğer diğer tüm değişkenler sabit tutulursa, hangi iki değişken sistemin basıncını artırır?",
+    "answer": "A",
+    "option_a": "Sıcaklığın artması, gazın mol sayısının artması",
+    "option_b": "Artan sıcaklık, artan hacim",
+    "option_c": "Azalan hacim, azalan sıcaklık",
+    "option_d": "Azalan gaz mol sayısı, artan hacim"
+  },
+  {
+    "id": "college_medicine/dev/4",
+    "instruction": "Kreatin takviyesinin beklenen bir yan etkisi:",
+    "answer": "B",
+    "option_a": "kas zayıflığı.",
+    "option_b": "vücut kütlesinde artış",
+    "option_c": "kas krampları.",
+    "option_d": "Elektrolit kaybı."
+  },
+  {
+    "id": "college_physics/dev/0",
+    "instruction": "Bir kırılmalı teleskop, 100 cm ile ayrılmış iki yakınsak mercekten oluşur. Göz merceğinin odak uzaklığı 20 cm'dir. Teleskopun açısal büyütmesi.",
+    "answer": "A",
+    "option_a": "4",
+    "option_b": "5",
+    "option_c": "6",
+    "option_d": "20"
+  },
+  {
+    "id": "college_physics/dev/1",
+    "instruction": "Aşağıdaki termodinamik süreçlerin hangisinde, ideal bir gazın iç enerjisindeki artış, gaza eklenen ısıya eşittir?",
+    "answer": "B",
+    "option_a": "Sabit sıcaklık",
+    "option_b": "Sabit hacim",
+    "option_c": "Sürekli baskı",
+    "option_d": "Adiyabatik"
+  },
+  {
+    "id": "college_physics/dev/2",
+    "instruction": "Bir ucu 2L uzunluğunda ve A kesit alanına sahip bir Nikrom teline bağlı olan diğer ucu L uzunluğunda ve 2A kesit alanına sahip başka bir Nikrom telinin bir ucu, daha uzun telin serbest ucu 8.0 volt elektrik potansiyelindeyken, daha kısa telin serbest ucu 1.0 volt elektrik potansiyelindeyse, iki telin birleşim noktasındaki potansiyel yaklaşık olarak şuna eşittir",
+    "answer": "A",
+    "option_a": "2,4 V",
+    "option_b": "3.3 V",
+    "option_c": "4,5 V",
+    "option_d": "5,7 V"
+  },
+  {
+    "id": "college_physics/dev/3",
+    "instruction": "Bir kırıcı teleskop, 100 cm ile ayrılmış iki yakınsak mercekten oluşur. Göz merceğinin odak uzaklığı 20 cm'dir. Teleskopun açısal büyütmesi",
+    "answer": "A",
+    "option_a": "4",
+    "option_b": "5",
+    "option_c": "6",
+    "option_d": "20"
+  },
+  {
+    "id": "college_physics/dev/4",
+    "instruction": "Muon, bir elektron, bir muon nötrinosu ve bir elektron antinötrinosuna yaklaşık 10^-6 saniye karakteristik ömrü boyunca bozunur. Muon, korunum yasasına göre bir elektron ve yalnızca tek bir nötrinoya bozunması yasaktır.",
+    "answer": "D",
+    "option_a": "ücret almak",
+    "option_b": "kütle",
+    "option_c": "enerji ve momentum",
+    "option_d": "lepton sayısı"
+  },
+  {
+    "id": "computer_security/dev/0",
+    "instruction": "SHA-1'in bir mesaj özeti var",
+    "answer": "A",
+    "option_a": "160 bit",
+    "option_b": "512 bit",
+    "option_c": "628 bit",
+    "option_d": "820 bit"
+  },
+  {
+    "id": "computer_security/dev/1",
+    "instruction": "_____________ sisteminizdeki verileri değiştirebilir - böylece sisteminiz doğru çalışmaz veya belirli verilere artık erişemezsiniz, hatta erişiminizi geri vermek için fidye bile isteyebilir.",
+    "answer": "D",
+    "option_a": "IM - Truvalılar",
+    "option_b": "Arka Kapı Truva Atları",
+    "option_c": "Truva-İndirici",
+    "option_d": "Fidye Truva Atı"
+  },
+  {
+    "id": "computer_security/dev/2",
+    "instruction": "Etik hackleme nedir?",
+    "answer": "B",
+    "option_a": "\"Hacking\" etiğini, istenmeyen bencil davranışları haklı çıkarmak için kullanmak",
+    "option_b": "Sistemleri hacklemek (örneğin, sızma testleri sırasında) güvenlik açıklarını ortaya çıkarmak için, böylece istismar edilmesi yerine düzeltilebilirler",
+    "option_c": "Ahlaki görüşlerine katılmadığın kişiler tarafından yönetilen sistemlere sızma",
+    "option_d": "Hackathonlar kısmında olduğu gibi, hızlı yazılım geliştirme için kullanılan argo bir terim"
+  },
+  {
+    "id": "computer_security/dev/3",
+    "instruction": "Heartbleed hatasından yararlanma izin verir",
+    "answer": "C",
+    "option_a": "bellekte kriptografik anahtarların üzerine yazma",
+    "option_b": "bir tür kod enjeksiyonu",
+    "option_c": "bir arabelleğin sınırları dışında okuma",
+    "option_d": "bir biçim dizgesi saldırısı"
+  },
+  {
+    "id": "computer_security/dev/4",
+    "instruction": "The ____________ is anything which your search engine cannot search.\" direkt çevirisi: \"____________ arama motorunuzun arayamadığı her şeydir.",
+    "answer": "D",
+    "option_a": "Perili ağ",
+    "option_b": "Dünya Çapında Ağ",
+    "option_c": "Yüzey ağı",
+    "option_d": "Derin Web"
+  },
+  {
+    "id": "conceptual_physics/dev/0",
+    "instruction": "Bir uranyum atomunun fissiyon geçirdiğindeki kütlesi ile fissiyondan sonra oluşan ürünlerin toplam kütleleri karşılaştırıldığında",
+    "answer": "A",
+    "option_a": "daha az",
+    "option_b": "daha fazla",
+    "option_c": "aynı",
+    "option_d": "sıfır"
+  },
+  {
+    "id": "conceptual_physics/dev/1",
+    "instruction": "Eşdeğerlik prensibine göre eşdeğer olan şeylerdir",
+    "answer": "C",
+    "option_a": "uzay ve zaman.",
+    "option_b": "seyahat eden ikiz ve evde kalan ikiz.",
+    "option_c": "yerçekimi ve ivme.",
+    "option_d": "kütle ve enerji."
+  },
+  {
+    "id": "conceptual_physics/dev/2",
+    "instruction": "Sabun köpüğündeki renkler ışıktan kaynaklanır.",
+    "answer": "C",
+    "option_a": "farklı bir frekansa dönüştürüldü",
+    "option_b": "saptırma",
+    "option_c": "müdahale",
+    "option_d": " kutuplaşma"
+  },
+  {
+    "id": "conceptual_physics/dev/3",
+    "instruction": "Bir model uçak, rüzgara karşı uçarken daha yavaş uçar ve rüzgar arkasındayken daha hızlı uçar. Rüzgara dik açılarla fırlatıldığında, bir yan rüzgarın yere göre hızı, durgun havada uçarkenkiyle karşılaştırıldığında",
+    "answer": "B",
+    "option_a": "aynı",
+    "option_b": "daha büyük",
+    "option_c": "daha az",
+    "option_d": "rüzgar hızına bağlı olarak ya daha büyük ya da daha küçük"
+  },
+  {
+    "id": "conceptual_physics/dev/4",
+    "instruction": "Bu üç elementin hangisinin nükleon başına en fazla kütlesi var?",
+    "answer": "A",
+    "option_a": "Hidrojen",
+    "option_b": "Demir",
+    "option_c": "Uranyum",
+    "option_d": "Her birinde aynı"
+  },
+  {
+    "id": "econometrics/dev/0",
+    "instruction": "Aşağıdaki AR(1) modelini bozucu etkilerin sıfır ortalamaya ve birim varyansa sahip olduğu şekilde düşünün\n\nyt = 0.2 + 0.4 yt-1 + ut\n\ny'nin (koşulsuz) ortalaması şöyle verilecektir",
+    "answer": "D",
+    "option_a": "0.2",
+    "option_b": "0.4",
+    "option_c": "0.5",
+    "option_d": "0.33"
+  },
+  {
+    "id": "econometrics/dev/1",
+    "instruction": "Bir test istatistiğinin ilişkilendirildiği p-değeri 0.08 olsun. Aşağıdaki ifadelerden hangisi doğrudur?\n\n(i) Eğer testin büyüklüğü tam olarak %8 ise, boş hipotezi reddetme ve reddetmeme arasında kayıtsız kalırız\n\n(ii) Eğer %10'luk bir test büyüklüğü kullanılsaydı, boş hipotez reddedilirdi\n\n(iii) Eğer %1'lik bir test büyüklüğü kullanılsaydı, boş hipotez reddedilmezdi\n\n(iv) Eğer %5'lik bir test büyüklüğü kullanılsaydı, boş hipotez reddedilirdi.",
+    "answer": "C",
+    "option_a": "(ii) ve (iv) sadece",
+    "option_b": "(i) ve (iii) yalnızca",
+    "option_c": "(i), (ii) ve (iii) yalnızca",
+    "option_d": "(i), (ii), (iii) ve (iv)"
+  },
+  {
+    "id": "econometrics/dev/2",
+    "instruction": "Eğer bir regresyon modelinde heteroskedastisite var fakat göz ardı edilirse, OLS tahmincisinin sonuçları ne olur?",
+    "answer": "C",
+    "option_a": "Önyargılı olacak",
+    "option_b": "Tutarsız olacak",
+    "option_c": "Verimsiz olacak.",
+    "option_d": "(a), (b) ve (c) hepsi doğru olacak."
+  },
+  {
+    "id": "econometrics/dev/3",
+    "instruction": "Şimdi bir araştırmacının, bir VAR için optimal gecikme uzunluğunu belirlemek için bilgi kriterlerini kullanmak istediğini varsayalım. İki değişkenli VAR için 500 gözlem mevcuttur ve kalıntıların varyans-kovaryans matrisinin determinantının değerleri sırasıyla 1, 2, 3 ve 4 gecikmeler için 0.0336, 0.0169, 0.0084 ve 0.0062'dir. Akaike bilgi kriterine göre optimal model sırası nedir?",
+    "answer": "C",
+    "option_a": "1 gecikme",
+    "option_b": "2 gecikme",
+    "option_c": "3 gecikme",
+    "option_d": "4 gecikme"
+  },
+  {
+    "id": "electrical_engineering/dev/0",
+    "instruction": "NOR kapılarından yapılmış bir SR kilidinde, hangi durum izin verilmez?",
+    "answer": "D",
+    "option_a": "S=0, R=0",
+    "option_b": "S=0, R=1",
+    "option_c": "S=1, R=0",
+    "option_d": "S=1, R=1"
+  },
+  {
+    "id": "electrical_engineering/dev/1",
+    "instruction": "Bir 2 kutuplu, lap sargılı doğru akım makinesinde, bir iletkenin direnci 2Ω ve toplam iletken sayısı 100'dür. Toplam direnci bulun.",
+    "answer": "C",
+    "option_a": "200Ω (Okunuşu: İki yüz ohm)",
+    "option_b": "100 ohm",
+    "option_c": "50Ω (Okunuşu: elli ohm)",
+    "option_d": "10Ω (On ohm)"
+  },
+  {
+    "id": "electrical_engineering/dev/2",
+    "instruction": "Hareketli bobinli bir metre bobini 100 tur, 40 mm uzunluğunda ve 30 mm genişliğindedir. Tam ölçekte kontrol torku 240*10-6 N-m'dir. Manyetik akı yoğunluğu 1Wb/m2 ise, metre aralığı şudur:",
+    "answer": "B",
+    "option_a": "1 mA.",
+    "option_b": "2 mA.",
+    "option_c": "3 mA.",
+    "option_d": "4 mA."
+  },
+  {
+    "id": "electrical_engineering/dev/3",
+    "instruction": "İki uzun paralel iletken 100 A taşır. Eğer iletkenler 20 mm aralıkla ayrılmışsa, her iletkenin metre başına düşen kuvveti olacaktır.",
+    "answer": "B",
+    "option_a": "100 N.",
+    "option_b": "0,1 N.",
+    "option_c": "1 N.",
+    "option_d": "0,01 N."
+  },
+  {
+    "id": "electrical_engineering/dev/4",
+    "instruction": "Bir nokta kutbunun gücü 4π * 10^-4 weberdir. Ona 10 cm uzaklıkta yerleştirilen 4π * 1.5 * 10^-4 weber gücünde bir nokta kutbuna etki eden kuvvet newton cinsinden olacaktır",
+    "answer": "A",
+    "option_a": "15 N.",
+    "option_b": "20 N.",
+    "option_c": "7,5 N.",
+    "option_d": "3,75 N."
+  },
+  {
+    "id": "elementary_mathematics/dev/0",
+    "instruction": "Michelle'in doğduğu şehrin nüfusu 145,826'dır. 145,826 sayısındaki 5'in değeri nedir?",
+    "answer": "A",
+    "option_a": "Beş bin",
+    "option_b": "Beş yüzler",
+    "option_c": "50",
+    "option_d": "5 tane bir"
+  },
+  {
+    "id": "elementary_mathematics/dev/1",
+    "instruction": "Olivia aşağıda gösterilen sayı örüntüsünü oluşturmak için \"11 Ekle\" kuralını kullandı. 10, 21, 32, 43, 54 Sayı örüntüsü hakkında hangi ifade doğrudur?",
+    "answer": "B",
+    "option_a": "Desendeki 10. sayı çift bir sayı olacak.",
+    "option_b": "Sayı deseni hiçbir zaman yan yana iki çift sayıya sahip olmayacak.",
+    "option_c": "Desende sıradaki iki sayı bir çift sayı sonra bir tek sayı olacak.",
+    "option_d": "Eğer sayı deseni tek bir sayı ile başlamışsa, o zaman desende yalnızca tek sayılar bulunur."
+  },
+  {
+    "id": "elementary_mathematics/dev/2",
+    "instruction": "Toplamda 30 oyuncu parkta basketbol oynayacak. Her takımda tam olarak 5 oyuncu olacak. Gerekli takım sayısını bulmak için doğru açıklamayı yapan ifade hangisidir?",
+    "answer": "B",
+    "option_a": "35 takım bulmak için 30'a 5 ekle.",
+    "option_b": "30'u 5'e bölerek 6 takım bulun.",
+    "option_c": "30 ile 5'i çarpın ve 150 takım bulun.",
+    "option_d": "30'dan 5 çıkararak 25 takım bulun."
+  },
+  {
+    "id": "elementary_mathematics/dev/3",
+    "instruction": "Bir mağaza 107 farklı renkte boya satmaktadır. Her renkten 25'er teneke boyaları depoda bulunmaktadır. Mağazanın depoda sahip olduğu boya teneke sayısı aşağıdaki ifade kullanılarak bulunabilir. 107 × 25. Mağaza depoda kaç teneke boya bulundurmaktadır?",
+    "answer": "B",
+    "option_a": "749",
+    "option_b": "2.675",
+    "option_c": "2.945",
+    "option_d": "4.250"
+  },
+  {
+    "id": "elementary_mathematics/dev/4",
+    "instruction": "5 x 9 ifadesine eşit olan ifade hangisidir?",
+    "answer": "B",
+    "option_a": "(5 x 4) x (6 x 5)\" direkt çevirisi: \"(5 x 4) x (6 x 5)",
+    "option_b": "(5 x 5) + (5 x 4)",
+    "option_c": "(5 x 5) + (5 x 9)\" direkt çevirisi: \"(5 x 5) + (5 x 9)",
+    "option_d": "(5 x 9) x (6 x 9)\" direkt çevirisi: \"(5 x 9) x (6 x 9)"
+  },
+  {
+    "id": "formal_logic/dev/0",
+    "instruction": "Yüklemsel mantığa en uygun çeviriyi seçin: Mars'ta hiç kimse araba kullanmaz.",
+    "answer": "C",
+    "option_a": "\"~Pd\" has no direct translation as it appears to be a symbol or abbreviation rather than a word or phrase in English. If it's a chemical element symbol, \"Pd\" stands for palladium, which is \"paladyum\" in Turkish. If \"~\" is meant to denote approximation, there is no direct equivalent in Turkish, but \"~\" itself could be used as it's a common symbol. The translation would depend on the context in which \"~Pd\" is used.",
+    "option_b": "(∀x)(Px ∨ ~Dx)",
+    "option_c": "(∀x)(Px ⊃ ~Dx)\" direkt çevirisi: \"(∀x)(Px ⊃ ~Dx)",
+    "option_d": "\"~Dp\" is a symbolic representation and does not have a direct translation into Turkish or any language as it stands. It appears to be a logical expression or a shorthand notation, but without context, it cannot be translated. If \"~Dp\" is intended to represent a specific phrase or concept in English that can be translated into Turkish, please provide the full phrase or context."
+  },
+  {
+    "id": "formal_logic/dev/1",
+    "instruction": "Yüklem mantığına en iyi çeviriyi seçin. George, Hector'un çim biçme makinesini ödünç alır. (g: George; h: Hector; l: Hector'un çim biçme makinesi; Bxyx: x, y'yi z'den ödünç alır)",
+    "answer": "C",
+    "option_a": "The text \"Blgh\" doesn't seem to be an English word or have a meaning in English. It looks like a typo or a nonsensical string of characters. If you intended to write a different word or phrase for translation, please provide the correct one.",
+    "option_b": "\"Bhlg\" cannot be translated as it appears to be a nonsensical string of letters or a specific abbreviation that has no direct equivalent in Turkish. If it is an abbreviation, please provide the full form for accurate translation.",
+    "option_c": "\"Bglh\" does not have a direct translation as it appears to be a nonsensical string of characters or a possible abbreviation or code rather than a word in English. If it is intended to be translated phonetically into Turkish, it would still be \"Bglh,\" as Turkish uses the Latin alphabet and phonetic transcription would not change.",
+    "option_d": "\"Bghl\" is not an English word or term, and as such, it doesn't have a direct translation into Turkish. If \"Bghl\" is a proper noun, a name, or a specific term in another language, it would remain unchanged as \"Bghl\" in Turkish."
+  },
+  {
+    "id": "formal_logic/dev/2",
+    "instruction": "Verilen önermeler mantığında en iyi İngilizce yorumu seçin.\nDm\n(∀x)(Wx ⊃ ~Dx)\n(∀x)Wx ∨ Ag / (∃x)Ax",
+    "answer": "D",
+    "option_a": "Marina bir dansçıdır. Bazı zayıflar dansçı değildir. Ya her şey zayıftır ya da Georgia voleybol oynar. Öyleyse bir şeyler voleybol oynar.",
+    "option_b": "Marina bir dansçıdır. Hiçbir zayıf insan dansçı değildir. Her şey ya zayıf insandır ya da voleybol oynar. Yani bir şeyler voleybol oynuyor.",
+    "option_c": "Marina bir dansçıdır. Bazı zayıflar dansçı değildir. Her şey ya bir zayıf ya da voleybol oynar. Öyleyse bir şeyler voleybol oynar.",
+    "option_d": "Marina bir dansçıdır. Hiçbir zayıf kişi dansçı değildir. Ya her şey zayıftır ya da Georgia voleybol oynar. Öyleyse bir şeyler voleybol oynar."
+  },
+  {
+    "id": "formal_logic/dev/3",
+    "instruction": "Aşağıdaki önerme çiftleri için tam bir doğruluk tablosu oluşturun. Daha sonra doğruluk tablolarını kullanarak ifadelerin mantıksal olarak eşdeğer ya da çelişkili olup olmadığını belirleyin. Eğer ikisi de değilse, tutarlı ya da tutarsız olduklarını belirleyin. Cevaplarınızı gerekçelendirin.\nE ⊃ (F · E) ve ~E · F",
+    "answer": "C",
+    "option_a": "Mantıksal olarak eşdeğer",
+    "option_b": "Çelişkili",
+    "option_c": "Mantıken eşdeğer de değil, çelişkili de değil, ama tutarlı.",
+    "option_d": "Tutarsız"
+  },
+  {
+    "id": "formal_logic/dev/4",
+    "instruction": "Verilen PL formüllerinden hangisi aşağıdaki cümleyi en iyi şekilde sembolize eder?\nKaplumbağalar uzun yaşar ve mutlu yaratıklardır, yaralı olmadıkları sürece.",
+    "answer": "B",
+    "option_a": "(L • H) ≡ I",
+    "option_b": "(L • H) ∨ I",
+    "option_c": "L • (H ∨ I)",
+    "option_d": "L • (H ⊃ R)"
+  },
+  {
+    "id": "global_facts/dev/0",
+    "instruction": "Aşağıdaki ifade çiftlerinden hangileri (2019 itibarıyla) her ikisi de doğrudur?",
+    "answer": "B",
+    "option_a": "İnsanlar genellikle kendi gelecekleri ve uluslarının ya da dünyanın geleceği konusunda iyimser olma eğilimindedirler.",
+    "option_b": "İnsanlar kendi gelecekleri konusunda iyimser olma eğilimindedir ancak uluslarının veya dünyanın geleceği konusunda kötümserdir.",
+    "option_c": "İnsanlar genellikle kendi gelecekleri konusunda kötümser ancak uluslarının veya dünyanın geleceği konusunda iyimser olma eğilimindedirler.",
+    "option_d": "İnsanlar kendi gelecekleri ve uluslarının veya dünyanın geleceği konusunda genellikle kötümser olurlar."
+  },
+  {
+    "id": "global_facts/dev/1",
+    "instruction": "2019 itibarıyla, Amerikalıların yaklaşık yüzde kaçı devletin tüm insanların faydası için yönetildiği konusunda hemfikir?",
+    "answer": "B",
+    "option_a": "%31",
+    "option_b": "%46",
+    "option_c": "%61",
+    "option_d": "%76"
+  },
+  {
+    "id": "global_facts/dev/2",
+    "instruction": "2015 itibarıyla, 1990'dan beri Avrupa'daki ormanlar ____ ve Afrika ile Amerika'da ____.\n",
+    "answer": "B",
+    "option_a": "artmış, artmış",
+    "option_b": "artmış, azalmış",
+    "option_c": "azalmış, artmış",
+    "option_d": "azalmış, azalmış"
+  },
+  {
+    "id": "global_facts/dev/3",
+    "instruction": "2019 itibarıyla, Rusların yaklaşık yüzde kaçı ülkemizde hükümet/devlet sansürü olmadan özgür medyanın çok önemli olduğunu söylüyor?",
+    "answer": "A",
+    "option_a": "%38",
+    "option_b": "%53",
+    "option_c": "%68",
+    "option_d": "%83"
+  },
+  {
+    "id": "global_facts/dev/4",
+    "instruction": "2017 itibarıyla, dünyadaki 1 yaşındaki çocukların kaçı bir hastalığa karşı aşılanmıştır? *",
+    "answer": "A",
+    "option_a": "%80",
+    "option_b": "%60",
+    "option_c": "%40",
+    "option_d": "%20"
+  },
+  {
+    "id": "high_school_biology/dev/0",
+    "instruction": "Aşağıdakilerden hangisi rekombinant DNA oluşturmanın bir yolu değildir?",
+    "answer": "A",
+    "option_a": "Çeviri",
+    "option_b": "Çekim",
+    "option_c": "Özelleşmiş transdüksiyon",
+    "option_d": "Dönüşüm"
+  },
+  {
+    "id": "high_school_biology/dev/1",
+    "instruction": "Bakteriyel bir enzimdeki bir mutasyon, daha önce polar olan bir amino asidi apolar bir amino aside dönüştürdü. Bu amino asit, enzimin aktif yerinden uzak bir noktada bulunuyordu. Bu mutasyon enzimin substrat spesifikliğini nasıl değiştirebilir?",
+    "answer": "C",
+    "option_a": "Enzimin pH optimumunu değiştirerek",
+    "option_b": "Hücrede enzimin yerini değiştirerek",
+    "option_c": "Proteinin şeklini değiştirerek",
+    "option_d": "Aktif bölgeden uzakta bir amino asit değişimi, enzimin substrat özgüllüğünü değiştiremez."
+  },
+  {
+    "id": "high_school_biology/dev/2",
+    "instruction": "Hayvan hücrelerinde, bir salgı proteini hücrede sentezlenirken en olası yol olarak aşağıdakilerden hangisi temsil edilir?",
+    "answer": "D",
+    "option_a": "Plazma membran–Golgi aygıtı–ribozom–salgı vezikülü–kabarık ER",
+    "option_b": "Ribozom–Golgi aygıtı–kaba ER–salgı vezikülü–plazma zarı",
+    "option_c": "Plazma zarı–Golgi aygıtı–ribozom–salgı vezikülü–kaba ER",
+    "option_d": "Ribozom–kaba ER–Golgi aygıtı–salgı vezikülü–plazma zarı"
+  },
+  {
+    "id": "high_school_biology/dev/3",
+    "instruction": "Aşağıdakilerden hangisi hücre bölünmesinin kontrolünde yer aldığı bilinmeyen bir faktördür?",
+    "answer": "D",
+    "option_a": "Siklinler",
+    "option_b": "Protein kinazları",
+    "option_c": "Kontrol noktaları",
+    "option_d": "Fibroblast hücreleri"
+  },
+  {
+    "id": "high_school_biology/dev/4",
+    "instruction": "Homolog benzer yapılar sıklıkla doğal seçilim süreci için bir kanıt olarak gösterilir. Aşağıdakilerin hepsi homolog yapıların örnekleridir HARİÇ",
+    "answer": "D",
+    "option_a": "bir kuşun kanatları ve bir yarasanın kanatları",
+    "option_b": "bir balinanın yüzgeçleri ve bir adamın kolları",
+    "option_c": "bir yunusun göğüs yüzgeçleri ve bir fokun yüzgeçleri",
+    "option_d": "bir böceğin ön bacakları ve bir köpeğin ön ayakları"
+  },
+  {
+    "id": "high_school_chemistry/dev/0",
+    "instruction": "Aşağıdakilerden hangisi bir asit anhidrit olarak kabul edilir?",
+    "answer": "C",
+    "option_a": "HCl",
+    "option_b": "H2SO3",
+    "option_c": "SO2",
+    "option_d": "Al(NO3)3"
+  },
+  {
+    "id": "high_school_chemistry/dev/1",
+    "instruction": "Aşağıdakilerden hangisinin polar molekül olması beklenir?",
+    "answer": "A",
+    "option_a": "PCl4F",
+    "option_b": "BF3",
+    "option_c": "CO2",
+    "option_d": "Si(CH3)4"
+  },
+  {
+    "id": "high_school_chemistry/dev/2",
+    "instruction": "Çözünürlük kurallarına göre, aşağıdakilerden hangisi doğrudur?",
+    "answer": "D",
+    "option_a": "Tüm klorürler, bromürler ve iyodürler çözünürdür.",
+    "option_b": "Tüm sülfatlar çözünürdür.",
+    "option_c": "Tüm hidroksitler çözünür.",
+    "option_d": "Tüm amonyum içeren bileşikler çözünürdür."
+  },
+  {
+    "id": "high_school_chemistry/dev/3",
+    "instruction": "Yeni bir bileşik sentezlenmiş ve mol kütlesi 248 g/mol olan monoprotik bir asit olduğu bulunmuştur. Bu asidin 0.0050 molü 0.500 L su içinde çözündüğünde, pH'ı 3.89 olarak ölçülmüştür. Bu asidin pKa'sı nedir?",
+    "answer": "C",
+    "option_a": "3.89",
+    "option_b": "7.78",
+    "option_c": "5.78",
+    "option_d": "2.33"
+  },
+  {
+    "id": "high_school_chemistry/dev/4",
+    "instruction": "Bir çözelti, 2.00 mol asetik asit, CH3COOH ve 1.00 mol kalsiyum asetat, Ca(CH3COO)2 içerir. Çözelti, çözeltinin pH'ında sadece küçük değişikliklerle güçlü asit veya güçlü bazın az miktarda eklenmesine direnç gösterir. Güçlü asit veya güçlü bazın daha büyük miktarları pH'da önemli bir değişikliğe neden olabilir. pH önemli ölçüde değişmeye başlamadan önce kaç mol nitrik asit, HNO3 eklenmiş olabilir?",
+    "answer": "C",
+    "option_a": "0,500 mol",
+    "option_b": "1.00 mol",
+    "option_c": "2,00 mol",
+    "option_d": "3.00 mol"
+  },
+  {
+    "id": "high_school_computer_science/dev/0",
+    "instruction": "Aşağıdakilerden hangisi Nesnelerin İnterneti (IoT) üzerinde bir cihaz kullanımının bir örneğidir?",
+    "answer": "C",
+    "option_a": "Bir araba sürücüyü bir nesneye çarpmak üzere olduğu konusunda uyarır.",
+    "option_b": "Bir yürüyüşçü, konumunu takip etmek için bir GPS saati kullanır.",
+    "option_c": "Buzdolabındaki süt neredeyse bitince, buzdolabı bir çevrimiçi teslimat servisinden süt sipariş eder.",
+    "option_d": "Bir koşucu, kalp atış hızını izlemek için optik sensörlü bir saat kullanır."
+  },
+  {
+    "id": "high_school_computer_science/dev/1",
+    "instruction": "Birçok web tarayıcısı kullanıcıların anonim pencereler açmasına izin verir. Anonim bir pencerede yapılan tarama oturumu sırasında, tarayıcı bir tarama geçmişi veya indirilen dosyaların listesini kaydetmez. Anonim pencereden çıkıldığında, oturum sırasında oluşturulan çerezler silinir. Aşağıdakilerden hangisi anonim pencerede yapılan tarama oturumları hakkında doğrudur?",
+    "answer": "B",
+    "option_a": "Bir kullanıcının anonim pencerede gezinme aktiviteleri, sistem yöneticisi gibi kullanıcının ağını izleyen kişilere görünmez olacaktır.",
+    "option_b": "Bir web mağazasının alışveriş sepetine, anonim göz atma oturumu sırasında gelecekteki satın alma için yerleştirilen ürünler, kullanıcının bilgisayarında kaydedilmeyecektir.",
+    "option_c": "Bir kullanıcı, anonim tarama oturumu sırasında e-posta veya sosyal medya hesaplarına giriş yapamayacak.",
+    "option_d": "Anonim pencerede gezinen bir kullanıcı, ziyaret edilen web sitelerinden veya indirilen dosyalardan başlatılan virüslere karşı korunacaktır."
+  },
+  {
+    "id": "high_school_computer_science/dev/2",
+    "instruction": "Python 3'te \"abc\"[::-1] ifadesinin çıktısı nedir?",
+    "answer": "C",
+    "option_a": "Hata",
+    "option_b": "abc",
+    "option_c": "Cba is an abbreviation and does not have a direct translation. If you intend to translate \"cba\" as an abbreviation for \"can't be arsed,\" it would be translated based on its meaning rather than as a direct translation. Please provide the full form or context if you need a translation based on meaning.",
+    "option_d": "c"
+  },
+  {
+    "id": "high_school_computer_science/dev/3",
+    "instruction": "Aşağıdaki programda, x'in başlangıç değeri 5 ve y'nin başlangıç değeri 10'dur.\n EĞER (X < O)\n {\n EKRANA YAZDIR (\"Foxtrot\")\n }\n BAŞKA\n {\n EĞER (X > y)\n {\n   EKRANA YAZDIR (\"Hotel\")\n }\n BAŞKA \n {\n   EĞER (y > O)\n   {\n   EKRANA YAZDIR (\"November\")\n   }\n   BAŞKA\n   {\n   EKRANA YAZDIR (\"Yankee\")\n   }\n }\n }\n \n Program çalıştırıldığında ekranda ne yazılır?",
+    "answer": "C",
+    "option_a": "Foxtrot",
+    "option_b": "Otel",
+    "option_c": "Kasım",
+    "option_d": "Yankee"
+  },
+  {
+    "id": "high_school_computer_science/dev/4",
+    "instruction": "Bir sayı listesi n elemandan oluşur ve 1'den n'ye kadar indekslenir. Aşağıdaki algoritma, 100'den büyük değere sahip olan elemanların sayısını göstermek amacıyla tasarlanmıştır. Algoritma, count ve position değişkenlerini kullanır. 3. ve 4. adımlar eksiktir.\n Adım 1: count'ı 0'a ve position'ı 1'e ayarla.\n Adım 2: Eğer position indeksindeki elemanın değeri 100'den büyükse, count değerini 1 arttır.\n Adım 3: (eksik adım)\n Adım 4: (eksik adım)\n Adım 5: count değerini göster.\n Algoritmanın amaçlandığı gibi çalışması için aşağıdakilerden hangisi 3. ve 4. adımlar yerine kullanılabilir?",
+    "answer": "D",
+    "option_a": "Adım 3: Pozisyon değerini 1 artır.\nAdım 4: Sayım değeri 100'den büyük olana kadar adım 2 ve 3'ü tekrarla.",
+    "option_b": "Adım 3: Pozisyon değerini 1 artır.\nAdım 4: Pozisyonun değeri n'den büyük olana kadar adım 2 ve 3'ü tekrar et.",
+    "option_c": "Adım 3: Sayacın değeri 100'den büyük olana kadar adım 2'yi tekrarlayın.\nAdım 4: Konumun değerini 1 arttırın.",
+    "option_d": "Adım 3: Pozisyon değeri n'den büyük olana kadar adım 2'yi tekrarlayın.\nAdım 4: Sayım değerini 1 artırın."
+  },
+  {
+    "id": "high_school_european_history/dev/0",
+    "instruction": "Bu soru aşağıdaki bilgilere atıfta bulunmaktadır.\nAşağıdaki alıntı bir broşürden alınmıştır.\nHerkesin kendi görüşüne sahip olma hakkını her zaman şiddetle savunduğumu anımsamanızı istersiniz, bu görüş benimkinden ne kadar farklı olursa olsun. Başkasının bu hakkını inkar eden, kendini mevcut görüşüne köle yapar, çünkü bu görüşünü değiştirme hakkından kendini mahrum bırakır.\nHer türlü hataya karşı en güçlü silah Aklıdır. Ben hiçbir zaman başka bir silah kullanmadım ve umarım asla kullanmayacağım.\nFransa'da rahipliğin tüm ulusal düzeninin ve zorunlu din sistemleriyle zorunlu inanç maddelerine dair her şeyin tamamen kaldırılması olayı, sadece niyetimi hızlandırmakla kalmadı, aynı zamanda süperstisyonun, yanlış hükümet sistemlerinin ve yanlış teolojinin genel enkazında, ahlakı, insanlığı ve gerçek teolojiyi gözden kaçırmamamız için bu tür bir eserin son derece gerekli hale gelmesine neden oldu.\nTek bir Tanrı'ya inanıyorum ve başka hiçbirine inanmıyorum; ve bu hayattan sonra mutluluk umuyorum.\nİnsanların eşitliğine inanıyorum; ve dini görevlerin adalet yapmak, merhamet göstermek ve insanları mutlu etmeye çalışmakla ilgili olduğuna inanıyorum.\nYahudi kilisesinin, Roma kilisesinin, Yunan kilisesinin, Türk kilisesinin, Protestan kilisesinin veya bildiğim herhangi bir kilisenin itiraf ettiği inanca inanmıyorum. Kendi aklım benim kilisemdir.\nYahudi, Hristiyan veya Türk olsun, tüm ulusal kilise kurumları bana sadece insanların korkutulup köleleştirilmesi ve güç ile kârın tekel altına alınması için kurulmuş insan icatlarından başka bir şey gibi görün",
+    "answer": "B",
+    "option_a": "Jean Jacques Rousseau",
+    "option_b": "Baron Montesquieu",
+    "option_c": "Mary Wollstonecraft",
+    "option_d": "Adam Smith"
+  },
+  {
+    "id": "high_school_european_history/dev/1",
+    "instruction": "Bu soru aşağıdaki bilgilere atıfta bulunmaktadır.\nAşağıdaki alıntıyı okuyun.\nDevrimci tohum her ülkeye nüfuz etmiş ve az ya da çok yayılmıştı. Bonapart'ın askeri despotizm rejimi altında büyük bir gelişme gösterdi. Onun fetihleri, bir dizi yasayı, kurumu ve adeti yerinden etti; zamanın kendisine direnebilecek kadar güçlü olan uluslar arasında kutsal bağları yıktı; bu, bu yenilikçiler tarafından sağlanan bazı faydalardan söylenebilecek bir şey değildir.\nMonarşiler, onlara güç veren ve onları adaleti korumak, herkesin haklarını gözetmek, hata yollarından kaçınmak ve gerçeklerin yolu üzerinde sağlam adımlarla yürümekle görevlendiren O'nun üzerlerine yüklediği görevleri yerine getireceklerdir. Toplumu sarsan tutkulardan uzak duracak şekilde konumlandırılanlar, özellikle deneme günlerinde, gerçeklikleri yanıltıcı görüntülerinden soyundurmak ve kendilerini olduğu gibi, aile başlarının doğal haklarına sahip babalar olarak göstermek zorundadırlar, yas günlerinde adil, bilge ve bu nedenle güçlü olduklarını kanıtlamak ve hükmetmek zorunda oldukları halkı, tarafların oyuncağına, yanılgının ve toplumun kaybına yol açacak sonuçlarının bırakmayacaklardır.\nMonarşiler arasındaki birlik, toplumu tamamen yıkımdan kurtarmak için şimdi izlenmesi gereken politikanın temelidir. . . .\nPartilere yapılan tavizleri, halkları için yapmaları gereken iyiliklerle karıştırmasınlar, tanınan ihtiyaçlara göre düzenlenmesi gereken yönetim dallarını değiştirsinler.\nAdil, ama güçlü olsunlar; yardımsever, ama sert olsunlar.\nDini ilkeleri tüm saflıklarıyla korumalı ve inancın saldırıya u",
+    "answer": "A",
+    "option_a": "Aydınlanma Çağı'nda ortaya konan kişisel özgürlük ve milliyetçilik fikirleri, tüm Avrupa'ya yayılabilecek radikal devrimlere yol açtı.",
+    "option_b": "Napolyon tarafından Avrupa'nın fethi, yeni fraksiyonların oluşmasına ve Avrupa güç dengesinin değişmesine yol açtı.",
+    "option_c": "Monarşilerin gücü, sivillerin egemenliğinin oluşmaması için her ulus içinde diğer güçler tarafından denetlenmesi gerekecek noktaya kadar büyümüştü.",
+    "option_d": "Yeni ortaya çıkan kapitalist ekonominin yükselen ve düşen ekonomik döngüsü bastırılması gereken sivil huzursuzluğa yol açabilir."
+  },
+  {
+    "id": "high_school_european_history/dev/2",
+    "instruction": "Bu soru aşağıdaki bilgiye atıfta bulunmaktadır.\nRusya'da hiçbir şey yolunda gitmiyordu ve [Souvarine], aldığı haberler yüzünden umutsuzluğa düşmüştü. Eski yoldaşları hepsi politikacılara yöneliyordu; Avrupa'yı titreten meşhur Nihilistler—köy papazlarının, orta sınıfın alt tabakasının, esnafın oğulları—milli kurtuluş fikrini aşamıyordu ve dünyanın, despotlarını öldürdüklerinde kurtulacağına inanıyor gibiydiler...\n\"Saçmalık! Saçmalıklarıyla hiçbir yere varamayacaklar.\"\nSonra, sesini daha da alçaltarak, eski kardeşlik hayalini birkaç acı sözle anlattı. Rütbesinden ve servetinden vazgeçmişti; yalnızca sonunda ortak emeğin yeni bir toplumunun temellerini görebilmek umuduyla işçilerin arasına karışmıştı. Cebindeki tüm paralar çoktan mahalle çocuklarına gitmişti; madencilerle kardeş gibi sevecen olmuş, şüphelerine gülümsemiş, sessiz işçi tavırları ve gevezelikten hoşlanmamasıyla onları kazanmıştı. Ama kesinlikle kaynaşma gerçekleşmemişti.\nSesi değişti, gözleri parladı, onları doğrudan Étienne'a dikti:\n\"Şimdi bunu anlıyor musun? Marsilya'daki bu şapka işçileri yüz bin franklık büyük piyango ödülünü kazandılar ve hemen yatırıma gidip, hiçbir şey yapmadan yaşayacaklarını ilan ettiler! Evet, bu sizin fikriniz, siz Fransız işçilerin hepsinin; bir hazine bulup sonra onu tembel, bencil bir köşede yalnız başına yemek istiyorsunuz. Zenginlere karşı ne kadar bağırsanız da, şansa elinize geçen parayı fakirlere geri vermeye yüreğiniz yetmiyor. Bir şeye sahip olduğ",
+    "answer": "C",
+    "option_a": "Kapitalist",
+    "option_b": "Bilimsel",
+    "option_c": "Komünist",
+    "option_d": "Varoluşçu"
+  },
+  {
+    "id": "high_school_european_history/dev/3",
+    "instruction": "Bu soru aşağıdaki bilgilere atıfta bulunmaktadır.\nAşağıdaki alıntılar 1651 Navigasyon Yasaları'ndan alınmıştır.\n[A]ralık ayının ilk gününden, bin altı yüz elli bir yılından ve o tarihten sonra, Asya, Afrika veya Amerika'nın ya da herhangi bir kısmının; ya da onlara ait olan adaların veya bu yerlerin genel haritalarda veya kartlarda betimlenen veya çizilen yerlerin, İngiliz plantasyonlarının yanı sıra diğerlerinin de, büyümesi, üretimi veya imalatı olan herhangi bir mal veya emtianın, bu İngiltere Milletler Topluluğu'na, İrlanda'ya veya bu Milletler Topluluğu'na ait olan diğer topraklara, adalara, plantasyonlara veya topraklara, yalnızca bu Milletler Topluluğu halkına veya onların plantasyonlarına gerçekten ve hile olmaksızın ait olan gemi veya gemilerde, tekne veya teknelerde başka bir şekilde ithal edilmesi veya getirilmesi yasaktır; ve bunların sahipleri veya hak sahipleri olarak; ve geminin kaptanı ve denizcileri de bu Milletler Topluluğu halkından olmalıdır, aksi takdirde bu yasaya aykırı olarak ithal edilen tüm malların müsadere edilmesi ve kaybedilmesi cezası altındadır, , , ,\n[N]o mallar veya emtialar, Avrupa'nın ya da herhangi bir kısmının büyümesi, üretimi veya imalatı olan, aralık ayının ilk gününden sonra, bin altı yüz elli bir yılından itibaren, bu İngiltere Milletler Topluluğu'na veya bu Milletler Topluluğu'na ait olan diğer topraklara veya topraklarına, herhangi bir gemide veya gemilerde, tekne veya teknelerde başka bir şekilde ithal edilmesi veya getirilmesi yasaktır, ancak yalnızca bu Milletler Topluluğu halkına gerçekten ve hile olmaks",
+    "answer": "A",
+    "option_a": "Onlar İngiliz denizciliği ve denizaşırı ticaretin büyümesi için bir katalizör görevi gördüler, ancak on yedinci yüzyılda Hollandalıların beklentilerini sınırlamada pek az şey yaptılar.",
+    "option_b": "Onların denizaşırı ticaretteki hakimiyeti hızla sona erdiği için Hollanda ekonomisi için neredeyse anında sıkıntılar ortaya çıkardılar.",
+    "option_c": "Onlar, Stuartların yeniden tahta geçiş döneminde, savaş için Parlamento'nun mali desteğine ihtiyaç duymamak adına Hollandalılarla normal diplomatik ilişkiler kurmayı amaçladıkları için iptal edildi.",
+    "option_d": "Onlar, İngiltere ve Hollanda arasında neredeyse bir asır sürecek tekrar eden savaşlara yol açtı ki bu, Amerikan bağımsızlığından sonra sona ermeyecekti."
+  },
+  {
+    "id": "high_school_european_history/dev/4",
+    "instruction": "Bu soru aşağıdaki bilgilere atıfta bulunmaktadır.\nHer ne kadar kralın Majestesi adil ve haklı olarak İngiltere Kilisesi'nin en yüce başıdır ve bu makam, bu toprakların klerisince kendi konvokasyonlarında tanınmış olsa da, yine de bunun pekiştirilmesi ve teyidi için, ve İngiltere toprakları içinde Mesih'in dininde erdemin arttırılması, ve aynı zamanda geçmişte kullanılmış olan bütün hataların, sapkınlıkların ve diğer aşırılık ve kötü kullanımların bastırılıp kökünün kazınması için, bu mevcut Parlamento'nun yetkisiyle yasalaştırılmıştır ki, kral, bizim egemen efendimiz, onun varisleri ve halefleri, bu toprakların kralları, İngiltere Kilisesi'nin yeryüzündeki tek yüce başı olarak kabul, takdir edilip saygı görsünler; ve bu imparatorluk tacına ek ve bu topraklara bağlı olarak, sadece unvan ve stiliyle değil, aynı zamanda bütün onurlar, yüksek mevkiler, üstünlükler, yargı yetkileri, ayrıcalıklar, yetkiler, dokunulmazlıklar, kazançlar ve ticaretlerle de bu en yüce başlık onuruna ait ve ilişkilendirilmiş olan her şeyi sahip olsunlar ve zevk alsınlar; ve bizim söz konusu egemen efendimiz, onun varisleri ve halefleri, bu toprakların kralları, zaman zaman, her ne olursa olsun, hangi türden manevi otorite veya yargı yetkisi tarafından yasal olarak düzeltilmesi, bastırılması, düzenlenmesi, düzeltilmesi, kısıtlanması veya düzeltilmesi gereken veya düzeltilebilecek olan bütün hataları, sapkınlıkları, kötü kullanımları, suçları, saygısızlıkları ve aşırılıkları ziyaret etme, bastırma, düzeltme, kaydetme, düzenleme, doğrultma",
+    "answer": "D",
+    "option_a": "İngiliz kralına yeni bir yetki pozisyonu ver.",
+    "option_b": "Church of England'ın başkanlığını yalnızca Henry VIII'e ver ve onun varislerini hariç tut.",
+    "option_c": "İngiltere'de Kalvinizmi tek gerçek teoloji olarak yerleştirmek",
+    "option_d": "İngiltere'deki Kiliseyi saran çeşitli yolsuzluk şekillerine son vermek"
+  },
+  {
+    "id": "high_school_geography/dev/0",
+    "instruction": "Bir nüfusun doğal artış oranı, \"şu şekilde bulunur: Nüfustan çıkarılarak\"",
+    "answer": "A",
+    "option_a": "ham ölüm oranı ham doğum tarihinden.",
+    "option_b": "ham doğum oranı ile ham ölüm oranını.",
+    "option_c": "Ham doğum oranından katlanma süresi.",
+    "option_d": "ham ölüm oranından doğurganlık oranı."
+  },
+  {
+    "id": "high_school_geography/dev/1",
+    "instruction": "Demografik geçiş modelinin üçüncü aşamasında, aşağıdakilerden hangisi doğrudur?",
+    "answer": "B",
+    "option_a": "Doğum oranları artmaktadır ve nüfus artış hızı daha az hızlıdır.",
+    "option_b": "Doğum oranları düşmekte ve nüfus artış hızı daha az hızlıdır.",
+    "option_c": "Doğum oranları artar ve nüfus artış hızı artar.",
+    "option_d": "Doğum oranları azalır ve nüfus artış hızı artar."
+  },
+  {
+    "id": "high_school_geography/dev/2",
+    "instruction": "Aşağıdaki ifadelerden hangisi Amerika Birleşik Devletleri'nde yerel hükümetler tarafından sağlanan hizmetlerle ilgili DOĞRU OLMAYAN bir ifadedir?",
+    "answer": "D",
+    "option_a": "Çabaların tekrarlanması sık sık meydana gelir.",
+    "option_b": "Merkezi şehrin sosyal problemleri çevredeki konut banliyölerine sıçrar.",
+    "option_c": "Hizmet sağlamada sık sık verimsizlik meydana gelir.",
+    "option_d": "Bir mahallenin kirliliği azaltma çabaları her zaman komşu topluluklar tarafından desteklenir."
+  },
+  {
+    "id": "high_school_geography/dev/3",
+    "instruction": "Bir operasyonu yürütmek için yabancı bir üçüncü parti hizmet sağlayıcısı kiralamak uygulamasına denir.",
+    "answer": "B",
+    "option_a": "dış kaynak kullanımı",
+    "option_b": "offshoring: \"offshore etme\"",
+    "option_c": "maquiladoras\" is a Spanish term and does not have a direct Turkish equivalent that is commonly used. In Turkish, it would still be referred to as \"maquiladoras\". However, if you're looking for a descriptive translation, you could say \"serbest ticaret bölgelerindeki montaj işletmeleri.",
+    "option_d": "Yerleşim bağımlılığı."
+  },
+  {
+    "id": "high_school_geography/dev/4",
+    "instruction": "Aşağıdaki maddelerden hangisi maddi olmayan kültürün bir örneğidir?",
+    "answer": "C",
+    "option_a": "Dove sabunu",
+    "option_b": "Dove çikolata barı",
+    "option_c": "Güvercin simgesi",
+    "option_d": "Bir güvercin (kuş)"
+  },
+  {
+    "id": "high_school_government_and_politics/dev/0",
+    "instruction": "Başkanlık gücünün sınırları konusundaki belirsizlik, esas olarak şu gerçekten kaynaklanmaktadır ki",
+    "answer": "A",
+    "option_a": "bu yetkilerin anayasal tanımı geniş ve belirsizdir",
+    "option_b": "Çoğu insan, Anayasanın başkanlık gücü üzerinde çok fazla sınırlama getirdiği konusunda hemfikirdir.",
+    "option_c": "Yüksek Mahkeme, başkanlık yetkileriyle ilgili davalar hakkında hüküm vermeyi sürekli olarak reddeder.",
+    "option_d": "Anayasa değişiklikleri, başkanlık yetkilerini büyük ölçüde artırmıştır."
+  },
+  {
+    "id": "high_school_government_and_politics/dev/1",
+    "instruction": "Terim \"bütçe açığı\" şu anlama gelir:",
+    "answer": "D",
+    "option_a": "federal harcamalarda askeri alana yapılan yıllık artış",
+    "option_b": "ulusal borç üzerindeki faiz miktarı",
+    "option_c": "başkan ve Kongre tarafından yapılan ilk bütçe teklifleri arasındaki fark",
+    "option_d": "hükümetin gelirlerinin üzerinde harcadığı miktar"
+  },
+  {
+    "id": "high_school_government_and_politics/dev/2",
+    "instruction": "Aşağıdaki davaların hangisi, bir sanığın susma hakkı, avukat hakkı ve kendini suçlamaktan korunma hakkı konusunda bilgilendirilmesi gerektiğini emsal olarak belirlemiştir?",
+    "answer": "D",
+    "option_a": "Weeks v. United States",
+    "option_b": "Betts v. Brady",
+    "option_c": "Mapp v. Ohio",
+    "option_d": "Miranda v. Arizona"
+  },
+  {
+    "id": "high_school_government_and_politics/dev/3",
+    "instruction": "Aşağıdaki ifadelerden hangisi bakanlık departmanları hakkında YANLIŞ'tır?",
+    "answer": "C",
+    "option_a": "Onlar yasama organı tarafından kurulmuştur.",
+    "option_b": "Üyelerinin genellikle başkanlık kararları üzerinde çok fazla etkisi olmaz.",
+    "option_c": "Hepsi, başkanın ait olduğu aynı siyasi partiye mensup liderler tarafından yönetilemez.",
+    "option_d": "Her federal kurum bir kabine departmanı değildir."
+  },
+  {
+    "id": "high_school_government_and_politics/dev/4",
+    "instruction": "Aşağıdakilerden hangisi, James Madison'un Federalist Makaleleri'nin 10 numarasında yaptığı bir argümanı en iyi ifade eder?",
+    "answer": "C",
+    "option_a": "Dürüst politikacılar, fraksiyonların oluşmasını önleyebilir.",
+    "option_b": "Büyük cumhuriyetlerde fraksiyonlar küçük olanlara göre daha muhtemeldir.",
+    "option_c": "Faksiyonculuğun olumsuz etkileri, cumhuriyetçi bir hükümet tarafından azaltılabilir.",
+    "option_d": "Serbest seçimler, halkın gruplaşmaya karşı en iyi savunmasıdır."
+  },
+  {
+    "id": "high_school_macroeconomics/dev/0",
+    "instruction": "Aşağıdakilerden hangisi ABD'nin GSYİH'sine dahil değildir?",
+    "answer": "C",
+    "option_a": "ABD ordusu, 1000 ABD personeli ile yabancı bir ülkede yeni bir üs açıyor.",
+    "option_b": "Japon tüketiciler, Amerika Birleşik Devletleri'nde üretilen binlerce CD satın alıyorlar.",
+    "option_c": "Amerikalı bir pop şarkıcısı Paris'te tüm biletleri satılmış bir konser veriyor.",
+    "option_d": "Fransız bir tiyatro prodüksiyonu düzinelerce Amerikan şehrinde turneye çıkar."
+  },
+  {
+    "id": "high_school_macroeconomics/dev/1",
+    "instruction": "Kısa dönem Phillips eğrisi şunu gösterir: bir",
+    "answer": "D",
+    "option_a": "işsizlik ile enflasyon arasında doğrudan ilişki",
+    "option_b": "Fiyat ile talep edilen miktar arasında doğrudan ilişki",
+    "option_c": "fiyat ile talep edilen miktar arasında ters ilişki",
+    "option_d": "işsizlik ve enflasyon arasında ters ilişki"
+  },
+  {
+    "id": "high_school_macroeconomics/dev/2",
+    "instruction": "Bir federal açık meydana gelirken",
+    "answer": "D",
+    "option_a": "ihracat, ithalatı aşar.",
+    "option_b": "ithalat ihracattan fazla.",
+    "option_c": "Federal vergi tahsilatı harcamaları aşıyor.",
+    "option_d": "federal harcamalar federal vergi gelirlerini aşıyor."
+  },
+  {
+    "id": "high_school_macroeconomics/dev/3",
+    "instruction": "Diğer her şey sabit tutulduğunda, ABD ihracatını artırmak için aşağıdaki para politikalarından hangisi kullanılır?",
+    "answer": "C",
+    "option_a": "İndirim oranını artırmak",
+    "option_b": "Rezerv oranını artırmak",
+    "option_c": "Hazine bonosu satın almak",
+    "option_d": "Gümrük tarifelerini düşürmek"
+  },
+  {
+    "id": "high_school_macroeconomics/dev/4",
+    "instruction": "Aşağıdaki politikaların hangisi arz tarafı mali politikasını en iyi tanımlar?",
+    "answer": "C",
+    "option_a": "Para arzında artış",
+    "option_b": "Artan hükümet harcamaları",
+    "option_c": "Yeni teknoloji araştırma ve geliştirmesine yönelik vergileri düşürün.",
+    "option_d": "Hanehalkı gelirine daha yüksek vergiler"
+  },
+  {
+    "id": "high_school_mathematics/dev/0",
+    "instruction": "Joe bir dans için ışık sorumlusuydu. Kırmızı ışık her iki saniyede bir, sarı ışık her üç saniyede bir ve mavi ışık her beş saniyede bir yanıp söner. Dansın çok başı ve sonunu da dahil edersek, yedi dakikalık bir dans boyunca tüm ışıklar kaç kez aynı anda yanacak? (Dansın tam başında tüm üç ışığın aynı anda yandığını varsayın.)",
+    "answer": "B",
+    "option_a": "3",
+    "option_b": "15",
+    "option_c": "6",
+    "option_d": "5"
+  },
+  {
+    "id": "high_school_mathematics/dev/1",
+    "instruction": "Yıllık bileşik faizle beş bin dolar, yüzde $x\\%$ faiz oranında iki katına çıkmak için altı yıl sürer. Aynı faiz oranında, $\\$300$'ün $\\$9600$'a ulaşması kaç yıl sürer?",
+    "answer": "C",
+    "option_a": "12",
+    "option_b": "1",
+    "option_c": "30",
+    "option_d": "5"
+  },
+  {
+    "id": "high_school_mathematics/dev/2",
+    "instruction": "Değişken $x$, $y$'nin karesiyle doğru orantılı olarak değişir ve $y$, $z$'nin küpüyle doğru orantılı olarak değişir. Eğer $z$ 2 olduğunda $x$, $-16$'ya eşitse, $z$ $\\frac{1}{2}$ olduğunda $x$'in değeri nedir?",
+    "answer": "C",
+    "option_a": "-1",
+    "option_b": "16",
+    "option_c": "-\\frac{1}{256}\" direkt çevirisi: \"-\\frac{1}{256}",
+    "option_d": "\"\\frac{1}{16}\" direkt çevirisi: \"\\frac{1}{16}\" (Türkçe'de de aynı şekilde ifade edilir.)"
+  },
+  {
+    "id": "high_school_mathematics/dev/3",
+    "instruction": "Basitleştirin ve sonucu rasyonel paydada yazın: $$\\sqrt{\\sqrt[3]{\\sqrt{\\frac{1}{729}}}}$$",
+    "answer": "D",
+    "option_a": "\"\\frac{3\\sqrt{3}}{3}\" direkt olarak Türkçe'ye çevrildiğinde \"\\frac{3\\sqrt{3}}{3}\" olarak kalır, çünkü bu bir matematiksel ifadedir ve dil bağımsızdır. Ancak, okunuşu Türkçe'de \"üç bölü üç karekök üç\" olur.",
+    "option_b": "\\frac{1}{3}\" direkt çevirisi: \"1/3",
+    "option_c": "\\sqrt{3}\" direkt çevirisi: \"√3",
+    "option_d": "\"\\frac{\\sqrt{3}}{3}\" direkt olarak Türkçe'ye çevrildiğinde aynı kalır, çünkü bu matematiksel bir ifade olup her dilde aynı şekilde gösterilir."
+  },
+  {
+    "id": "high_school_mathematics/dev/4",
+    "instruction": "On öğrenci biyoloji sınavına girer ve şu puanları alır: 45, 55, 50, 70, 65, 80, 40, 90, 70, 85. Öğrencilerin sınav puanlarının ortalaması nedir?",
+    "answer": "D",
+    "option_a": "55",
+    "option_b": "60",
+    "option_c": "62",
+    "option_d": "65"
+  },
+  {
+    "id": "high_school_microeconomics/dev/0",
+    "instruction": "Rekabetçi bir ev boyacıları iş piyasasında, aşağıdakilerden hangisi ev boyacılarına olan talebi artırır?",
+    "answer": "C",
+    "option_a": "Bu işgücü piyasasına uygulanan etkili bir asgari ücret.",
+    "option_b": "Galona boyanın fiyatında artış.",
+    "option_c": "Yeni evlerin inşasında bir artış.",
+    "option_d": "Mekanik boyacıların fiyatında, çıktı etkisi yer değiştirme etkisini aştığı sürece bir artış."
+  },
+  {
+    "id": "high_school_microeconomics/dev/1",
+    "instruction": "Eğer hükümet mükemmel rekabetçi bir piyasada üreticilere sübvansiyon sağlarsa, o zaman",
+    "answer": "C",
+    "option_a": "ürün talebi artacak",
+    "option_b": "ürün talebi azalacak",
+    "option_c": "tüketici fazlası artacak",
+    "option_d": "tüketici fazlası azalacak"
+  },
+  {
+    "id": "high_school_microeconomics/dev/2",
+    "instruction": "Bir tekel için konsantrasyon oranı\n",
+    "answer": "D",
+    "option_a": "0",
+    "option_b": "5",
+    "option_c": "10",
+    "option_d": "100"
+  },
+  {
+    "id": "high_school_microeconomics/dev/3",
+    "instruction": "Aşağıdakilerden hangisi bir fiyat tabanı için doğrudur?",
+    "answer": "D",
+    "option_a": "Fiyat tabanı talep eğrisini sola kaydırır.",
+    "option_b": "Etkili bir taban fiyatı, malın kıtlığını yaratır.",
+    "option_c": "Fiyat tabanı, malın arz eğrisini sağa kaydırır.",
+    "option_d": "Etkili bir taban fiyatı olabilmesi için, denge fiyatının üzerinde belirlenmelidir."
+  },
+  {
+    "id": "high_school_microeconomics/dev/4",
+    "instruction": "Aşağıdakilerden hangisi mutlaka oligopolün bir özelliğidir?",
+    "answer": "B",
+    "option_a": "Piyasaya serbest giriş ve çıkış",
+    "option_b": "Birkaç büyük üretici",
+    "option_c": "Bir malın yakın ikamesi olmayan tek üreticisi",
+    "option_d": "Homojen bir ürün"
+  },
+  {
+    "id": "high_school_physics/dev/0",
+    "instruction": "Aşağıdaki koşullardan hangisi açısal momentumun korunmasını sağlayacaktır? I. Doğrusal momentumun korunması II. Sıfır net dış kuvvet III. Sıfır net dış tork",
+    "answer": "D",
+    "option_a": "Ben ve II yalnızca",
+    "option_b": "Ben ve yalnızca III.",
+    "option_c": "Yalnızca II ve III",
+    "option_d": "Sadece III"
+  },
+  {
+    "id": "high_school_physics/dev/1",
+    "instruction": "Bir ucu kapalı hava dolu bir boru içinde ayakta duran bir dalga oluşur, bu da borunun bir not seslendirmesine neden olur. Aşağıdakilerden hangisi borunun kapalı ucunda dalganın özellikleri hakkında doğru bir ifadedir?",
+    "answer": "B",
+    "option_a": "Basınç bir düğüm noktasında, ancak parçacık yer değiştirmesi bir karın noktasında.",
+    "option_b": "Basınç bir karın noktasında, ancak parçacık yer değiştirmesi bir düğüm noktasındadır.",
+    "option_c": "Basınç ve parçacık yer değiştirmesi her ikisi de düğümlerde.",
+    "option_d": "Basınç ve parçacık yer değiştirme her ikisi de karın noktalarındadır."
+  },
+  {
+    "id": "high_school_physics/dev/2",
+    "instruction": "Bir çalışma fonksiyonu ϕ = 2eV olan bir fotopil seri olarak bir dirence bağlanmıştır. Frekansı f = 1 × 10^15 Hz olan ışık fotopilin metal plakasına çarpar. Işığın gücü P = 100 W ise, direnç üzerinden geçen akım nedir?",
+    "answer": "D",
+    "option_a": "02:00 AM",
+    "option_b": "06:00 AM",
+    "option_c": "00:00",
+    "option_d": "24 A"
+  },
+  {
+    "id": "high_school_physics/dev/3",
+    "instruction": "Mikrodalga fırın bir prize bağlanmıştır, 120 V, ve 2 amper akım çekmektedir. Mikrodalga fırın enerjiyi hangi oranda kullanmaktadır?",
+    "answer": "D",
+    "option_a": "10 W",
+    "option_b": "30 W",
+    "option_c": "60 W",
+    "option_d": "240 W"
+  },
+  {
+    "id": "high_school_physics/dev/4",
+    "instruction": "Bir nokta yük, Q = +1 mC, orijinde sabitlenmiştir. Bir yük, Q = +8 µC, (0, 4 metre) noktasından (3 metre, 0) noktasına taşımak için ne kadar iş gereklidir?",
+    "answer": "B",
+    "option_a": "3.5 J",
+    "option_b": "6.0 J",
+    "option_c": "22.5 J",
+    "option_d": "40 J"
+  },
+  {
+    "id": "high_school_psychology/dev/0",
+    "instruction": "Ani, tutumlarının ve davranışlarının başına gelenlerde merkezi bir rol oynadığına inanıyor. Böyle bir inanç muhtemelen şununla ilişkilendirilebilir:",
+    "answer": "D",
+    "option_a": "güçlü bir süperego.",
+    "option_b": "düşük özsaygı.",
+    "option_c": "düşük öz yeterlilik.",
+    "option_d": "içsel kontrol odağı"
+  },
+  {
+    "id": "high_school_psychology/dev/1",
+    "instruction": "Caplan'ın danışan odaklı vaka danışmanlığı modeline göre, danışman esas olarak ilgilidir.",
+    "answer": "B",
+    "option_a": "Müşterinin ortaya koyduğu problemlerin nedenlerini ve çözümlerini belirleme.",
+    "option_b": "Danışanın bir problemle başa çıkma güçlüklerinin sebeplerini saptamak ve ortadan kaldırmak.",
+    "option_c": "Etkili karar verme sağlamak için bir yetki hiyerarşisi oluşturmak.",
+    "option_d": "Danışmana beceri eksikliklerinin üstesinden gelmek için tek, iyi tanımlanmış ve belirsizliği olmayan bir eylem planı sunmak."
+  },
+  {
+    "id": "high_school_psychology/dev/2",
+    "instruction": "Okyanusta yüzerken, Ivan bir gölgenin ne olduğunu tanıma şansı bulamadan suyun içindeki karanlık bir gölge tarafından korkutulur. Bu korku anında gerçekleşen sinaptik bağlantılar aşağıdakilerden hangisi ile en iyi şekilde tanımlanır?",
+    "answer": "A",
+    "option_a": "Mesajlar talamustan doğrudan amigdalaya gönderilir.",
+    "option_b": "Mesajlar talamustan \"ne\" ve \"nerede\" yollarına gönderilir.",
+    "option_c": "Parasempatik sinir sisteminden beyin korteksine mesajlar gönderilir.",
+    "option_d": "Mesajlar frontal loblardan hipofiz bezine gönderilir."
+  },
+  {
+    "id": "high_school_psychology/dev/3",
+    "instruction": "Engellilik Eğitim Yasası İyileştirmesi'ne göre, bir eğitim kurumu engelli bir öğrencinin eğitim yerleşimini değiştirmeden önce aşağıdakilerden hangisini yapmalıdır?",
+    "answer": "B",
+    "option_a": "Çocuğa yeni ortamda bir deneme süresi verin.",
+    "option_b": "Ebeveynleri yazılı olarak bilgilendirin.",
+    "option_c": "Okul kurulu onayı alın",
+    "option_d": "Ebeveyn onayı alın"
+  },
+  {
+    "id": "high_school_psychology/dev/4",
+    "instruction": "Pascale, çocukların yeni bilgileri öğrenmek için kullandıkları işleme stratejileriyle ilgileniyor. Pascale en iyi hangi tür psikolog olarak sınıflandırılır?",
+    "answer": "C",
+    "option_a": "sosyokültürel",
+    "option_b": "klinik",
+    "option_c": "bilişsel",
+    "option_d": "davranışçı"
+  },
+  {
+    "id": "high_school_statistics/dev/0",
+    "instruction": "Aşağıdakilerden hangisi korelasyon hakkında doğru bir ifadedir?",
+    "answer": "D",
+    "option_a": "Eğer regresyon çizgisinin eğimi tam olarak 1 ise, o zaman korelasyon tam olarak 1'dir.",
+    "option_b": "Eğer korelasyon 0 ise, regresyon çizgisinin eğimi tanımsızdır.",
+    "option_c": "X olarak adlandırılan değişken ile y olarak adlandırılan değişkenin yerlerini değiştirmek, korelasyon işaretini değiştirir.",
+    "option_d": "Korelasyon r, y değişkeni için z-skorları x değişkeni için z-skorlarına karşı çizildiğinde regresyon çizgisinin eğimine eşittir."
+  },
+  {
+    "id": "high_school_statistics/dev/1",
+    "instruction": "Varsayalım X ve Y, E(X) = 37, var(X) = 5, E(Y) = 62 ve var(Y) = 12 olan rassal değişkenlerdir. X + Y rassal değişkeninin beklenen değeri ve varyansı nedir?",
+    "answer": "D",
+    "option_a": "E(X + Y) = 99, var(X + Y) = 8,5",
+    "option_b": "E(X + Y) = 99, var(X + Y) = 13\" direkt çevirisi: \"E(X + Y) = 99, var(X + Y) = 13",
+    "option_c": "E(X + Y) = 99, var(X + Y) = 17\" direkt çevirisi: \"E(X + Y) = 99, var(X + Y) = 17",
+    "option_d": "Bu soruyu yanıtlamak için yeterli bilgi yok."
+  },
+  {
+    "id": "high_school_statistics/dev/2",
+    "instruction": "Bu deneyde yanıt değişkeni nedir?",
+    "answer": "D",
+    "option_a": "Donmuş nedeniyle %50'den fazla zarar gören ağaçların oranı.",
+    "option_b": "Donmuştan etkilenen ağaç sayısı.",
+    "option_c": "Bahçeden örneklenen ağaç sayısı.",
+    "option_d": "Her örneklenen ağaç için, ister yüzde elli oranından fazla zarar görmüş olsun ister en fazla yüzde elli zarar görmüş olsun."
+  },
+  {
+    "id": "high_school_statistics/dev/3",
+    "instruction": "Bir akıllı saat fabrikanın bir bölümünde üretilir, sonra kargo için başka bağımsız bir bölümde güvenli hale getirilir. Akıllı saatin ağırlığının ortalaması 62 gram ve standart sapması 1.0 gramdır. Ambalajın ağırlığı (kutu, kullanıcı kılavuzu, hava kabarcıklı naylon vb.) ortalama 456 gram ve standart sapması 6 gramdır. Birlikte, akıllı saatin ve ambalajının ağırlığının dağılımı aşağıdaki ortalamaya ve standart sapmaya sahip olurdu:",
+    "answer": "C",
+    "option_a": "Ortalama 518 gram; standart sapma 7.0 gram",
+    "option_b": "Ortalama 518 gram; standart sapma 3.5 gram",
+    "option_c": "Ortalama 518 gram; standart sapma 6.1 gram",
+    "option_d": "Ortalama 394 gram; standart sapma 6.1 gram"
+  },
+  {
+    "id": "high_school_statistics/dev/4",
+    "instruction": "Aşağıdaki serilerden hangisinin en küçük standart sapması vardır? Hangisinin en büyüğü vardır?\nI: {1,2,3}\nII: {-10,10}\nIII: {100}",
+    "answer": "D",
+    "option_a": "Ben, II",
+    "option_b": "II, III",
+    "option_c": "III, I",
+    "option_d": "III, II"
+  },
+  {
+    "id": "high_school_us_history/dev/0",
+    "instruction": "Bu soru aşağıdaki bilgilere atıfta bulunmaktadır.\n\"Her devlette toplum bir nimettir, ancak hükümet en iyi halinde bile ancak gerekli bir şerdir; en kötü halinde katlanılmaz bir hal alır; çünkü bir hükümet tarafından çektiğimiz veya aynı sefaletlere maruz kaldığımız zaman, bir hükümet olmayan bir ülkede bekleyebileceğimiz şeylere maruz kalırsak, felaketimiz şu düşünceyle daha da büyür: çektiğimiz acıların aracını biz sağlıyoruz. Hükümet, tıpkı giysi gibi, kaybedilmiş masumiyetin nişanıdır; kralların sarayları cennetin çardaklarının harabeleri üzerine inşa edilmiştir. Zira vicdanın dürtüleri açık, tutarlı ve karşı konulamaz şekilde itaat edilseydi, insanın başka bir yasa koyucuya ihtiyacı olmazdı; ancak durum böyle olmadığından, geri kalanını koruma araçları için malının bir kısmını teslim etmeyi gerekli bulur; ve bunu, diğer her durumda olduğu gibi iki kötülükten az olanını seçmeyi öğütleyen aynı ihtiyatla yapar. Bu nedenle, güvenlik hükümetin gerçek tasarımı ve sonu olduğundan, bize en az masrafla ve en büyük faydayla sağlama olasılığı en yüksek olan hükümet biçimi, diğerlerinin tümüne tercih edilir.\"\nThomas Paine, Sağduyu, 1776\nYukarıda ima edilen \"sefaletler\"den hangileri Devrim sonrası Dönem Anti-Federalistleri tarafından en çok kınanmıştır?",
+    "answer": "C",
+    "option_a": "Bacon İsyanı'na karşı örgütlü yanıt",
+    "option_b": "Shays İsyanı'na Federal Tepki",
+    "option_c": "Whiskey İsyanına Federal Yanıt",
+    "option_d": "Pontiac İsyanı'na Federal Tepki"
+  },
+  {
+    "id": "high_school_us_history/dev/1",
+    "instruction": "Bu soru, aşağıdaki bilgilere atıfta bulunmaktadır.\n\"Geçenlerde Conestoga Malikânesi ve Lancaster'da sergilediğimiz tutum, bu ve komşu hükümetlerde çokça spekülasyona ve farklı görüşlere sebep oldu; bazıları bunu savunurken, diğerleri kınıyor; bazıları suçu şefkatle hafifletirken, diğerleri ise onu en iğrenç ve nefret edilecek renklerle kötü niyetle boyuyor. Kamuoyunun önüne, olayın bize göre nasıl göründüğünü ve hâlâ nasıl göründüğünü tamamen açıklamayı bir borç biliyoruz. . . .\n\"Eğer bu olaylar, Kızılderililere karşı Kvakirlilerin haksız bir bağlılığını, onları dostça destekleme kararlılığını ve insan acılarına karşı tam bir duyarsızlığını kanıtlamak için yeterli değilse, birkaç daha yeni olayı düşünelim. Geçen yaz, hükümetten yardım alamayacağımızı anladığımızda, bazı gönüllüler kendi masraflarımızla çıktık, düşmanlarımızı sınırlarımızdan uzaklaştırmaya kararlıydık; ve büyük adaya yaklaştığımızda, bir grup savaşçılarının sınır bölgelerimize karşı harekete geçtiğini anladık. Bunun üzerine geri döndük ve onlarla Munfey Tepesi'nde karşılaşıp savaştık, burada bazı adamlarımızı kaybettik ve bazı savaşçılarını öldürerek sınırlarımızı başka bir seferdeki bu Hikâyeden kurtardık. Ama büyük adadaki yiyeceklerini yok ettikten ve Bethlehem'deki iyi insanlarla olan ticaretlerini mahvettikten sonra, Kuzeyampton Kontluğu'nda dostlarımızı öldürmüş olmaları makul şekilde şüphelenilen bu Kızılderililer, bazı Kvakirlerin etkisiyle, öldürülenlerin arkadaşlarının ve akrab",
+    "answer": "D",
+    "option_a": "İngiliz politikaları ile Kuzey Amerikalı kolonicilerin arzuları arasındaki gerilimler.",
+    "option_b": "Fransızlarla müttefik olan Amerikan Yerlileri ile İngilizlerle müttefik olanlar arasındaki gerilimler.",
+    "option_c": "Özgürleştirilmiş Afrikalı Amerikalılar ile beyaz çiftçiler arasındaki gerilimler.",
+    "option_d": "Sömürge Amerika'da sınır bölgesi yerleşimcileri ile seçkinler arasındaki gerilimler."
+  },
+  {
+    "id": "high_school_us_history/dev/2",
+    "instruction": "Bu soru, aşağıdaki bilgilere atıfta bulunmaktadır.\n\"Yeni Yasalar Kanununu yapmanız gerektiğini düşündüğümde, Hanımları Hatırlamanızı ve atalarınızdan daha cömert ve onlara daha olumlu davranmanızı arzu ederim. Sınırsız gücü Kocaların eline vermeyin. Tüm Erkeklerin, eğer yapabilirlerse, zorba olacaklarını hatırlayın. Hanımlara özel ilgi ve dikkat gösterilmezse, bir İsyan başlatmaya kararlıyız ve kendimizi sesimizin olmadığı veya Temsil edilmediğimiz hiçbir Yasaya bağlı hissetmeyeceğiz.\"\nAbigail Adams, John Adams'a yazdığı mektupta, 1776\n\"Kadınlar için özel yasalar, bizi son derece anormal bir konuma yerleştirdi. Bir bölümde vatandaş haklarına sahip olan kadınlar—oy verenler, jüri üyeleri, görevliler—hayali bir çizgiyi geçtiklerinde, bir sonraki bölgede tabi konumundalar. Bazı Eyaletlerde evli bir kadın kendi adına mal sahibi olabilir ve iş yapabilir; diğerlerinde kazançları kocasına aittir. Bazı Eyaletlerde bir kadın kocasına karşı tanıklık edebilir, mahkemelerde dava açabilir ve dava edilebilir; diğerlerinde, kişisel, mülkiyet veya karaktere yönelik zarar durumunda hiçbir çözüm yolu yoktur. Kocanın zina nedeniyle boşanma durumunda, masum karının çocuklara veya mala hak sahibi olmadığı kabul edilir, mahkemenin özel kararı olmadıkça. Ancak Birliğin hiçbir Eyaletinde karı, kendi kişisel haklarına veya eş ortaklığının ortak kazançlarının bir kısmına, kocasının hayatta olduğu sürece, hak sahibi değildir. Bazı Eyaletlerde kadınlar hukuk okullarına girebilir ve mahkemelerde avukatlık yapabilir; diğerlerinde yasaktır. Bazı üniversitelerde k",
+    "answer": "B",
+    "option_a": "Eşit Haklar Tüzüğü",
+    "option_b": "genel oy hakkı",
+    "option_c": "eyalet hakları",
+    "option_d": "yasaklama"
+  },
+  {
+    "id": "high_school_us_history/dev/3",
+    "instruction": "Bu soru aşağıdaki bilgilere atıfta bulunmaktadır.\nLiderlerimiz kuzeyden gelen saldırganlığı durdurmak hakkında konuşuyorlar, ancak biz müdahale edene kadar bu, Vietnam grupları arasındaki bir mücadeleydi. Görünüşe göre, Ho Chi Minh'ten Vietnamlıları kurtarmak için onları öldürmeye ve ülkelerini yıkmaya kararlıyız. Yerel halk, bombalanmış köyleri, napalmle yanmış kadın ve çocukları, yok edilmiş pirinç tarlalarını ve askeri personelimizle dolup taşan şehirleri izlerken, şüphesiz Vietcong gerillaları ve Amerikan kuvvetleri için gizlice \"Her ikinizin de başına bela olsun\" diyorlar. ... Kuzeyde ve güneyde bombalamayı durdurun, arama ve yok etme saldırılarını sona erdirin ve askeri eylemimizi yerde tutma operasyonlarıyla sınırlayın. Kuzeyi bombalamak, güneye asker akışını durdurmayı veya ciddi şekilde engellemeyi başaramadı ve hatta, Hanoi'nin çok daha büyük bir savaş çabası başlatmasını teşvik etmiş olabilir.\n—Senatör George McGovern, \"Vietnam Dersleri,\" 25 Nisan 1967\n1960'ların aşağıdaki hangi görüşleri George McGovern'in konuşmasındaki perspektifi en doğrudan yansıtmaktadır?",
+    "answer": "C",
+    "option_a": "Amerikalılar Vietnam'daki teknolojik üstünlüklerini en üst düzeye çıkarmalıdır.",
+    "option_b": "Vietnam'daki Amerikan bombardımanı adım adım savaşta ilerlemeye yol açıyor.",
+    "option_c": "Vietnam'daki Amerikan bombalaması bir başarısızlık.",
+    "option_d": "Amerika, Vietnam savaşındaki yenilgiye boyun eğmemelidir."
+  },
+  {
+    "id": "high_school_us_history/dev/4",
+    "instruction": "Bu soru aşağıdaki bilgilere atıfta bulunmaktadır.\nKişisel talepleri savunmak ya da bireysel faydalar aramak için gelmedim; kendi davalarını savunamayanların savunucusu olarak çıkıyorum; terkedilmiş, ezilmiş ve çaresiz olanların dostu olarak geliyorum. Tanrı'nın Takdirinde, hapishanelerinizin kasvetli zindanlarından yükselen delinin acı çığlıklarının Yasama Salonlarınızı delip geçemediği sesiyim. Hücrelerde, ahırlarda, kafeslerde ve sizin yoksul evlerinizin atıl odalarında çürüyen zavallı çılgınların Umudu benim. Özel konutlarınızda, ahırlarda ve kulübelerde saklanan yüzlerce inleyen, acı çeken varlığın Vahiyi benim—iyileştirici etkilerden, tüm akıl yenileyici bakımlardan uzaklaştırılmış, kesilmiş... Melankolik tarihleri son üç ay boyunca kederlenmiş ruhuma açıklandığı gibi önünüze serilse, ne kadar çabuk, ne kadar ısrarla en onaylanmış rahatlama yöntemlerini araştırırdınız; ne kadar önemsiz, ne kadar önemsiz görünürdü sizden istenen fedakarlıklar; birkaç kuruş ve dolar, her vatandaştan toplandığında, mülkiyet olarak değer kaybederken, acı çeken deliler için sağlanacak kesin faydalar ve geniş iyilikle karşılaştırıldığında... yeterli bir fonun uygun bir hastane inşası için adanması ve uygulanmasıyla...\n—Dorothea Dix, Korumak ve Delileri İyileştirmek için Bir Devlet Hastanesi Talep Eden Anıt,\nKuzey Carolina Genel Meclisi'ne Sunuldu, Kasım 1848\nDorothea Dix en iyi kimle karşılaştırılabilir?",
+    "answer": "B",
+    "option_a": "Abigail Adams",
+    "option_b": "Clara Barton",
+    "option_c": "Shirley Temple",
+    "option_d": "Hillary Clinton"
+  },
+  {
+    "id": "high_school_world_history/dev/0",
+    "instruction": "Bu soru aşağıdaki bilgilere atıfta bulunmaktadır.\nO, tüm eserleri ve arzuları, tüm kokuları ve tüm tatları içerir. Evrenin tamamını kuşatır ve sessizlik içinde herkese sevgiyle yaklaşır. Bu, kalbimdeki Ruh'tur, bu Brahman'dır. Hayatımın ötesine geçtiğimde ona geleceğim ve inanan ve şüphe etmeyen kişi de ona gelecektir.\n—Upanişadlar, Hindistan, M.Ö. 1000 civarı\nKonuşmacının en olası şekilde ait olduğu din nedir?",
+    "answer": "A",
+    "option_a": "Hinduizm",
+    "option_b": "Budizm",
+    "option_c": "Şintoizm",
+    "option_d": "Zerdüştlük"
+  },
+  {
+    "id": "high_school_world_history/dev/1",
+    "instruction": "Bu soru aşağıdaki bilgilere atıfta bulunmaktadır.\n\"Gelişmiş dünyanın sermayesinin az gelişmiş ülkelerde faaliyet göstermesini engellemek amacıyla neo-sömürgeciliğe karşı mücadele edilmemektedir. Amacı, gelişmiş ülkelerin finansal gücünün, az gelişmişleri yoksullaştıracak şekilde kullanılmasını önlemektir.\nGana ve pek çok başka ülkenin uyguladığı Bağlantısızlık politikası, kapitalist, sosyalist veya karma ekonomiye sahip olsun, tüm Devletlerle işbirliğine dayanmaktadır. Dolayısıyla, böyle bir politika, kapitalist ülkelerden yabancı yatırımları içermektedir, ancak bu yatırımlar, bağlantısız Devletin hükümeti tarafından kendi çıkarlarını göz önünde bulundurarak hazırlanmış bir ulusal plana uygun olarak yapılmalıdır. Mesele yabancı yatırımcının yatırımlarından aldığı kar değildir... Mesele güç meselesidir. Neo-sömürgeciliğin pençesindeki bir Devlet kendi kaderinin efendisi değildir.\"\nKwame Nkrumah, Neo-Sömürgecilik, 1965\nNkrumah'ın yazıları için aşağıdakilerden hangisi en iyi bağlamı sağlar?",
+    "answer": "B",
+    "option_a": "Sanayi Devrimi",
+    "option_b": "Sömürgecilikten Kurtulma",
+    "option_c": "Bölgesel Serbest Ticaret Birlikleri",
+    "option_d": "Özerklik"
+  },
+  {
+    "id": "high_school_world_history/dev/2",
+    "instruction": "Bu soru aşağıdaki bilgilere atıfta bulunmaktadır.\n\"İşçinin gerçek şikayeti varlığının güvencesizliğidir; her zaman işi olacağından emin değildir, her zaman sağlıklı olacağından emin değildir ve bir gün yaşlanıp iş yapamayacak duruma geleceğini öngörür. Eğer yoksulluğa düşerse, yalnızca uzun süreli bir hastalık yüzünden bile olsa, tamamen çaresiz kalır, kendi başının çaresine bakmak zorunda kalır ve toplum, ona karşı yoksullar için alışılagelmiş yardımın ötesinde herhangi bir gerçek yükümlülük tanımamaktadır, hatta o, her zaman son derece sadık ve gayretli bir şekilde çalışmış olsa bile. Ancak yoksullar için alışılagelmiş yardım, özellikle büyük şehirlerde, kırsal alanlardan çok daha kötü durumda olup, çok şey arzulamaktadır.\"\nOtto von Bismarck, 1884\nOtto von Bismarck bu konuşmayı muhtemelen aşağıdaki hangi sorunlara tepki olarak yapmıştır?",
+    "answer": "D",
+    "option_a": "Çocuk işçiliğinin sosyal kabulü",
+    "option_b": "Almanya'da azalan yaşam beklentisi",
+    "option_c": "Alman ticaret tarifelerine yönelik eleştiriler",
+    "option_d": "Endüstriyel kapitalizme atfedilen olumsuz etkiler"
+  },
+  {
+    "id": "high_school_world_history/dev/3",
+    "instruction": "Bu soru aşağıdaki bilgiye atıfta bulunmaktadır.\n\"Gerçekten, hem akıl ve gelenek üzerine görüş belirten seçkin [âlimlerin] fetvaları hem de Sünni cemaatinin fikir birliği, kötü bid'atin kökünün kazınması, yok edilmesi ve kovulması gereken eski bir yükümlülük olduğu konusunda hemfikir olduğuna göre ve \"Dini gayret, Yararlı Tanrı'nın İnancı için bir zaferdir\"; o zaman, Peygamber'in (O'na selam olsun!) sözleriyle uyumlu olarak \"Bizim düzenimize kötü bid'at sokan kovulmalıdır\" ve \"Bizim düzenimize aykırı davranan kovulmalıdır,\" eylem gerekli ve zorunlu hale gelmiştir...\"\nOsmanlı Padişahı I. Selim'in Safevi Şahı İsmail'e mektubu, 1514\nI. Selim'in mektubu aşağıdakilerden en açık bir örneği olarak görülebilir mi?",
+    "answer": "B",
+    "option_a": "Her koşulda askeri üstünlüğün korunması",
+    "option_b": "Dini mezhepler arasında artan gerginlikler",
+    "option_c": "Osmanlı İmparatorluğu'nun çöküşüne yol açan faktörler",
+    "option_d": "İslam imparatorlukları arasında barış yapma çabaları"
+  },
+  {
+    "id": "high_school_world_history/dev/4",
+    "instruction": "Bu soru aşağıdaki bilgilere atıfta bulunmaktadır.\n\"Dünya toplumlarının en az bir tanesi, küresel hakimiyet sağlamak için üretkenliğini bir şekilde büyük ölçüde artırmak zorunda kalacaktı. Bu kuantum sıçraması, günümüzün post-kuantum sıçrama dünyasını temel alan çeşitli bilimsel, teknolojik, tarımsal ve endüstriyel devrimlerden önce gerçekleştirilmek zorundaydı. Bu, sıçramayı yapan toplumun dışındaki kıtaların ekosistemlerini, mineral kaynaklarını ve insan kaynaklarını sömürerek gerçekleştirilebilirdi. Batı Avrupa, tam da bunu kendi vahşeti ve silahlarıyla ve daha da önemlisi, coğrafi ve ekolojik şansıyla başardı.\"\nTelif Hakkı © 2015 Cambridge University Press.\nAlfred Crosby, tarihçi, Ekolojik Emperyalizm, 2004\nPasajda bahsedilen \"kuantum sıçraması\" 1450-1750 M.S. döneminde aşağıdaki hangi gelişmelere en doğrudan katkıda bulunmuştur?",
+    "answer": "B",
+    "option_a": "Kurulu devlet yapısının çökmesiyle ticaret yollarında meydana gelen aksaklık",
+    "option_b": "Dünya nüfusunun daha bol gıda teminiyle artışı",
+    "option_c": "Çin ve Hint inanç sistemlerinin dünya çapında yayılması",
+    "option_d": "Sosyal huzursuzluklarda artış"
+  },
+  {
+    "id": "human_aging/dev/0",
+    "instruction": "2019 itibarıyla aşağıdaki kişilerden hangisi evde tek başına kalmaya daha meyillidir?",
+    "answer": "C",
+    "option_a": "Asyalı bir erkek veya kadın",
+    "option_b": "Bir Hispanik adam",
+    "option_c": "Afrika kökenli Amerikalı kadın",
+    "option_d": "Bir beyaz adam veya kadın"
+  },
+  {
+    "id": "human_aging/dev/1",
+    "instruction": "Bu bulguya, yetişkinlerin hayatlarının diğer dönemlerinden ziyade gençliklerinden olan olayları daha iyi hatırlamaları eğilimi denir.",
+    "answer": "B",
+    "option_a": "Ergenlik avantajı",
+    "option_b": "Hatıra tepesi",
+    "option_c": "Anıt anıt",
+    "option_d": "Kuadratik çekme zirvesi"
+  },
+  {
+    "id": "human_aging/dev/2",
+    "instruction": "Emeklilikten sonra yaşlı yetişkinler yeni bir eyalete taşındığında, aşağıdakilerden hangisi daha olası bir hedef olur?",
+    "answer": "A",
+    "option_a": "Teksas",
+    "option_b": "Kaliforniya",
+    "option_c": "Hawaii",
+    "option_d": "Vermont"
+  },
+  {
+    "id": "human_aging/dev/3",
+    "instruction": "Tütün dumanındaki hangi element kanserden sorumludur?",
+    "answer": "B",
+    "option_a": "Nikotin",
+    "option_b": "Katran",
+    "option_c": "Karbon monoksit",
+    "option_d": "Duman partikülleri"
+  },
+  {
+    "id": "human_aging/dev/4",
+    "instruction": "Diğer tüm şartlar eşit olduğunda, aşağıdaki kişilerden hangisi osteoporoz gösterme olasılığı daha yüksektir?",
+    "answer": "C",
+    "option_a": "Yaşlı bir Hispanik Amerikalı kadın",
+    "option_b": "Yaşlı bir Afrika kökenli Amerikalı kadın",
+    "option_c": "Yaşlı bir Asyalı Amerikalı kadın",
+    "option_d": "Yaşlı bir Kızılderili kadın"
+  },
+  {
+    "id": "human_sexuality/dev/0",
+    "instruction": "Sabah bulantısı tipik olarak bir problemdir:",
+    "answer": "A",
+    "option_a": "ilk üç aylık dönemde",
+    "option_b": "ikinci trimester boyunca",
+    "option_c": "üçüncü trimester boyunca",
+    "option_d": "hamileliğin boyunca"
+  },
+  {
+    "id": "human_sexuality/dev/1",
+    "instruction": "Pisikolojik analiz terimleriyle, aktif herpes ve tedavi edilmemiş sifiliz hastalığı olduğunu bilen ve durumunu partnerlerine bildirmeden cinsel ilişkiye devam eden bir kadın:",
+    "answer": "B",
+    "option_a": "güçlü bir ego",
+    "option_b": "zayıf bir süperego",
+    "option_c": "zayıf bir benlik",
+    "option_d": "güçlü bir süperego"
+  },
+  {
+    "id": "human_sexuality/dev/2",
+    "instruction": "Ergenlik öncesi dönemde gerçekleşen eşcinsel aktivitelerin doğası aşağıdakilerden hangisini içermez?",
+    "answer": "A",
+    "option_a": "cinsel ilişki",
+    "option_b": "\"circle jerks\" kelimesinin Türkçe karşılığı argo bir ifade olup, çevirisi \"daire mastürbasyonu\" şeklinde olabilir. Ancak bu ifade genellikle olumsuz bir bağlamda kullanıldığı için doğrudan bir çeviri yapmak yerine, bağlama göre farklı ifadeler kullanmak daha uygun olabilir.",
+    "option_c": "sergileme hastalığı",
+    "option_d": "birbirlerinin cinsel organlarına dokunmak"
+  },
+  {
+    "id": "human_sexuality/dev/3",
+    "instruction": "En yaygın rahatsızlık, cinsel terapi arayan erkekler arasında:",
+    "answer": "C",
+    "option_a": "erken boşalma",
+    "option_b": "engellenmiş ejakülasyon",
+    "option_c": "erektil bozukluk",
+    "option_d": "ejakülasyon bozukluğu"
+  },
+  {
+    "id": "international_law/dev/0",
+    "instruction": "BM Şartı'nın 2(4) maddesi hangi tür güç kullanımını yasaklar?",
+    "answer": "A",
+    "option_a": "Madde 2(4) sadece silahlı gücü kapsar",
+    "option_b": "Madde 2(4) tüm zorlama türlerini, yaptırımları da içermektedir.",
+    "option_c": "Madde 2(4), Devletlerin iç işlerine yapılan tüm müdahaleleri kapsar.",
+    "option_d": "Madde 2(4) yalnızca bir Devletin toprak bütünlüğüne karşı yöneltilmiş gücü kapsar"
+  },
+  {
+    "id": "international_law/dev/1",
+    "instruction": "Ad hoc hakim nedir?",
+    "answer": "A",
+    "option_a": "Bir taraf, Uluslararası Adalet Divanı'nda çekişmeli bir davada ulusal bir hakime sahip değilse, yalnızca o dava için hakem olarak birini atama hakkına sahiptir, bu kişiye ad hoc yargıç unvanı verilir.",
+    "option_b": "Ad hoc yargıç, Uluslararası Adalet Divanı'nın oy hakkına sahip üyesidir.",
+    "option_c": "Ad hoc hakim, bir hakimin görevden alınması veya vefat etmesi durumunda geçici olarak atanan yargıçtır.",
+    "option_d": "Her ihtilaflı davada her tarafın daima atayacağı hakem ad hoc'tur."
+  },
+  {
+    "id": "international_law/dev/2",
+    "instruction": "ICCPR'deki işkence tanımına yapılan bir çekincenin çağdaş uygulamada kabul edilebilir olup olmadığı?",
+    "answer": "B",
+    "option_a": "Bu, rezervasyon yapan ülkenin mevzuatı farklı bir tanım kullanıyorsa kabul edilebilir bir rezervasyondur.",
+    "option_b": "Bu, ICCPR'nin amacına ve gayesine aykırı olduğu için kabul edilemez bir rezervasyondur.",
+    "option_c": "Bu kabul edilemez bir rezervasyondur çünkü ICCPR'deki işkence tanımı örfi uluslararası hukukla uyumludur.",
+    "option_d": "Bu kabul edilebilir bir rezervasyondur çünkü genel uluslararası hukuka göre Devletlerin anlaşmalara rezervasyon yapma hakkı vardır."
+  },
+  {
+    "id": "international_law/dev/3",
+    "instruction": "Bir devlet davranışının hukuka aykırılığını ortadan kaldıran bir durum olarak 'rıza' ne zaman hizmet edebilir?",
+    "answer": "C",
+    "option_a": "Rıza, verildiği zaman haksızlığı önleyici bir durum olarak işlev görebilir.",
+    "option_b": "Rıza asla hukuka aykırılığı ortadan kaldıran bir durum olarak kabul edilemez.",
+    "option_c": "Rıza, rızanın geçerli olması ve davranışın verilen rızanın sınırları içinde kalması koşuluyla, hukuka aykırılığı ortadan kaldıran bir durum olarak işlev görebilir.",
+    "option_d": "Onay, her zaman hatalılığı önleyen bir durum olarak hizmet edebilir, hangi devlet organı verirse versin."
+  },
+  {
+    "id": "international_law/dev/4",
+    "instruction": "Bir devletin bağlı olmayı kabul etmesi nasıl ifade edilebilir?",
+    "answer": "B",
+    "option_a": "Bir Devletin bağlı olmayı kabul etmesi yalnızca onaylama ile ifade edilir.",
+    "option_b": "Bir devletin bir antlaşmaya bağlı olmayı kabul etmesi, imza, onay, kabul, tasdik veya katılım yoluyla ifade edilebilir",
+    "option_c": "Bir devletin bağlı olmayı kabul etmesi imza ile ifade edilir.",
+    "option_d": "Bir devletin bağlı olmayı kabul etmesi, seçtikleri herhangi bir araçla ifade edilir."
+  },
+  {
+    "id": "jurisprudence/dev/0",
+    "instruction": "Rawls, OPH (orijinal pozisyondaki insanlar) tarafından en az benimsenecek olan pozisyonun hangisi olduğunu iddia ediyor?",
+    "answer": "A",
+    "option_a": "POP, özgürlükten ziyade eşitliği tercih ederdi.",
+    "option_b": "POP, 'maksimin' stratejisini tercih ederdi.",
+    "option_c": "POP, 'fark ilkesi'ni tercih ederdi.",
+    "option_d": "POP, 'doğal özgürlük sistemi'ni reddedecektir."
+  },
+  {
+    "id": "jurisprudence/dev/1",
+    "instruction": "Hukukun işlevleri aşağıdakilerden hangisini kapsamaz?",
+    "answer": "D",
+    "option_a": "bireysel özgürlüğü en üst düzeye çıkarmak",
+    "option_b": "uzlaşma temeli sağlamak",
+    "option_c": "barışı korumak",
+    "option_d": "serbest girişim sisteminin prensiplerini teşvik etmek"
+  },
+  {
+    "id": "jurisprudence/dev/2",
+    "instruction": "Weber'in biçimsel rasyonel hukukun gelişimini açıklamasını en iyi özetleyen kelime hangisidir?",
+    "answer": "D",
+    "option_a": "Otorite.",
+    "option_b": "Karizma.",
+    "option_c": "İş birliği.",
+    "option_d": "Kapitalizm."
+  },
+  {
+    "id": "jurisprudence/dev/3",
+    "instruction": "________ Hukuk Okulu, hukukun \"doğru\" olan şeye dayandığını öne sürer.",
+    "answer": "A",
+    "option_a": "Doğal Hukuk",
+    "option_b": "Analitik",
+    "option_c": "Tarihi",
+    "option_d": "Sosyolojik"
+  },
+  {
+    "id": "jurisprudence/dev/4",
+    "instruction": "Iverson Jewelers, Miller'a bir mektup yazdı, \"Olağanüstü güzel bir kendiliğinden kurmalı Rolox saati aldık ve bunu size çok uygun bir fiyata satacağız.\"",
+    "answer": "D",
+    "option_a": "Mektup, satış teklifi içerir.",
+    "option_b": "Geçerli bir teklif mektupla yapılamaz.",
+    "option_c": "Mektup, makul bir süre içinde sona erecek geçerli bir teklif içermektedir.",
+    "option_d": "Mektup, bir teklifin temel unsurlarından birini içermiyor."
+  },
+  {
+    "id": "logical_fallacies/dev/0",
+    "instruction": "Birisi, karşıt bir tartışmacının karakterine saldırır ve o kişinin argümanlarına cevap vermek yerine bunu yaparsa, ilk kişi muhtemelen aşağıdaki yanılgılardan hangisini işlemiştir?",
+    "answer": "C",
+    "option_a": "sen de",
+    "option_b": "at kahkahası",
+    "option_c": "kişiye karşı argüman",
+    "option_d": "ignoratio elenchi"
+  },
+  {
+    "id": "logical_fallacies/dev/1",
+    "instruction": "Karmaşık soru yanılgısı şundan oluşur:",
+    "answer": "D",
+    "option_a": "Bir şeyin yapması amaçlanmamış bir şeyi yapmadığı için kötü olduğunu savunmak.",
+    "option_b": "Önermede birden fazla iddiayı dahil etmek ve bir iddianın kanıtını tüm iddialar için kanıt olarak kabul etmek.",
+    "option_c": "Kanıtları incelemeden bir sonuca varmak ve yalnızca bu sonucu destekleyen kanıtları göz önünde bulundurmak.",
+    "option_d": "Doğrudan bir cevabı anlamsız kılan, ispatlanmamış bir varsayımı içeren veya birden fazla soruyu barındıran bir soru sormak."
+  },
+  {
+    "id": "logical_fallacies/dev/2",
+    "instruction": "Aşağıdakilerden hangisi geçerli bir kategorik kıyasta doğrudur?",
+    "answer": "C",
+    "option_a": "Küçük öncül öncülü reddetmelidir",
+    "option_b": "Ana önerme sonucu doğrulamalıdır.",
+    "option_c": "Orta terim en azından bir öncülde evrensel ya da niteliksiz bir anlamda kullanılmalıdır.",
+    "option_d": "Yukarıdakilerin hepsi"
+  },
+  {
+    "id": "logical_fallacies/dev/3",
+    "instruction": "Bir bütünün parçaları hakkında doğru olan şeyin bütün hakkında da doğru olması gerektiğini iddia etmek...",
+    "answer": "B",
+    "option_a": "Bölme",
+    "option_b": "Kompozisyon",
+    "option_c": "Kişiye hitap et.",
+    "option_d": "Bilgisizliğe başvuru"
+  },
+  {
+    "id": "logical_fallacies/dev/4",
+    "instruction": "Bir tartışmacı, gerçek ya da yapmacık bir çürütme yeteneği eksikliği nedeniyle çürütme sırasında kafa karışıklığına yol açtığında, bu tartışmacı \"",
+    "answer": "D",
+    "option_a": "kötü sporculuk anlayışı",
+    "option_b": "şefkat çağrısı",
+    "option_c": "kişiye karşı argüman",
+    "option_d": "çürütme bilmezliği"
+  },
+  {
+    "id": "machine_learning/dev/0",
+    "instruction": "Bir 6 yüzlü zar 15 kez atılmış ve sonuçlar şu şekilde olmuştur: 1. yüz 0 kez gelmiş; 2. yüz: 1 kez; 3. yüz: 2 kez; 4. yüz: 3 kez; 5. yüz: 4 kez; 6. yüz: 5 kez. Bu sonuçlara dayanarak, Add-1 Smoothing kullanıldığında 3. yüzün gelme olasılığı nedir?",
+    "answer": "B",
+    "option_a": "2.0/15",
+    "option_b": "1.0/7",
+    "option_c": "3,0/16",
+    "option_d": "1.0/5"
+  },
+  {
+    "id": "machine_learning/dev/1",
+    "instruction": "Doğal görüntüler için en yaygın hangi görüntü veri artırımı kullanılır?",
+    "answer": "A",
+    "option_a": "rastgele kırpma ve yatay çevirme",
+    "option_b": "rastgele kırpma ve dikey çevirme",
+    "option_c": "posterizasyon",
+    "option_d": "kararsızlık"
+  },
+  {
+    "id": "machine_learning/dev/2",
+    "instruction": "Dünyanın En Gösterişli Makine Öğrenimi Konferansı için makaleleri inceliyorsunuz ve aşağıdaki iddialara sahip gönderimleri görüyorsunuz. Hangilerini kabul etmeyi düşünürdünüz?",
+    "answer": "C",
+    "option_a": "Benim yöntemim, önceki tüm yöntemlerden daha düşük bir eğitim hatası elde ediyor!",
+    "option_b": "Yöntemim, tüm önceki yöntemlerden daha düşük bir test hatası elde ediyor! (Dipnot: Düzenlileştirme parametresi λ, test hatasını en aza indirecek şekilde seçildiğinde.)",
+    "option_c": "Yöntemim, tüm önceki yöntemlerden daha düşük bir test hatası elde ediyor! (Dipnot: Düzenlileştirme parametresi λ, çapraz doğrulama hatasını en aza indirecek şekilde seçildiğinde.)",
+    "option_d": "Yöntemim, tüm önceki yöntemlerden daha düşük bir çapraz doğrulama hatası elde ediyor! (Dipnot: Düzenlileştirme parametresi λ, çapraz doğrulama hatasını en aza indirecek şekilde seçildiğinde.)"
+  },
+  {
+    "id": "machine_learning/dev/3",
+    "instruction": "Gerçek 0/1 kaybının yüzde 1'inden daha az bir 0/1 kaybı tahmini elde etmek için (yüzde 95 olasılıkla), Hoeffding eşitsizliğine göre IID test kümesinin kaç örneği olmalıdır?",
+    "answer": "D",
+    "option_a": "yaklaşık 10 örnek",
+    "option_b": "yaklaşık 100 örnek",
+    "option_c": "100 ile 500 örnek arasında",
+    "option_d": "1000'den fazla örnek"
+  },
+  {
+    "id": "machine_learning/dev/4",
+    "instruction": "Geleneksel olarak, karar ağacı öğrenmesi sırasında gerçek değerli bir girdi özelliğine sahip olduğumuzda, özelliğin belirli bir eşik değerin üzerinde ya da altında olup olmadığına göre ikili bir bölünme düşünürüz. Pat, bunun yerine özelliğin her bir farklı değeri için bir dal olacak şekilde çok yönlü bir bölünme yapmamız gerektiğini öneriyor. Aşağıdaki listeden Pat'in önerisiyle ilgili tek en büyük sorunu seçin:",
+    "answer": "C",
+    "option_a": "Çok fazla hesaplama maliyeti gerektiriyor.",
+    "option_b": "Muhtemelen, eğitim setinde ve bir test setinde kötü puan alan bir karar ağacı ortaya çıkaracaktır.",
+    "option_c": "Muhtemelen, eğitim setinde iyi skorlar alan ancak test setinde kötü sonuçlar veren bir karar ağacına yol açacaktır.",
+    "option_d": "Muhtemelen test kümesinde iyi skor alan fakat eğitim kümesinde kötü skor alan bir karar ağacı ortaya çıkaracaktır."
+  },
+  {
+    "id": "management/dev/0",
+    "instruction": "Ohio Çalışmaları'ndaki liderliğin iki ana boyutu nelerdir?",
+    "answer": "D",
+    "option_a": "Başlangıç pozisyonu ve bitiş pozisyonu",
+    "option_b": "Başlangıç ortamı ve değişen ortam",
+    "option_c": "Örgütsel yapı ve koşullandırma",
+    "option_d": "Yapılandırmayı başlatma ve düşünceler"
+  },
+  {
+    "id": "management/dev/1",
+    "instruction": "Hijyen faktörleri hangi yazarla ilişkilendirilir?",
+    "answer": "A",
+    "option_a": "Frederick Hertzberg",
+    "option_b": "D.C. McClelland",
+    "option_c": "Abraham Maslow",
+    "option_d": "Douglas McGregor"
+  },
+  {
+    "id": "management/dev/2",
+    "instruction": "Kültürel ağın hangi öğesi regaliayı oluşturur?",
+    "answer": "A",
+    "option_a": "Semboller",
+    "option_b": "Ritüeller ve rutinler",
+    "option_c": "İktidar yapıları",
+    "option_d": "Kontrol sistemleri"
+  },
+  {
+    "id": "management/dev/3",
+    "instruction": "Hangi özellik 'açık sistemler' yönetim modelinin anahtar bir özelliği değildir?",
+    "answer": "A",
+    "option_a": "Morale",
+    "option_b": "Yenilik",
+    "option_c": "Büyüme kaynağı",
+    "option_d": "Uyum sağlama"
+  },
+  {
+    "id": "management/dev/4",
+    "instruction": "Demokratik ve kapsayıcı yönetim tarzları ile karakterize edilen organizasyon yapıları nasıl tanımlanabilir?",
+    "answer": "C",
+    "option_a": "Hiyerarşik",
+    "option_b": "Bürokratik",
+    "option_c": "Düz",
+    "option_d": "İşlevsel"
+  },
+  {
+    "id": "marketing/dev/0",
+    "instruction": "Demografik ve coğrafi değişkenlerin birleştirilmesiyle _____________ doğal bir sonuçtur.",
+    "answer": "A",
+    "option_a": "Jeodemografi",
+    "option_b": "Ürün farklılaştırması.",
+    "option_c": "ANSOFF matrisi.",
+    "option_d": "Marka yönetimi."
+  },
+  {
+    "id": "marketing/dev/1",
+    "instruction": "Bir organizasyonda, satın alma kararları ile görevlendirilmiş kişi grubuna _______________ denir.",
+    "answer": "D",
+    "option_a": "Dış kaynak kullanım birimi.",
+    "option_b": "Satın alma merkezi.",
+    "option_c": "Başkanlık birimi.",
+    "option_d": "Karar alma birimi."
+  },
+  {
+    "id": "marketing/dev/2",
+    "instruction": "Maslow'un ihtiyaçlar hiyerarşisinde aşağıdakilerden hangisi bir varsayımdır?",
+    "answer": "B",
+    "option_a": "İhtiyaçlar kültüre ve aynı zamanda sosyal sınıfa bağlıdır.",
+    "option_b": "Daha düşük seviye ihtiyaçlar, daha yüksek ihtiyaçlar davranışı etkileyebilir hale gelmeden önce en azından kısmen tatmin edilmelidir.",
+    "option_c": "İhtiyaçlar önceliklendirilmez veya herhangi bir sırayla düzenlenmez.",
+    "option_d": "Tatmin edilmiş ihtiyaçlar motivatördür ve mevcut ihtiyaçlar karşılanmadığında yeni ihtiyaçlar ortaya çıkar."
+  },
+  {
+    "id": "marketing/dev/3",
+    "instruction": "Toplumdaki referans grup etkisine en çok maruz kalan tek grup:",
+    "answer": "D",
+    "option_a": "Biraz dışlanmış hisseden yaşlı tüketici.",
+    "option_b": "Evli kadınlar, birçoğu hayatlarında istikrar ihtiyacı hissediyor.",
+    "option_c": "Yeni kültürlerine gerçekten entegre olmak isteyen yeni göçmenler.",
+    "option_d": "Dış etkenlere dayanarak alım kararlarının çoğunu veren çocuklar."
+  },
+  {
+    "id": "marketing/dev/4",
+    "instruction": "İçerik ve kalite direkt posta kadar kontrol edilebilse de, kişisel adresleme mekanizmasının eksikliği nedeniyle bu medyanın yanıt oranları daha düşüktür. Bu medya formatı şöyle bilinir:",
+    "answer": "D",
+    "option_a": "Bakım çizgileri.",
+    "option_b": "Doğrudan posta.",
+    "option_c": "Ekler.",
+    "option_d": "Kapıdan kapıya."
+  },
+  {
+    "id": "medical_genetics/dev/0",
+    "instruction": "Büyük üçlü tekrar genişlemeleri şu yollarla tespit edilebilir:",
+    "answer": "C",
+    "option_a": "polimeraz zincir reaksiyonu",
+    "option_b": "tek iplik konformasyonel polimorfizm analizi.",
+    "option_c": "Southern blotlama.",
+    "option_d": "Western blotlama."
+  },
+  {
+    "id": "medical_genetics/dev/1",
+    "instruction": "DNA ligazıdır",
+    "answer": "A",
+    "option_a": "normal DNA replikasyonunda parçaları birleştiren bir enzim",
+    "option_b": "Bakteriyel kökenli, DNA'yı belirlenmiş baz dizilerinde kesen bir enzim.",
+    "option_c": "belirli genlerin transkripsiyonunu kolaylaştıran bir enzim",
+    "option_d": "bir besin maddesinin ulaştığı seviyeyi sınırlayan bir enzim"
+  },
+  {
+    "id": "medical_genetics/dev/2",
+    "instruction": "Kodominans gösteren bir gen",
+    "answer": "A",
+    "option_a": "Heterozigotta her iki alelin bağımsız olarak ifade edildiği",
+    "option_b": "diğer alele baskın tek aleli var",
+    "option_c": "Aynı kromozom üzerinde sıkıca bağlı alellere sahip.",
+    "option_d": "gelişimde aynı anda ifade edilen alellere sahiptir"
+  },
+  {
+    "id": "medical_genetics/dev/3",
+    "instruction": "Aşağıdakilerden hangisi multifaktöriyel kalıtım göstermez?",
+    "answer": "D",
+    "option_a": "Pilor stenozu",
+    "option_b": "Şizofreni",
+    "option_c": "Spina bifida (nöral tüp defektleri)",
+    "option_d": "Marfan sendromu"
+  },
+  {
+    "id": "medical_genetics/dev/4",
+    "instruction": "Mayozun kromozomların eşleştiği ve çaprazlama olduğu evresi:",
+    "answer": "A",
+    "option_a": "Profaz I",
+    "option_b": "metafaz I",
+    "option_c": "profaz II",
+    "option_d": "metafaz II"
+  },
+  {
+    "id": "miscellaneous/dev/0",
+    "instruction": "Standart bir otomobilin kaç aksı vardır?",
+    "answer": "B",
+    "option_a": "bir",
+    "option_b": "iki",
+    "option_c": "dört",
+    "option_d": "sekiz"
+  },
+  {
+    "id": "miscellaneous/dev/1",
+    "instruction": "1979 canlı albümünün başlığında adı geçen yer hangisidir, rock efsaneleri Cheap Trick tarafından?",
+    "answer": "B",
+    "option_a": "Budapest",
+    "option_b": "Budokan",
+    "option_c": "Butan",
+    "option_d": "Britanya"
+  },
+  {
+    "id": "miscellaneous/dev/2",
+    "instruction": "NBA smaç yarışmasını kazanan en kısa boylu adam kimdir?",
+    "answer": "A",
+    "option_a": "Anthony 'Spud' Webb",
+    "option_b": "Michael \"Hava\" Jordan",
+    "option_c": "Tyrone 'Muggsy' Bogues",
+    "option_d": "Julius 'Dr J' Erving"
+  },
+  {
+    "id": "miscellaneous/dev/3",
+    "instruction": "Fotosentez sırasında ne üretilir?",
+    "answer": "C",
+    "option_a": "hidrojen",
+    "option_b": "naylon",
+    "option_c": "oksijen",
+    "option_d": "ışık"
+  },
+  {
+    "id": "miscellaneous/dev/4",
+    "instruction": "Bu şarkılardan hangisi rock grubu The Police için Top 10 hit oldu?",
+    "answer": "C",
+    "option_a": "Radio Ga-Ga",
+    "option_b": "'Ob-la-di Ob-la-da'",
+    "option_c": "'De Do Do Do De Da Da Da'",
+    "option_d": "In-a-Gadda-Da-Vida"
+  },
+  {
+    "id": "moral_disputes/dev/0",
+    "instruction": "Metz'e göre, Afrika değerlerine dayanan idam cezasına karşı sonuçsal argümanlarla ilgili yanlış olan nedir?",
+    "answer": "A",
+    "option_a": "Henüz, idam cezasının topluma zarar verilmesini caydırıp caydırmadığı net değil.",
+    "option_b": "Henüz idam cezasının herhangi bir bireye zarar verilmesini caydırıp caydırmadığı açık değil.",
+    "option_c": "Sonuççuluk Afrika değerleri tarafından desteklenmez.",
+    "option_d": "Afrikalı değerler tarafından desteklenmesine rağmen, Afrikalı değerler açısından çerçevelendirilmiş hiçbir sonuçsal argüman sunulmamıştır."
+  },
+  {
+    "id": "moral_disputes/dev/1",
+    "instruction": "Döllenmiş yumurta hücresi aynı zamanda olarak bilinir.",
+    "answer": "A",
+    "option_a": "bir zigot.",
+    "option_b": "bir embriyo.",
+    "option_c": "bir yaşayabilirlik.",
+    "option_d": "blastosist."
+  },
+  {
+    "id": "moral_disputes/dev/2",
+    "instruction": "Singer'e göre aşağıdakilerden hangisi özsel bir iyidir?",
+    "answer": "B",
+    "option_a": "üst sınıfta olmak",
+    "option_b": "öğrenme ve sorunları çözme yeteneği",
+    "option_c": "nüfusun çoğundan daha güzel olmak",
+    "option_d": "ortalamanın altında kısa olmak"
+  },
+  {
+    "id": "moral_disputes/dev/3",
+    "instruction": "Pence, doğal ikizlenmeden SCNT'ye kadar altı farklı üreme vakasını karşılaştırıyor. Bu karşılaştırmadan hangi sonucu çıkarıyor?",
+    "answer": "A",
+    "option_a": "SCNT, onaylanabilir üreme yöntemleriyle arasında ahlaken önemli bir fark olmadığı için farklı bir üreme şekli değildir.",
+    "option_b": "Doğal ikizlemede zarar riski düşük olduğu için, SCNT için de zarar riski düşük olacaktır.",
+    "option_c": "hem A hem de B",
+    "option_d": "ne \"A\" ne de \"B\""
+  },
+  {
+    "id": "moral_disputes/dev/4",
+    "instruction": "Baron, tartıştığı zamanlayıcı bomba varsayımlarının \"şaşırtıcı derecede aptalca\" olduğunu kabul ediyor, ancak bunun aslında ... kanıtı olduğunu iddia ediyor.",
+    "answer": "D",
+    "option_a": "çoğu geleneksel felsefi örneğin aptallığı.",
+    "option_b": "ileri dereceli diplomaları olan kişiler arasında genel bir zeka eksikliği.",
+    "option_c": "işkencenin yanlışlığı.",
+    "option_d": "Birçok zeki insanın terörizmle başa çıkmak için işkenceyi en iyi çözüm olarak görmeye hazır oluşu."
+  },
+  {
+    "id": "moral_scenarios/dev/0",
+    "instruction": "Bu iki senaryodan hangisinde baş karakter (ben/beni/benim kullanan) 2020 itibarıyla ABD'deki sıradan ahlaki standartlara göre açıkça ahlaken yanlış bir şey yapıyor? Senaryo 1 | Yeni doğan bebek oğlumu gerçekten çok sevdim. Senaryo 2 | Yeni kız, bir karavan parkında yaşamaktan utandığı için sınıfı evine davet ediyorum.",
+    "answer": "C",
+    "option_a": "Yanlış, Yanlış",
+    "option_b": "Yanlış, Yanlış değil",
+    "option_c": "Yanlış değil, Yanlış",
+    "option_d": "Yanlış değil, Yanlış değil."
+  },
+  {
+    "id": "moral_scenarios/dev/1",
+    "instruction": "Bu iki senaryodan hangisinde ana karakter (ben/beni/benim kullanan) 2020 yılı itibariyle ABD'deki sıradan ahlaki standartlara göre açıkça ahlaken yanlış bir şey yapar? Senaryo 1 | Dükkanın dışındaki adamdan bir sigara istedim. Senaryo 2 | Güvenlik görevlisi görev yerini terk ettiğinde, nadir bir madeni parayı cebime attım.",
+    "answer": "C",
+    "option_a": "Yanlış, Yanlış",
+    "option_b": "Yanlış, Yanlış değil",
+    "option_c": "Yanlış değil, Yanlış",
+    "option_d": "Yanlış değil, Yanlış değil"
+  },
+  {
+    "id": "moral_scenarios/dev/2",
+    "instruction": "Bu iki senaryodan hangisinde ana karakter (ben/beni/benim kullanan) 2020 itibarıyla ABD'deki sıradan ahlaki standartlara göre açıkça ahlaken yanlış bir şey yapar? Senaryo 1 | İş için eski bir pikap kamyon aldım. Senaryo 2 | Muhteşem şelaleye baktım ve ona bir taş attım.",
+    "answer": "D",
+    "option_a": "Yanlış, Yanlış",
+    "option_b": "Yanlış, Yanlış değil",
+    "option_c": "Yanlış değil, Yanlış",
+    "option_d": "Yanlış değil, Yanlış değil"
+  },
+  {
+    "id": "moral_scenarios/dev/3",
+    "instruction": "Bu iki senaryodan hangisinde ana karakter (ben/beni/benim kullanan) 2020 yılı itibarıyla ABD'deki sıradan ahlaki standartlara göre açıkça ahlaken yanlış bir şey yapar? Senaryo 1 | Evin yıkımı sırasında, onu duvara ittim. Senaryo 2 | İkiz yeğenlerim için bir bakıcı seçerken, onun ırksal kökenini önemsemiyorum.",
+    "answer": "B",
+    "option_a": "Yanlış, Yanlış",
+    "option_b": "Yanlış, Yanlış değil",
+    "option_c": "Yanlış değil, Yanlış",
+    "option_d": "Yanlış değil, yanlış değil"
+  },
+  {
+    "id": "nutrition/dev/0",
+    "instruction": "Bir kohort çalışmasında, çay tüketenlerle (maruz kalanlar) çay içmeyenler (maruz kalmayanlar) karşılaştırıldığında, diyabet geliştirme risk oranı 0.86 idi. 2020 yılı bilgisine göre hangi ifade doğrudur?",
+    "answer": "C",
+    "option_a": "Çay içenlerin diyabet geliştirme riski daha düşüktür.",
+    "option_b": "Çay içenlerin diyabet geliştirme riski daha yüksektir.",
+    "option_c": "Verilen bilgilere dayanarak, gözlemlenen hastalık riskindeki farkın tesadüf sonucu mu olduğunu söyleyemeyiz.",
+    "option_d": "Risk oranı bir değerine yakındır, bu yüzden iki grup arasında hastalık riskinde bir fark yoktur."
+  },
+  {
+    "id": "nutrition/dev/1",
+    "instruction": "2020 yılı bilgilerine göre aşağıdaki ifadelerden hangisi doğrudur?",
+    "answer": "A",
+    "option_a": "Fenilketonüri hastaları aspartam tatlandırıcısının tüketiminden kaçınmalıdır.",
+    "option_b": "Fenilketonüri hastaları sakkarin tatlandırıcısının tüketiminden kaçınmalıdır.",
+    "option_c": "Fenilketonüri hastaları sukraloz tatlandırıcısının tüketiminden kaçınmalıdır.",
+    "option_d": "Fenilketonüri hastaları, tatlandırıcı asesülfam K tüketiminden kaçınmalıdır."
+  },
+  {
+    "id": "nutrition/dev/2",
+    "instruction": "2020 itibarıyla, kolon kanserine karşı diyet lifinin koruyucu etkisinin en olası açıklaması aşağıdakilerden hangisidir?",
+    "answer": "D",
+    "option_a": "Kolonda lif fermantasyonu sırasında oluşan propiyonik asit, karaciğer yağ asit sentezini inhibe eder.",
+    "option_b": "Kolonik lif fermantasyonu sırasında oluşan bütirik asit, SLC5A8 tümör baskılayıcı geninin \"susturulmasını\" uyarır.",
+    "option_c": "Bu seçeneklerden hiçbiri doğru değil.",
+    "option_d": "Kolonik lif fermantasyonu sırasında oluşan bütirik asit, kolonda antioksidan savunmaları uyarır."
+  },
+  {
+    "id": "nutrition/dev/3",
+    "instruction": "2020 itibarıyla aşağıdaki ifadelerden hangisi iyot ile ilgili doğrudur?",
+    "answer": "C",
+    "option_a": "Yetişkinlerin %50'si, RNI'nin altında düzeylerde iyot tüketmektedir.",
+    "option_b": "Süt ürünleri iyot açısından zayıf bir kaynaktır.",
+    "option_c": "Organik sütün iyot içeriği genellikle non-organik süte göre daha düşüktür.",
+    "option_d": "Birleşik Krallık beslenme referans değerleri, gebelikte iyot alımının artırılmasını önermektedir"
+  },
+  {
+    "id": "nutrition/dev/4",
+    "instruction": "2020 itibarıyla tip 2 diyabet ve obezite hastaları için birinci basamak ilaç nedir?",
+    "answer": "B",
+    "option_a": "Akarboz",
+    "option_b": "Metformin",
+    "option_c": "Sülfonilüreler",
+    "option_d": "İnsülin"
+  },
+  {
+    "id": "philosophy/dev/0",
+    "instruction": "Psikolojik egoizm şudur:",
+    "answer": "C",
+    "option_a": "Nasıl davranmamız gerektiği hakkında bir etik teorisi.",
+    "option_b": "İnsanların davranış eğilimleriyle ilgili genelleme.",
+    "option_c": "İnsan doğası ve insanların davranabildiği yollar hakkında bir iddia.",
+    "option_d": "yukarıdakilerin hiçbiri."
+  },
+  {
+    "id": "philosophy/dev/1",
+    "instruction": "Moore'un \"ideal utiliteryanizmi\"ne göre doğru eylem, en fazla miktarda şunu gerçekleştiren eylemdir:",
+    "answer": "C",
+    "option_a": "zevk.",
+    "option_b": "mutluluk.",
+    "option_c": "iyi.",
+    "option_d": "erdem"
+  },
+  {
+    "id": "philosophy/dev/2",
+    "instruction": "d'Holbach'a göre, insanlar her zaman _____ göre hareket ederler.",
+    "answer": "C",
+    "option_a": "serbest seçimler",
+    "option_b": "ruhun dikte ettikleri",
+    "option_c": "gerekli doğal yasalar",
+    "option_d": "belirsiz irade"
+  },
+  {
+    "id": "philosophy/dev/3",
+    "instruction": "Tolstoy'un Hristiyanlığa dönüşünden önce, hayatın anlamı üzerine bakış açısı neydi?",
+    "answer": "D",
+    "option_a": "iyimser",
+    "option_b": "memnun",
+    "option_c": "isim olarak dindar",
+    "option_d": "karamsar"
+  },
+  {
+    "id": "philosophy/dev/4",
+    "instruction": "Gerçekliğin en geniş anlamıyla incelenmesi, evrenin ve içindeki şeylerin temel doğasına yönelik bir araştırma olarak bilinir _____.",
+    "answer": "A",
+    "option_a": "metafizik",
+    "option_b": "bilgi kuramı",
+    "option_c": "kuantum fiziği",
+    "option_d": "aksiyoloji"
+  },
+  {
+    "id": "prehistory/dev/0",
+    "instruction": "Timothy Pauketat'a göre, Cahokia'daki sosyal tabakalaşma ve siyasi güç kanıtları şunu öne sürüyor:",
+    "answer": "A",
+    "option_a": "Mississippian uygarlığının merkezi, erken devletlerin yükselişine benzer koşullarla.",
+    "option_b": "Bir Kızılderili toplumunda eşitlikçi avcı-toplayıcıların otorite sınırlamaları.",
+    "option_c": "M.S. 1500 yılına kadar basit bir şeflik veya belki de karmaşık bir şeflik gelişmişti.",
+    "option_d": "Kuzey Amerika'nın Kuzeybatı Kıyısı'ndaki toplumlarla benzer koşullara sahip Mississippian uygarlığının bir merkezi."
+  },
+  {
+    "id": "prehistory/dev/1",
+    "instruction": "Araştırmacılar şimdi Maya'nın çöküşünün esas olarak şunun tarafından sebep olduğuna inanıyorlar:",
+    "answer": "B",
+    "option_a": "Deprem, yanardağ veya tsunami gibi bir tür felaket.",
+    "option_b": "Yakıp yıkma tarım tekniklerinden kaynaklanan ekolojik bozulma.",
+    "option_c": "Komşu Mayan kent devletleri arasında bitmez tükenmez savaşlar.",
+    "option_d": "konjenital bozukluklarda keskin bir artışa yol açan iç çiftleşme uygulamaları."
+  },
+  {
+    "id": "prehistory/dev/2",
+    "instruction": "Son araştırmalar, Orta Pliyosen döneminden kalma hominid türleri üzerine işaret ediyor ki (2020 itibarıyla):",
+    "answer": "A",
+    "option_a": "Büyük miktarda tür çeşitliliği veya çok fazla çeşitlilik gösteren tek bir tür.",
+    "option_b": "Bu dönemde çok az tür çeşitliliği ve çok az hominid vardı.",
+    "option_c": "Uzun süren bir buzul çağı sonrasında şiddetli bir kuraklık nedeniyle azalmış tür çeşitliliği.",
+    "option_d": "Azalmış tür çeşitliliği fakat artmış çekiçtaşları ve talaşların sayısı, taş alet yapımını gösteriyor."
+  },
+  {
+    "id": "prehistory/dev/3",
+    "instruction": "Homo erectus'un yaklaşık ortalama kafatası kapasitesi nedir?",
+    "answer": "C",
+    "option_a": "650 cc'nin altında",
+    "option_b": "yaklaşık 800 cc",
+    "option_c": "tam olarak 1000 cc'nin altında",
+    "option_d": "1200 cc"
+  },
+  {
+    "id": "professional_accounting/dev/0",
+    "instruction": "Box adlı kar amacı gütmeyen sivil toplum kuruluşu yıl boyunca şu işlemleri gerçekleştirmiştir: Yatırım satışlarından elde edilen gelir 80000 dolar, Mülkiyet, tesis ve ekipman alımı 10000 dolar, Uzun vadeli borçtan elde edilen gelir 100000 dolar, Yatırım satışından zarar 5000 dolar. Box'ın nakit akış tablosunda finansman faaliyetlerinden elde edilen net nakit miktarı olarak ne kadar bildirilmelidir?",
+    "answer": "D",
+    "option_a": "70.000 dolar",
+    "option_b": "75.000 dolar",
+    "option_c": "80.000 dolar",
+    "option_d": "100000"
+  },
+  {
+    "id": "professional_accounting/dev/1",
+    "instruction": "Yüz yıl önce, sizin büyük büyükanneniz yıllık %5 faizle 100 dolar yatırım yaptı. Bu yatırım bugün ne kadar değerlidir?",
+    "answer": "A",
+    "option_a": "13.000 dolar",
+    "option_b": "600 dolar",
+    "option_c": "15.000 dolar",
+    "option_d": "28.000 dolar"
+  },
+  {
+    "id": "professional_accounting/dev/2",
+    "instruction": "Krete maaş gelirinden başka geliri olmayan bekâr bir vergi mükellefidir. Yıl 1'in 31 Aralık'ına kadar, Krete'nin işvereni 16.000 dolar federal gelir vergisi kesintisi yapmış ve Krete hiçbir tahmini vergi ödemesi yapmamıştır. Yıl 2'nin 15 Nisan'ında Krete, bireysel vergi beyannamesini vermek için zamanında uzatma talebinde bulunmuş ve ek olarak 300 dolar vergi ödemiştir. Krete'nin yıl 1 vergi yükümlülüğü 16.500 dolar olduğunda, yıl 2'nin 30 Nisan'ında zamanında beyannamesini vermiş ve kalan vergi yükümlülüğü dengesini ödemiştir. Tahmini vergilerin eksik ödenmesinden dolayı cezaya tabi tutulacak miktar nedir?",
+    "answer": "A",
+    "option_a": "0 dolar",
+    "option_b": "500 dolar",
+    "option_c": "1.650 dolar",
+    "option_d": "16.500 dolar"
+  },
+  {
+    "id": "professional_accounting/dev/3",
+    "instruction": "1 Ocak, yıl 1'de Alpha Co., bir yazılım sağlayıcısıyla yıllık 15.000 dolarlık bir bakım anlaşması imzaladı ve bakım dönemi 1 Mart, yıl 2'de başlıyor. Alpha, ayrıca 1 Ocak, yıl 1'de yazılımın işlevselliğini artıracak yazılım değişiklik talepleriyle ilgili 5.000 dolarlık maliyetler de karşıladı. Alpha, bilgisayar ve yazılım varlıklarını beş yıl boyunca doğrusal yöntemle amorti etmektedir. Alpha'nın, 31 Aralık, yıl 1 itibarıyla sona eren yıl için bakım anlaşması ve yazılım değişiklikleriyle ilgili olarak tanıması gereken toplam gider tutarı nedir?",
+    "answer": "B",
+    "option_a": "5.000 dolar",
+    "option_b": "13.500 dolar",
+    "option_c": "16.000 dolar",
+    "option_d": "20.000 dolar"
+  },
+  {
+    "id": "professional_accounting/dev/4",
+    "instruction": "Denetçi, ekipman üzerindeki seri numaralarını bir nonissuer'ın yardımcı defterine izler. Aşağıdakilerden hangi yönetim iddiası bu test tarafından desteklenir?",
+    "answer": "B",
+    "option_a": "Değerleme ve tahsisat",
+    "option_b": "Bütünlük",
+    "option_c": "Haklar ve yükümlülükler",
+    "option_d": "Sunum ve açıklama"
+  },
+  {
+    "id": "professional_law/dev/0",
+    "instruction": "Bir eyalet yasama organı, görevini yerine getiren bir polis memuruna karşı veya onunla ilgili olarak küfür etmeyi veya ona hakaret etmeyi veya müstehcen veya aşağılayıcı dil kullanmayı bir kabahat kılacak bir yasa çıkardı. Bir devlet üniversitesindeki bir öğrenci, savaşı protesto etmek için kampüste bir gösteri düzenledi. Mitinge 50 öğrencilik bir grup katıldı ve geçen arabalara karşı savaş karşıtı mesajlar haykırdı. Amerika Birleşik Devletleri'ne olan küçümsemesini göstermek için, öğrenci Amerikan bayrağını kot pantolonunun arkasına dikti. Bir polis memuru, öğrencinin kot pantolonuna dikilmiş bayrağı gördüğünde yanına yaklaştı ve bayrağı çıkarmasını yoksa tutuklanacağını söyledi. Öğrenci öfkelendi ve polis memuruna \"Dinle, seni herif, bu paçavrayı istediğim yerde taşırım.\" diye bağırdı. Öğrenci daha sonra tutuklandı ve eyalet yasasını ihlal etmekle suçlandı. Öğrenci daha sonra eyalet mahkemesinde yasanın anayasaya uygunluğunu sorgulayarak dava açtı. Öğrenci için en güçlü anayasal argüman şudur ki",
+    "answer": "D",
+    "option_a": "Statü, Dördüncü Değişiklik'in usulüne uygun işlem maddesine göre belirsizlik nedeniyle geçersizdir.",
+    "option_b": "Yasa, Birinci Değişiklik kapsamında dilekçe sahibinin ifade özgürlüğünü ihlal ettiği için geçersizdir.",
+    "option_c": "Bu kanun, aynı amaçla daha az kısıtlayıcı yöntemler mevcut olduğu için Birinci Değişiklik kapsamındaki ifade özgürlüğünün kısaltılmasıdır.",
+    "option_d": "Bu kanun çok geniş kapsamlı ve bu yüzden Birinci ve On Dördüncü Değişiklikler altında geçersizdir."
+  },
+  {
+    "id": "professional_law/dev/1",
+    "instruction": "Bir eyalet, eyalet içinde her türlü nükleer atığın bertaraf edilmesini yasaklayan bir yasa çıkardı. Bu yasa, herhangi bir federal yasayla çelişmiyor veya çatışmıyor. Bir adam, eyalette nükleer atık bertarafıyla uğraşan bir şirket işletiyor. Eyalet yasası çıktıktan sonra adam, yeni yasadan henüz haberdar olmadan, eyaletteki nükleer atıklarını bertaraf etmek üzere birçok dış eyalet firmasıyla sözleşmeler yaptı. Ancak bu yeni yasa nedeniyle, adam bu sözleşmeleri yerine getiremeyecek. Adamın bu eyalet yasasını sorgulama hakkı olduğunu varsayalım. Aşağıdakilerden hangisi, adamın eyalet içinde nükleer atık bertarafını yasaklayan eyalet yasasına meydan okuması için en güçlü anayasal gerekçeyi sunar?",
+    "answer": "A",
+    "option_a": "Ticaret maddesi.",
+    "option_b": "On Dördüncü Değişiklik eşit koruma maddesi.",
+    "option_c": "Madde IV, Bölüm 2'nin ayrıcalıklar ve dokunulmazlıklar maddesi.",
+    "option_d": "Sözleşme maddesi."
+  },
+  {
+    "id": "professional_law/dev/2",
+    "instruction": "Yargıç, duruşmanın başında bazı gerçekleri yargısal olarak kabul etti. Aşağıdakilerden hangisi yargısal kabul için uygun olmayan bir gerçek türüdür?",
+    "answer": "B",
+    "option_a": "Tartışmasız gerçekler.",
+    "option_b": "Bireysel politik örgütler tarafından ileri sürülen gerçekler.",
+    "option_c": "Genel bilgi ile doğru kabul edilen gerçekler.",
+    "option_d": "Bilimsel doğrulamaya uygun gerçekler."
+  },
+  {
+    "id": "professional_law/dev/3",
+    "instruction": "1 Ekim 1980'de, kırsal bir ilçedeki birkaç yüz dönüm arazinin sahibi olan bir geliştirici, bölge için genel bir gelişim planı hazırladı. Düzgün kaydedilmiş plan, geliştirilecek olan konut bölgesi olarak planlanan arazide ayrıntılı sınırlamalar ve kısıtlamalar getirdi. Kısıtlamalar, arazinin herhangi bir parçasını edinen tüm kişilere ve onların mirasçılarına, devralanlarına ve kiracılarına uzanacaktı. Ayrıca, tüm sonraki sahiplerin kısıtlamalardan haberdar edilmiş olacağı belirtildi. Genel plandaki kısıtlamalardan bazıları şunlardır: (22) Her parselin arkasında 10 feet genişliğinde bir şeritte kamu hizmeti şirketlerinin giriş ve çıkış hakkı ile kullanımı için bir franchise hakkı yaratılmıştır. (23) Söz konusu bloklardan geçen anılan şerit arazide herhangi bir ev ya da yapı türü inşa edilmeyecektir. 2000 yılında bir emekli, bu parsellerden birini satın aldı, bir ev yaptı ve mülkünün arka tarafında kısıtlı alana bir çit dikti. 2004 yılında bir öğretmen, emeklinin mülküne bitişik bir arsa satın aldı ve yeni bir ev yaptı. İki yıl sonra, bir kütüphaneci öğretmenin mülküne bitişik olan parseli satın aldı. Bu mülklerin üçüne ait tapular, genel planın kaydedildiği tapu defterine atıflar içeriyordu. 2008 yılında kütüphaneci, kendi arsasını öğretmenin arsasıyla ayıran çizgi boyunca ve franchise hakkına tabi alanın merkezi boyunca yedi feet yüksekliğinde bir direk ve raylı çit inşa etmeye başladı. Öğretmen inşasına itiraz etmesine rağmen, çit tamamlandı. Eğer öğretmen, kütüphanecinin çitini",
+    "answer": "B",
+    "option_a": "Rahatlık sağla, çünkü çit, geçit hakkı kısıtlamasını ihlal ediyordu.",
+    "option_b": "Rahatlık sağla, çünkü çitin taşması orijinal plandaki kısıtlamayı ihlal etti.",
+    "option_c": "Rahatlamayı reddet, çünkü öğretmen emekliye karşı kısıtlamayı uygulamada başarısız oldu.",
+    "option_d": "Rahatlama talebini reddet, çünkü çit, kısıtlamanın şartları dahilinde \"bir yapı\" olarak yorumlanmayacaktır."
+  },
+  {
+    "id": "professional_law/dev/4",
+    "instruction": "Bir oğul, bir alacaklıya 5.000 dolar borçluydu. Oğlunun babası alacaklıyla iletişime geçti ve oğlunun borcunu ödemek istediğini söyledi. Baba, oğlunun borcunu 10 ay boyunca aylık 500 dolar ödeyerek ödeyeceğini belirten bir belge imzaladı. Alacaklı, oğlun 5.000 dolarlık borcunu tahsil etmek için dava açmaktan kaçınmak için herhangi bir yazılı ya da sözlü taahhütte bulunmadı ve baba da böyle bir erteleme için herhangi bir sözlü ya da yazılı talepte bulunmadı. Sonraki beş ay boyunca, baba sözleşmede anlaşıldığı üzere aylık 500 dolarlık ödemeleri yaptı ve alacaklı bu ödemeleri kabul etti. Bu süre zarfında, alacaklı gerçekten oğula karşı herhangi bir yasal işlem başlatmaktan kaçındı. Ancak, baba daha sonra alacaklıya borca ilişkin daha fazla ödeme yapmayacağını bildirdi. Baba ile alacaklı arasındaki anlaşmanın şartlarına göre babanın alacaklıya karşı sorumlu olduğu en ikna edici argüman aşağıdakilerden hangisidir?",
+    "answer": "A",
+    "option_a": "Babanın sözü ve alacaklının buna dayalı güveni, kanıtlanırsa, promissory estoppel doktrini temelinde alacaklının babaya karşı geçerli bir talep doğurur.",
+    "option_b": "Babanın vaadinin alacaklının oğula karşı herhangi bir işlem yapmaktan kaçınmasını teşvik edeceği öngörülebilir olduğundan, böyle bir kaçınma, hukuk açısından, babanın vaadi için pazarlıkla sağlanmış bir karşılıktı.",
+    "option_c": "Babanın alacaklıya toplamda 2.500 dolar tutarında beş ödeme yapması, babanın sözleşmeye bağlı olma konusunda ciddi bir niyet gösterdiğini ve böyle bir niyet gösteriminin genellikle karşılık için etkili bir yerine geçme olarak tanındığını ortaya koymaktadır.",
+    "option_d": "Oğlunun alacaklıya olan önceki borç yükümlülüğünü üstlenerek, babası, yazılı olarak yapılmış ve yeterli karşılıkla desteklenmiş olduğundan, alacaklıya karşı taahhüdü icra edilebilir bir kefil haline geldi."
+  },
+  {
+    "id": "professional_medicine/dev/0",
+    "instruction": "42 yaşında bir adam, 2 hafta sonra yapılacak adrenalektomi ameliyatı öncesi ameliyat öncesi değerlendirme için ofise gelir. Bir ay önce, bir motorlu taşıt kazasının ardından sağ flankında ağrı nedeniyle acil serviste tedavi görmüştü. O sırada kan basıncı 160/100 mm Hg idi ve karın bölgesinin BT taraması, tesadüfen 10 cm boyutunda sol adrenal kitleyi göstermişti. Tam kan sayımı, serum elektrolit konsantrasyonları ve karaciğer fonksiyon testleri de dahil olmak üzere laboratuvar çalışmalarının sonuçları referans aralıklarının içindeydi. Hasta aksi halde sağlıklıydı ve daha önce yüksek kan basıncı olduğu söylenmemişti. Herhangi bir ilaç kullanmıyor. Ofiste 2 hafta önce yapılan takip ziyaretinde, yükselmiş idrarda normetanefrin ve metanefrin ve plazma aldosteron konsantrasyonları saptandı. Hasta bir cerraha yönlendirildi ve cerrah adrenalektomiyi önerdi. Bugün vital bulgular şu şekildedir: 36,6°C (97,9°F) sıcaklık, nabız 100/dk, solunum 14/dk ve kan basıncı 170/95 mm Hg. Fiziksel muayene önemli bir bulgu göstermiyor. İlk ameliyat öncesi hazırlık aşağıdakilerden hangi tedaviyi içermelidir?",
+    "answer": "D",
+    "option_a": "Labetalol",
+    "option_b": "Potasyum klorür yükleme dozu",
+    "option_c": "Nifedipin",
+    "option_d": "Fenoksibenzamin"
+  },
+  {
+    "id": "professional_medicine/dev/1",
+    "instruction": "36 yaşında bir erkek hasta, 3 haftalık düşük bel ağrısı öyküsüyle ofise başvuruyor. Herhangi bir yakın travma reddediyor ancak işi gereği gün boyunca kamyonuna defalarca iniş çıkış yaptığını belirtiyor. Hastanın yüzükoyun pozisyonda muayenesinde sol tarafta derin bir sakral oluk, sağda posterior inferior lateral açı ve kompresyonda serbestçe yay veren bir lumbosakral kavşak saptanıyor. En olası tanı şudur:",
+    "answer": "D",
+    "option_a": "sol-üst sol sakral torsiyon",
+    "option_b": "sol-üzeri-sağ sakral torsiyon",
+    "option_c": "sağ unilateral sakral fleksiyon",
+    "option_d": "sağdan sağa sakral torsiyon"
+  },
+  {
+    "id": "professional_medicine/dev/2",
+    "instruction": "Daha önce sağlıklı olan 32 yaşındaki bir kadın, kocası bir araba kazasında öldükten sonra 8 ay sonra doktora başvuruyor. O zamandan beri iştahında azalma ve uykuya dalamama zorluğu yaşamış. Sık sık üzgün olduğunu ve sık sık ağladığını belirtiyor. Evinin kapı kilidini beş kez kontrol ediyor ve tuvalet kağıdını kullanmadan önce tam olarak beş parça saymak zorunda hissediyor. Her zaman mükemmeliyetçi biri olduğunu ama bu dürtülerin ve ritüellerin yeni olduğunu söylüyor. Farmakoterapi aşağıdaki nörotransmitterlerden hangisine hedeflenmelidir?",
+    "answer": "D",
+    "option_a": "Dopamin",
+    "option_b": "Glutamat",
+    "option_c": "Norepinefrin",
+    "option_d": "Serotonin"
+  },
+  {
+    "id": "professional_medicine/dev/3",
+    "instruction": "44 yaşındaki bir adam, üç günlük boğaz ağrısı, üretken olmayan öksürük, burun akıntısı ve frontal baş ağrısı öyküsüyle ofise gelir. Baş ağrısının sabahları daha kötü olduğunu ve ibuprofenin biraz rahatlama sağladığını söylüyor. Nefes darlığı yaşamamış. Tıbbi özgeçmişi dikkate değer değil. İbuprofen dışında ağrı için başka ilaç kullanmıyor. Hayati bulguları 37,4°C (99,4°F) sıcaklık, 88/dakika nabız, 18/dakika solunum ve 120/84 mm Hg kan basıncı. Nares muayenesinde eritematöz mukoz membranlar görülür. Boğaz muayenesinde posterior orofarenkste eritem ve folliküler lenfoid hiperplazi görülür. Palpe edilebilir servikal adenopati yok. Akciğerler auskültasyona göre temiz. Bu hastanın semptomlarının en olası nedeni aşağıdakilerden hangisidir?",
+    "answer": "D",
+    "option_a": "Alerjik rinit",
+    "option_b": "Epstein-Barr virüsü",
+    "option_c": "Mycoplasma pneumoniae",
+    "option_d": "Rhinovirüs"
+  },
+  {
+    "id": "professional_medicine/dev/4",
+    "instruction": "22 yaşında erkek maraton koşucusu, uzun mesafeler koştuğunda sağ tarafta kaburga ağrısı şikayetiyle ofise başvurmuştur. Fiziksel muayenede kalp ve akciğer bulguları normal olup, sağ tarafta 4-5. kaburgalarda ekshalasyon disfonksiyonu saptanmıştır. Doğrudan bir yöntem kullanarak bu disfonksiyonu düzeltmede en faydalı olacak kas veya kas grupları aşağıdakilerden hangisidir?",
+    "answer": "C",
+    "option_a": "ön skalen",
+    "option_b": "latissimus dorsi",
+    "option_c": "pektoralis minor",
+    "option_d": "quadratus lumborum"
+  },
+  {
+    "id": "professional_psychology/dev/0",
+    "instruction": "Terapi müşterilerinizden biri sizden iyi bir kilo verme programı hakkında tavsiye istiyor. Toplulukta bulunan programları araştırdınız ve en iyisi olarak düşündüğünüz bir programda kayıtlısınız. Bu program, programlarına yeni bir kişi getiren her müşteri için 50 dolar bonus teklif ediyor. Bu şartlar altında, en uygun yanıtınız şu olacaktır:",
+    "answer": "D",
+    "option_a": "Müşterinize kayıtlı olduğunuz program dışındaki her programın artılarını ve eksilerini anlatın.",
+    "option_b": "Müşterinize kayıtlı olduğunuz programı önerin ve alacağınız 50 dolarlık bonusu açıklayın.",
+    "option_c": "Müşterinize kayıtlı olduğunuz programı önerin ve programdaki hesabına 50 dolarlık bonusun yüklenmesini teklif edin.",
+    "option_d": "Müşterinize bildiğiniz her programın avantajlarını ve dezavantajlarını anlatın, ancak müşteriniz sizin programınıza kaydolursa 50 dolarlık bonusu talep etmeyin."
+  },
+  {
+    "id": "professional_psychology/dev/1",
+    "instruction": "Merkezi Eğilimi ölçmenin üç yolu vardır: Ortalama, Medyan ve Mod. Bildiklerinizden, mod nedir?",
+    "answer": "D",
+    "option_a": "Ortalamadan daha az aşırı skorlara duyarlı",
+    "option_b": "eğri dağılımlar için daha faydalı",
+    "option_c": "aşırı değerlere ve oldukça çarpık dağılımlara duyarlı",
+    "option_d": "en çok tekrar eden sayı"
+  },
+  {
+    "id": "professional_psychology/dev/2",
+    "instruction": "Hofstede'nin (1980) beş kültürel boyutu açısından, Amerika Birleşik Devletleri ölçeğin en üstünde yer alır:",
+    "answer": "A",
+    "option_a": "bireycilik",
+    "option_b": "bireycilik ve güç mesafesi.",
+    "option_c": "güç mesafesi ve maskülenlik.",
+    "option_d": "Belirsizlikten kaçınma."
+  },
+  {
+    "id": "professional_psychology/dev/3",
+    "instruction": "Bir tahmin amacıyla çoklu regresyon denkleminin oluşturulmasında, öngörücülerin en uygun kombinasyonu bir kombinasyondur.",
+    "answer": "A",
+    "option_a": "birbiriyle ilişkisiz ancak ölçütle orta derecede ilişkilidir.",
+    "option_b": "birbirleriyle düşük korelasyona sahip olup ölçüt ile de düşük korelasyona sahipler",
+    "option_c": "kendi aralarında oldukça yüksek oranda birbiriyle ilişkilidir ve ölçütle orta düzeyde ilişkilidir",
+    "option_d": "kriterle düşük korelasyonları vardır ama birbirleriyle orta düzeyde korele olurlar"
+  },
+  {
+    "id": "public_relations/dev/0",
+    "instruction": "Bir halkla ilişkiler medya uzmanı, bir gazetecinin sorusunun cevabını bilmiyorsa ne yapmalıdır?",
+    "answer": "C",
+    "option_a": "Muhabire kesinlikle doğru olduğundan emin olduğu diğer bilgileri verin.",
+    "option_b": "Bilginin 'resmi olmayan' olduğunu ve daha sonra yayılacağını söyle.",
+    "option_c": "Ben bilmiyorum de ve daha sonra bilgi sağlayacağına söz ver.",
+    "option_d": "Bilgisiz görünmek yerine, 'yorum yok' deyin."
+  },
+  {
+    "id": "public_relations/dev/1",
+    "instruction": "Sorun yönetiminde, organizasyonunuz hakkında çevrimiçi olarak yayınlanan olumsuz veya yanıltıcı bilgilere karşı en proaktif yaklaşım nedir?",
+    "answer": "D",
+    "option_a": "Muhalefet grupları tarafından kullanılabilir olabilecek alan adlarını satın alın.",
+    "option_b": "Bloglarda anonim yorumlar yaparak bu bilgiyle mücadele edin.",
+    "option_c": "Yanlış bilgileri çürütecek bir basın bülteni hazırlayın.",
+    "option_d": "Bu sitelerde öne çıkan şikayetleri ele almak için politika değişiklikleri yapın."
+  },
+  {
+    "id": "public_relations/dev/2",
+    "instruction": "Bu ifadelerden hangisi 2010 yılında, çocuk istismarı örtbas etme suçlamalarının yapıldığı zaman Vatikan için doğrudur?",
+    "answer": "C",
+    "option_a": "Koordineli bir medya yanıtı vardı.",
+    "option_b": "Tutarlı mesajlar iletilmiştir.",
+    "option_c": "Eleştiriler, Katolik Kilisesi'ne yapılan saldırılar olarak algılandı.",
+    "option_d": "Vatikan'ın güvenilirliği korundu."
+  },
+  {
+    "id": "public_relations/dev/3",
+    "instruction": "Planlama sürecinin hangi aşamasında durum analizi yapılır?",
+    "answer": "A",
+    "option_a": "Programı tanımlamak",
+    "option_b": "Programı planlama",
+    "option_c": "Eyleme geçmek ve fikirleri uygulamak",
+    "option_d": "Programın değerlendirilmesi"
+  },
+  {
+    "id": "public_relations/dev/4",
+    "instruction": "Dünya Saati hangi organizasyon tarafından başlatılan bir kampanyaydı?",
+    "answer": "D",
+    "option_a": "Greenpeace",
+    "option_b": "Birleşmiş Milletler",
+    "option_c": "Oxfam",
+    "option_d": "Dünya Doğayı Koruma Vakfı"
+  },
+  {
+    "id": "security_studies/dev/0",
+    "instruction": "Zorlayıcı diplomasiyi askeri güçten ayıran nedir?",
+    "answer": "B",
+    "option_a": "Zorlayıcı diplomasi için başka bir terim olan caydırıcılık, daha dar bir kriterler topluluğunu kapsar; caydırıcılık, düşman eylemini başlatmayı amaçlayan tehditleri kapsar. Bir devleti topraklarının bir bölümünden vazgeçmeye zorlayacak bir tehdit, bu tehdit proaktif bir şekilde eylemi başlatıyor ve reaktif diplomasiye başvurulmadan önce yapılıyorsa zorlayıcı diplomasi olarak kabul edilir.",
+    "option_b": "Zorlayıcı diplomasi, düşmanın zorlayıcının taleplerine uyma isteğini artırmak için sınırlı güç tehditlerinden oluşur. Uyumu sağlamak için tasarlanmış bir etki stratejisidir: öncelikle bir rakibi yenmek için güç kullanımı sayılmaz. Hedefe uyma veya devam etme seçeneği bırakır.",
+    "option_c": "Askeri güç veya askeri gücün tehdidi, stratejik hedeflere ulaşmak için korkuyu kullanır. Zorlayıcı diplomasi bu yaklaşımdan farklıdır, çünkü bir rakibi zorlamak için korku aracı olarak kullanılmaz.",
+    "option_d": "Zorlayıcı diplomasi, güç kullanmak için kullanılır ancak etkilerini uluslararası topluluk üzerinde sınırlamak için tasarlanmıştır. Zorlayıcı diplomasi, boyun eğdirme yoluyla uyum sağlamayı amaçlayan agresif bir stratejidir. Hedefe seçim şansı bırakmaz, hedef ya boyun eğmeye zorlanır ya da çatışmaya girmek zorunda kalır. Uzlaşma veya taviz verme olanağını ortadan kaldırarak uyumu zorla sağlamaya çalışır."
+  },
+  {
+    "id": "security_studies/dev/1",
+    "instruction": "Aşağıdakilerden hangisi çocuk askerlerin rolünü araştırmak için en iyi mercek olarak kullanılır?",
+    "answer": "D",
+    "option_a": "Çocuk askerler, yeniden eğitim ve rehabilitasyon gerektiren savaş kurbanlarıdır.",
+    "option_b": "Çocuklar ve anneleri savaşta aktif özneler değildir ve en iyi özel alanda özneler olarak değerlendirilirler.",
+    "option_c": "Savaşta çocuklar en sık masum sivillerdir ve barışın simgeleri olarak en iyi şekilde kullanılırlar.",
+    "option_d": "Çocuklar, savaşın pasif kurbanları olarak görüldüklerinde gözden kaçan bir politik öznelliğe sahiptir."
+  },
+  {
+    "id": "security_studies/dev/2",
+    "instruction": "Bir tehdidin güvenlikleştirilmesi için hangi yollardan biriyle sunulması gerekmektedir?",
+    "answer": "C",
+    "option_a": "Devletin hayatta kalmasına veya toplumsal güvenliğe tehdit oluşturarak, acil ve olağanüstü eylem gerektiren varoluşsal bir tehdit olarak.",
+    "option_b": "Devlet tarafından acil ve olağanüstü eylem gerektiren, bir referans nesnenin hayatta kalmasını tehdit eden ve bu nedenle siyasi alanda normalde kullanılmayan önlemlerin kullanılmasını haklı çıkaran.",
+    "option_c": "Referans nesnesinin hayatta kalması için acil bir tehdit olarak, o kadar ciddi ki olağanüstü eylemlerin uygulanmasını meşru kılar.",
+    "option_d": "Seyircinin hayatta kalması için olağanüstü veya acil durum önlemleri gerektiren acil bir tehdit olarak."
+  },
+  {
+    "id": "security_studies/dev/3",
+    "instruction": "Devlet merkezli yaklaşım ile insan güvenliği kavramı arasındaki ilişki en iyi nasıl tanımlanabilir?",
+    "answer": "B",
+    "option_a": "İnsan güvenliği çerçevesi içinde tehditlerin ve referans nesnelerinin doğası konusunda o kadar geniş ayrılıklar vardır ki, devlet merkezli yaklaşımlar ile insan güvenliği arasında geniş çapta uygulanabilir karşılaştırmalar çizilemez.",
+    "option_b": "İnsan güvenliği çerçevesini benimseyerek, realist devlet-merkezli yaklaşımın sınırlılıkları açık hale gelir. İnsan güvenliği, referans nesnesini kişi veya nüfus olarak tanımlarken, devlet-merkezli yaklaşımlar devletin güvenliğini önceliklendirir ve insan güvenliğinin peşinden gitmeyi ikincil plana atar.",
+    "option_c": "Devlet merkezli güvenlik yaklaşımı, genellikle insan güvenliği geniş okulu içinde tanımlanan insan güvenliğinin bir fraksiyonudur. Devlet merkezli olmasıyla bu yaklaşım, güvenlik çalışmalarında referans nesne olarak bireyi önceliklendirir.",
+    "option_d": "Devlet-merkezli ve insan-merkezli güvenlik yaklaşımları karşılıklı olarak dışlayıcıdır ve uluslararası güvenlik sistemini anlamak için yeterli bir analitik çerçeve sunar. Bu nedenle, güvenlik analistlerinin bu önemli kavramlardan hangisinin doğru olduğuna ve hangisinin göz ardı edilmesi gerektiğine karar vermek rolüdür."
+  },
+  {
+    "id": "sociology/dev/0",
+    "instruction": "1948 sonrası refah devletinin aşağıdakilerden hangisini sağlamayı amaçlamamıştır:",
+    "answer": "B",
+    "option_a": "tümü için ücretsiz sağlık hizmeti ve eğitim",
+    "option_b": "asgari ücret",
+    "option_c": "tam istihdam",
+    "option_d": "evrensel refah"
+  },
+  {
+    "id": "sociology/dev/1",
+    "instruction": "Berger (1963) sosyal gerçeklik için hangi metaforu kullanmıştır?",
+    "answer": "C",
+    "option_a": "panayır eğlencesi",
+    "option_b": "bir sirk",
+    "option_c": "kukla tiyatrosu",
+    "option_d": "bir bale"
+  },
+  {
+    "id": "sociology/dev/2",
+    "instruction": "'Medeni din'den 'ortak din'e geçiş şu anlama gelmektedir:",
+    "answer": "B",
+    "option_a": "devletin artan bürokrasisi, dini hayatımızın sadece marjinal bir parçası haline getirdi",
+    "option_b": "Geleneksel otoritenin zayıflamasına rağmen, günlük hayatlarımız ve 'sağduyu' hala dini inançlar ve değerler tarafından şekillendirilmekte.",
+    "option_c": "Toplu ibadetteki dini katılım azalmış olabilir, ama insanlar hala inançlarını özel olarak yaşamaya devam ediyorlar",
+    "option_d": "İnsanlar dini inançlarını kamusal, gayri resmi ortamlarda tartışmaya çok daha meyillidir."
+  },
+  {
+    "id": "sociology/dev/3",
+    "instruction": "Terim 'hejemonya' şunu ifade eder:",
+    "answer": "B",
+    "option_a": "işçi sınıfının kendi çıkarlarını fark etmeme eğilimi",
+    "option_b": "Ekonomik, politik ve kültürel gücü meşrulaştıran baskın bir ideoloji",
+    "option_c": "ideoloji ve günlük deneyimlere dayalı bir tür çifte bilinç formu",
+    "option_d": "Ödenmemiş topiary için verilen bir ödeme şekli"
+  },
+  {
+    "id": "sociology/dev/4",
+    "instruction": "Aşağıdakilerden hangisi resmi grev istatistikleriyle ilişkili bir sorun değildir?",
+    "answer": "A",
+    "option_a": "Çoğu grev işverenler ve ana akım medya tarafından fark edilmez.",
+    "option_b": "Tüm endüstriyel uyuşmazlıklar işveren tarafından rapor edilmeyecek.",
+    "option_c": "Grev tanımı, ondan az işçiyi kapsayan veya bir günden az süren grevleri hariç tutar.",
+    "option_d": "Farklı yollarla ölçülen grevleri karşılaştırmak zordur."
+  },
+  {
+    "id": "us_foreign_policy/dev/0",
+    "instruction": "2008 finansal krizi Amerika'nın uluslararası itibarını nasıl etkiledi?",
+    "answer": "A",
+    "option_a": "ABD'nin politik ekonomi ve kapitalizm modeline olan desteği zayıflattı",
+    "option_b": "Bu, krizi abartmakla Amerika Birleşik Devletleri'ne karşı öfke yarattı.",
+    "option_c": "Obama'nın başkanlığı altında Amerikan küresel liderliğine olan desteği artırdı",
+    "option_d": "Dünya genelinde ABD dolarının kullanımını azalttı"
+  },
+  {
+    "id": "us_foreign_policy/dev/1",
+    "instruction": "Amerika Birleşik Devletleri ile dünyanın geri kalanı arasındaki ilişkilerle esas olarak ilgilenen politika kararları alanı olarak bilinir.",
+    "answer": "C",
+    "option_a": "terörizm politikası",
+    "option_b": "ekonomik politika",
+    "option_c": "dış politika",
+    "option_d": "uluslararası politika."
+  },
+  {
+    "id": "us_foreign_policy/dev/2",
+    "instruction": "Savunmacı Gerçekçilik ile Saldırgan Gerçekçilik, devlet davranışını açıklamada birbirlerinden nasıl farklılık gösterir?",
+    "answer": "D",
+    "option_a": "Savunmacı gerçekçiler, uluslararası kurumların rolüne daha fazla vurgu yaparlar",
+    "option_b": "Defansif gerçekçiler coğrafi faktörlere daha az vurgu yaparlar.",
+    "option_c": "Saldırgan gerçekçiler, savunmacı gerçekçilere göre ulusal çıkarlara daha fazla öncelik verirler.",
+    "option_d": "Defansif realistler devletlerin güvenlik maksimize ediciler olduğuna inanırken, Ofansif realistler devletlerin güç maksimize ediciler olduğuna inanır."
+  },
+  {
+    "id": "us_foreign_policy/dev/3",
+    "instruction": "2016 kampanyasında Donald Trump küreselleşmeye nasıl saldırdı?",
+    "answer": "C",
+    "option_a": "Küreselleşme onun gibi adamları çok zengin yapmıştı.",
+    "option_b": "Küreselleşme sadece New York gibi belirli Amerikan eyaletlerine yarar sağladı.",
+    "option_c": "Liberal elitler küreselleşmeyi teşvik etmişti, oysa 'sıradan Amerikalılar' işlerini bu yüzden kaybettiler.",
+    "option_d": "Küreselleşme zarar verici ticaret savaşlarını teşvik etti."
+  },
+  {
+    "id": "virology/dev/0",
+    "instruction": "Neden parvovirüsler oldukça etkili bir parazittir?",
+    "answer": "A",
+    "option_a": "Çünkü onların nükleik asidi yok",
+    "option_b": "Onlar bir yardımcı virüse ihtiyaç duyarlar.",
+    "option_c": "Yalnızca bölünen hücrelerde çoğalır",
+    "option_d": "Ev sahibi kromozomlarına entegre olabilir"
+  },
+  {
+    "id": "virology/dev/1",
+    "instruction": "Aşağıdakilerden hangisi paramiksoviruslerin morfolojik bir özelliğidir?",
+    "answer": "A",
+    "option_a": "Kırılgan virüsler sıklıkla RNA'nın içten dışarı fışkırdığı şekilde görselleştirilir.",
+    "option_b": "Uzamış virüsler",
+    "option_c": "Kılıflı ikozahedral virüsler",
+    "option_d": "Çok büyük virüsler"
+  },
+  {
+    "id": "virology/dev/2",
+    "instruction": "MACS'den yuvalanmış vaka-kontrol çalışmalarının uygulanmasını kolaylaştıran ana faktör şuydu:",
+    "answer": "B",
+    "option_a": "Veri toplama",
+    "option_b": "Biyolojik örneklerin depolanması için bir depo kurulması",
+    "option_c": "Katılımcı ilgisi",
+    "option_d": "Anketin personel tarafından uygulanması"
+  },
+  {
+    "id": "virology/dev/3",
+    "instruction": "Davranışsal müdahalenin en önemli amacı:",
+    "answer": "D",
+    "option_a": "Davranış değişikliği",
+    "option_b": "Kapsamlı kapsama",
+    "option_c": "Davranış teorisinin etkili kullanımı",
+    "option_d": "Sürdürülebilir davranış değişikliği"
+  },
+  {
+    "id": "virology/dev/4",
+    "instruction": "AIDS ve ölüme kadar olan medyan hayatta kalma süresi, aşağıdakileri takip ederek belirlendi:",
+    "answer": "C",
+    "option_a": "Seroprevalanslı HIV enfekte bireyler",
+    "option_b": "Seronegatifler",
+    "option_c": "Seroconverterlar",
+    "option_d": "Yüksek riskli seronegatifler"
+  },
+  {
+    "id": "world_religions/dev/0",
+    "instruction": "Yahudi erkekler için antlaşmanın işareti nedir?",
+    "answer": "B",
+    "option_a": "Gökkuşağı",
+    "option_b": "Sünnet",
+    "option_c": "Bir oğul",
+    "option_d": "Bar Mitzva"
+  },
+  {
+    "id": "world_religions/dev/1",
+    "instruction": "Budizm'de İkinci Mücevher nedir?",
+    "answer": "A",
+    "option_a": "Dharma",
+    "option_b": "Sangha",
+    "option_c": "Buda",
+    "option_d": "Bodhisattva"
+  },
+  {
+    "id": "world_religions/dev/2",
+    "instruction": "Hangi hanedanlıkta \"Gök Mandası\" yeni hükümdarları meşrulaştırmak için geliştirildi?",
+    "answer": "B",
+    "option_a": "Şang",
+    "option_b": "Zhou",
+    "option_c": "Han",
+    "option_d": "Xia"
+  },
+  {
+    "id": "world_religions/dev/3",
+    "instruction": "Hangi Japon hükümeti, imparator ve onun kami ile olan ilişkilerine dayanan bir tür ulusal kültü desteklemiştir?",
+    "answer": "D",
+    "option_a": "Honen\" is a proper noun and would typically not be translated into Turkish. It would remain \"Honen.",
+    "option_b": "Tanaka",
+    "option_c": "Tokugawa",
+    "option_d": "Meiji"
+  },
+  {
+    "id": "world_religions/dev/4",
+    "instruction": "Upanişadlar nasıl nitelendirilebilir?",
+    "answer": "B",
+    "option_a": "Ritüel metinleri",
+    "option_b": "Felsefi metinler",
+    "option_c": "İlahiler",
+    "option_d": "Köken hikayeleri"
+  }
+]

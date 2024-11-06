@@ -1,0 +1,229 @@
+{
+  "results": {
+    "hellaswag_en": {
+      "alias": "hellaswag_en",
+      "acc,none": 0.4402220324508967,
+      "acc_stderr,none": 0.00512912788655744,
+      "acc_norm,none": 0.5872117847993168,
+      "acc_norm_stderr,none": 0.005086988622941016
+    },
+    "hellaswag_id": {
+      "alias": "hellaswag_id",
+      "acc,none": 0.26272278290745116,
+      "acc_stderr,none": 0.0045605736461598895,
+      "acc_norm,none": 0.2721709254885119,
+      "acc_norm_stderr,none": 0.00461201555860966
+    },
+    "hellaswag_zh": {
+      "alias": "hellaswag_zh",
+      "acc,none": 0.33617526440751133,
+      "acc_stderr,none": 0.00490780028287923,
+      "acc_norm,none": 0.4255342110943233,
+      "acc_norm_stderr,none": 0.005136610248434561
+    }
+  },
+  "group_subtasks": {
+    "hellaswag_en": [],
+    "hellaswag_id": [],
+    "hellaswag_zh": []
+  },
+  "configs": {
+    "hellaswag_en": {
+      "task": "hellaswag_en",
+      "tag": [
+        "hellaswag_multilingual"
+      ],
+      "dataset_path": "alexandrainst/m_hellaswag",
+      "dataset_name": "en",
+      "validation_split": "val",
+      "process_docs": "def process_docs(dataset: datasets.Dataset) -> datasets.Dataset:\n    def _process_doc(doc):\n        ctx = doc[\"ctx_a\"] + \" \" + doc[\"ctx_b\"].capitalize()\n        out_doc = {\n            \"query\": preprocess(doc[\"activity_label\"] + \": \" + ctx),\n            \"choices\": [preprocess(ending) for ending in doc[\"endings\"]],\n            \"gold\": int(doc[\"label\"]),\n        }\n        return out_doc\n\n    return dataset.map(_process_doc)\n",
+      "doc_to_text": "query",
+      "doc_to_target": "{{label.lstrip()}}",
+      "doc_to_choice": "choices",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 10,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "hellaswag_id": {
+      "task": "hellaswag_id",
+      "tag": [
+        "hellaswag_multilingual"
+      ],
+      "dataset_path": "alexandrainst/m_hellaswag",
+      "dataset_name": "id",
+      "validation_split": "val",
+      "process_docs": "def process_docs(dataset: datasets.Dataset) -> datasets.Dataset:\n    def _process_doc(doc):\n        ctx = doc[\"ctx_a\"] + \" \" + doc[\"ctx_b\"].capitalize()\n        out_doc = {\n            \"query\": preprocess(doc[\"activity_label\"] + \": \" + ctx),\n            \"choices\": [preprocess(ending) for ending in doc[\"endings\"]],\n            \"gold\": int(doc[\"label\"]),\n        }\n        return out_doc\n\n    return dataset.map(_process_doc)\n",
+      "doc_to_text": "query",
+      "doc_to_target": "{{label.lstrip()}}",
+      "doc_to_choice": "choices",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 10,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "hellaswag_zh": {
+      "task": "hellaswag_zh",
+      "tag": [
+        "hellaswag_multilingual"
+      ],
+      "dataset_path": "json",
+      "dataset_kwargs": {
+        "data_files": {
+          "train": "/root/work/huangxin/nanda/Megatron-LM/llamamoe/eval/data/hellaswag_zh_validation.jsonl"
+        }
+      },
+      "validation_split": "train",
+      "process_docs": "def process_docs(dataset: datasets.Dataset) -> datasets.Dataset:\n    def _process_doc(doc):\n        ctx = doc[\"ctx_a\"] + \" \" + doc[\"ctx_b\"].capitalize()\n        out_doc = {\n            \"query\": preprocess(doc[\"activity_label\"] + \": \" + ctx),\n            \"choices\": [preprocess(ending) for ending in doc[\"endings\"]],\n            \"gold\": int(doc[\"label\"]),\n        }\n        return out_doc\n\n    return dataset.map(_process_doc)\n",
+      "doc_to_text": "query",
+      "doc_to_target": "{{label.lstrip()}}",
+      "doc_to_choice": "choices",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 10,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    }
+  },
+  "versions": {
+    "hellaswag_en": 1.0,
+    "hellaswag_id": 1.0,
+    "hellaswag_zh": 1.0
+  },
+  "n-shot": {
+    "hellaswag_en": 10,
+    "hellaswag_id": 10,
+    "hellaswag_zh": 10
+  },
+  "higher_is_better": {
+    "hellaswag_en": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "hellaswag_id": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "hellaswag_zh": {
+      "acc": true,
+      "acc_norm": true
+    }
+  },
+  "n-samples": {
+    "hellaswag_zh": {
+      "original": 9266,
+      "effective": 9266
+    },
+    "hellaswag_id": {
+      "original": 9314,
+      "effective": 9314
+    },
+    "hellaswag_en": {
+      "original": 9368,
+      "effective": 9368
+    }
+  },
+  "config": {
+    "model": "hf",
+    "model_args": "pretrained=/root/work/huangxin/ckpts/cm_3B,dtype=bfloat16",
+    "model_num_parameters": 3142732800,
+    "model_dtype": "torch.bfloat16",
+    "model_revision": "main",
+    "model_sha": "",
+    "batch_size": "24",
+    "batch_sizes": [],
+    "device": "cuda:0",
+    "use_cache": null,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "gen_kwargs": null,
+    "random_seed": 0,
+    "numpy_seed": 1234,
+    "torch_seed": 1234,
+    "fewshot_seed": 1234
+  },
+  "git_hash": null,
+  "date": 1727511601.627549,
+  "pretty_env_info": "PyTorch version: 2.3.1+cu121\nIs debug build: False\nCUDA used to build PyTorch: 12.1\nROCM used to build PyTorch: N/A\n\nOS: Ubuntu 18.04.6 LTS (x86_64)\nGCC version: (conda-forge gcc 11.4.0-13) 11.4.0\nClang version: Could not collect\nCMake version: version 3.10.2\nLibc version: glibc-2.27\n\nPython version: 3.10.0 (default, Mar  3 2022, 09:58:08) [GCC 7.5.0] (64-bit runtime)\nPython platform: Linux-4.19.90-2107.6.0.0192.8.oe1.bclinux.x86_64-x86_64-with-glibc2.27\nIs CUDA available: True\nCUDA runtime version: 11.7.64\nCUDA_MODULE_LOADING set to: LAZY\nGPU models and configuration: \nGPU 0: NVIDIA A800-SXM4-80GB\nGPU 1: NVIDIA A800-SXM4-80GB\n\nNvidia driver version: 535.104.12\ncuDNN version: Could not collect\nHIP runtime version: N/A\nMIOpen runtime version: N/A\nIs XNNPACK available: True\n\nCPU:\nArchitecture:        x86_64\nCPU op-mode(s):      32-bit, 64-bit\nByte Order:          Little Endian\nCPU(s):              112\nOn-line CPU(s) list: 0-111\nThread(s) per core:  2\nCore(s) per socket:  28\nSocket(s):           2\nNUMA node(s):        2\nVendor ID:           GenuineIntel\nCPU family:          6\nModel:               106\nModel name:          Intel(R) Xeon(R) Gold 6348 CPU @ 2.60GHz\nStepping:            6\nCPU MHz:             3400.001\nCPU max MHz:         3500.0000\nCPU min MHz:         800.0000\nBogoMIPS:            5200.00\nVirtualization:      VT-x\nL1d cache:           48K\nL1i cache:           32K\nL2 cache:            1280K\nL3 cache:            43008K\nNUMA node0 CPU(s):   0-27,56-83\nNUMA node1 CPU(s):   28-55,84-111\nFlags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb cat_l3 invpcid_single ssbd mba ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid cqm rdt_a avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb intel_pt avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts hwp hwp_act_window hwp_epp hwp_pkg_req avx512vbmi umip pku ospke avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg tme avx512_vpopcntdq la57 rdpid md_clear pconfig flush_l1d arch_capabilities\n\nVersions of relevant libraries:\n[pip3] numpy==1.26.3\n[pip3] torch==2.3.1+cu121\n[pip3] torchaudio==2.0.2\n[pip3] torchvision==0.15.2\n[pip3] triton==2.3.1\n[conda] No relevant packages",
+  "transformers_version": "4.44.2",
+  "upper_git_hash": null,
+  "tokenizer_pad_token": [
+    "<unk>",
+    "0"
+  ],
+  "tokenizer_eos_token": [
+    "</s>",
+    "2"
+  ],
+  "tokenizer_bos_token": [
+    "<s>",
+    "1"
+  ],
+  "eot_token_id": 2,
+  "max_length": 4096,
+  "task_hashes": {},
+  "model_source": "hf",
+  "model_name": "/root/work/huangxin/ckpts/cm_3B",
+  "model_name_sanitized": "__root__work__huangxin__ckpts__cm_3B",
+  "system_instruction": null,
+  "system_instruction_sha": null,
+  "fewshot_as_multiturn": false,
+  "chat_template": null,
+  "chat_template_sha": null,
+  "start_time": 21444333.36491091,
+  "end_time": 21449138.941038087,
+  "total_evaluation_time_seconds": "4805.576127175242"
+}

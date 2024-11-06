@@ -1,0 +1,443 @@
+{
+  "results": {
+    "m_mmlu_en": {
+      "alias": "m_mmlu_en",
+      "acc,none": 0.6645044501433097,
+      "acc_stderr,none": 0.004100810498405662
+    },
+    "m_mmlu_es": {
+      "alias": "m_mmlu_es",
+      "acc,none": 0.604094795260237,
+      "acc_stderr,none": 0.0042353003393153415
+    },
+    "m_mmlu_fr": {
+      "alias": "m_mmlu_fr",
+      "acc,none": 0.5963639141394852,
+      "acc_stderr,none": 0.004288257422639201
+    },
+    "m_mmlu_id": {
+      "alias": "m_mmlu_id",
+      "acc,none": 0.5710251125868254,
+      "acc_stderr,none": 0.004324221091066822
+    },
+    "m_mmlu_pt": {
+      "alias": "m_mmlu_pt",
+      "acc,none": 0.6010957670369258,
+      "acc_stderr,none": 0.004242336790397503
+    },
+    "m_mmlu_tr": {
+      "alias": "m_mmlu_tr",
+      "acc,none": 0.4542227481141843,
+      "acc_stderr,none": 0.004281912111919716
+    },
+    "m_mmlu_zh": {
+      "alias": "m_mmlu_zh",
+      "acc,none": 0.6074439802506646,
+      "acc_stderr,none": 0.0042560821325607736
+    }
+  },
+  "group_subtasks": {
+    "m_mmlu_en": [],
+    "m_mmlu_es": [],
+    "m_mmlu_fr": [],
+    "m_mmlu_id": [],
+    "m_mmlu_pt": [],
+    "m_mmlu_tr": [],
+    "m_mmlu_zh": []
+  },
+  "configs": {
+    "m_mmlu_en": {
+      "task": "m_mmlu_en",
+      "tag": [
+        "m_mmlu"
+      ],
+      "dataset_path": "alexandrainst/m_mmlu",
+      "dataset_name": "en",
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "{{instruction.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "m_mmlu_es": {
+      "task": "m_mmlu_es",
+      "tag": [
+        "m_mmlu"
+      ],
+      "dataset_path": "alexandrainst/m_mmlu",
+      "dataset_name": "es",
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "{{instruction.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "m_mmlu_fr": {
+      "task": "m_mmlu_fr",
+      "tag": [
+        "m_mmlu"
+      ],
+      "dataset_path": "alexandrainst/m_mmlu",
+      "dataset_name": "fr",
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "{{instruction.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "m_mmlu_id": {
+      "task": "m_mmlu_id",
+      "tag": [
+        "m_mmlu"
+      ],
+      "dataset_path": "alexandrainst/m_mmlu",
+      "dataset_name": "id",
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "{{instruction.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "m_mmlu_pt": {
+      "task": "m_mmlu_pt",
+      "tag": [
+        "m_mmlu"
+      ],
+      "dataset_path": "alexandrainst/m_mmlu",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "{{instruction.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "m_mmlu_tr": {
+      "task": "m_mmlu_tr",
+      "tag": [
+        "m_mmlu"
+      ],
+      "dataset_path": "json",
+      "dataset_kwargs": {
+        "data_files": {
+          "train": "/root/work/huangxin/nanda/data/eval/mmlu_tr_dev.json",
+          "test": "/root/work/huangxin/nanda/data/eval/mmlu_tr_test.json",
+          "validation": "/root/work/huangxin/nanda/data/eval/mmlu_tr_validation.json"
+        }
+      },
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "{{instruction.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "m_mmlu_zh": {
+      "task": "m_mmlu_zh",
+      "tag": [
+        "m_mmlu"
+      ],
+      "dataset_path": "alexandrainst/m_mmlu",
+      "dataset_name": "zh",
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "{{instruction.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    }
+  },
+  "versions": {
+    "m_mmlu_en": 0.0,
+    "m_mmlu_es": 0.0,
+    "m_mmlu_fr": 0.0,
+    "m_mmlu_id": 0.0,
+    "m_mmlu_pt": 0.0,
+    "m_mmlu_tr": 0.0,
+    "m_mmlu_zh": 0.0
+  },
+  "n-shot": {
+    "m_mmlu_en": 5,
+    "m_mmlu_es": 5,
+    "m_mmlu_fr": 5,
+    "m_mmlu_id": 5,
+    "m_mmlu_pt": 5,
+    "m_mmlu_tr": 5,
+    "m_mmlu_zh": 5
+  },
+  "higher_is_better": {
+    "m_mmlu_en": {
+      "acc": true
+    },
+    "m_mmlu_es": {
+      "acc": true
+    },
+    "m_mmlu_fr": {
+      "acc": true
+    },
+    "m_mmlu_id": {
+      "acc": true
+    },
+    "m_mmlu_pt": {
+      "acc": true
+    },
+    "m_mmlu_tr": {
+      "acc": true
+    },
+    "m_mmlu_zh": {
+      "acc": true
+    }
+  },
+  "n-samples": {
+    "m_mmlu_zh": {
+      "original": 13165,
+      "effective": 13165
+    },
+    "m_mmlu_tr": {
+      "original": 13522,
+      "effective": 13522
+    },
+    "m_mmlu_pt": {
+      "original": 13324,
+      "effective": 13324
+    },
+    "m_mmlu_id": {
+      "original": 13101,
+      "effective": 13101
+    },
+    "m_mmlu_fr": {
+      "original": 13091,
+      "effective": 13091
+    },
+    "m_mmlu_es": {
+      "original": 13334,
+      "effective": 13334
+    },
+    "m_mmlu_en": {
+      "original": 13258,
+      "effective": 13258
+    }
+  },
+  "config": {
+    "model": "hf",
+    "model_args": "pretrained=/root/work/huangxin/nanda/models/Qwen/Qwen2.5-3B-Instruct,dtype=bfloat16",
+    "model_num_parameters": 3085938688,
+    "model_dtype": "torch.bfloat16",
+    "model_revision": "main",
+    "model_sha": "",
+    "batch_size": "16",
+    "batch_sizes": [],
+    "device": "cuda:0",
+    "use_cache": null,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "gen_kwargs": null,
+    "random_seed": 0,
+    "numpy_seed": 1234,
+    "torch_seed": 1234,
+    "fewshot_seed": 1234
+  },
+  "git_hash": null,
+  "date": 1727094810.5022402,
+  "pretty_env_info": "PyTorch version: 2.3.1+cu121\nIs debug build: False\nCUDA used to build PyTorch: 12.1\nROCM used to build PyTorch: N/A\n\nOS: Ubuntu 18.04.6 LTS (x86_64)\nGCC version: (conda-forge gcc 11.4.0-13) 11.4.0\nClang version: Could not collect\nCMake version: version 3.10.2\nLibc version: glibc-2.27\n\nPython version: 3.10.0 (default, Mar  3 2022, 09:58:08) [GCC 7.5.0] (64-bit runtime)\nPython platform: Linux-4.19.90-2107.6.0.0192.8.oe1.bclinux.x86_64-x86_64-with-glibc2.27\nIs CUDA available: True\nCUDA runtime version: 11.7.64\nCUDA_MODULE_LOADING set to: LAZY\nGPU models and configuration: \nGPU 0: NVIDIA A800-SXM4-80GB\nGPU 1: NVIDIA A800-SXM4-80GB\n\nNvidia driver version: 535.104.12\ncuDNN version: Could not collect\nHIP runtime version: N/A\nMIOpen runtime version: N/A\nIs XNNPACK available: True\n\nCPU:\nArchitecture:        x86_64\nCPU op-mode(s):      32-bit, 64-bit\nByte Order:          Little Endian\nCPU(s):              112\nOn-line CPU(s) list: 0-111\nThread(s) per core:  2\nCore(s) per socket:  28\nSocket(s):           2\nNUMA node(s):        2\nVendor ID:           GenuineIntel\nCPU family:          6\nModel:               106\nModel name:          Intel(R) Xeon(R) Gold 6348 CPU @ 2.60GHz\nStepping:            6\nCPU MHz:             3400.000\nCPU max MHz:         3500.0000\nCPU min MHz:         800.0000\nBogoMIPS:            5200.00\nVirtualization:      VT-x\nL1d cache:           48K\nL1i cache:           32K\nL2 cache:            1280K\nL3 cache:            43008K\nNUMA node0 CPU(s):   0-27,56-83\nNUMA node1 CPU(s):   28-55,84-111\nFlags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb cat_l3 invpcid_single ssbd mba ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid cqm rdt_a avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb intel_pt avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts hwp hwp_act_window hwp_epp hwp_pkg_req avx512vbmi umip pku ospke avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg tme avx512_vpopcntdq la57 rdpid md_clear pconfig flush_l1d arch_capabilities\n\nVersions of relevant libraries:\n[pip3] numpy==1.26.3\n[pip3] torch==2.3.1+cu121\n[pip3] torchaudio==2.0.2\n[pip3] torchvision==0.15.2\n[pip3] triton==2.3.1\n[conda] No relevant packages",
+  "transformers_version": "4.44.2",
+  "upper_git_hash": null,
+  "tokenizer_pad_token": [
+    "<|endoftext|>",
+    "151643"
+  ],
+  "tokenizer_eos_token": [
+    "<|im_end|>",
+    "151645"
+  ],
+  "tokenizer_bos_token": [
+    null,
+    "None"
+  ],
+  "eot_token_id": 151645,
+  "max_length": 32768,
+  "task_hashes": {},
+  "model_source": "hf",
+  "model_name": "/root/work/huangxin/nanda/models/Qwen/Qwen2.5-3B-Instruct",
+  "model_name_sanitized": "__root__work__huangxin__nanda__models__Qwen__Qwen2.5-3B-Instruct",
+  "system_instruction": null,
+  "system_instruction_sha": null,
+  "fewshot_as_multiturn": false,
+  "chat_template": null,
+  "chat_template_sha": null,
+  "start_time": 21027573.04381346,
+  "end_time": 21032116.560320396,
+  "total_evaluation_time_seconds": "4543.516506936401"
+}

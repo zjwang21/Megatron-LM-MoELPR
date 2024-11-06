@@ -1,0 +1,433 @@
+{
+    "results": {
+        "arc_challenge": {
+            "alias": "arc_challenge",
+            "acc,none": 0.5042662116040956,
+            "acc_stderr,none": 0.014610858923956952,
+            "acc_norm,none": 0.5494880546075085,
+            "acc_norm_stderr,none": 0.014539646098471627
+        },
+        "arc_es": {
+            "alias": "arc_es",
+            "acc,none": 0.39316239316239315,
+            "acc_stderr,none": 0.014286142338995346,
+            "acc_norm,none": 0.44188034188034186,
+            "acc_norm_stderr,none": 0.014524752635673524
+        },
+        "arc_fr": {
+            "alias": "arc_fr",
+            "acc,none": 0.40718562874251496,
+            "acc_stderr,none": 0.014375870804121033,
+            "acc_norm,none": 0.4448246364414029,
+            "acc_norm_stderr,none": 0.014540792856560817
+        },
+        "arc_id": {
+            "alias": "arc_id",
+            "acc,none": 0.32393162393162395,
+            "acc_stderr,none": 0.013687203659287694,
+            "acc_norm,none": 0.3871794871794872,
+            "acc_norm_stderr,none": 0.014246742064111818
+        },
+        "arc_pt": {
+            "alias": "arc_pt",
+            "acc,none": 0.41452991452991456,
+            "acc_stderr,none": 0.014408641561899973,
+            "acc_norm,none": 0.45384615384615384,
+            "acc_norm_stderr,none": 0.014561448289640613
+        },
+        "arc_tr": {
+            "alias": "arc_tr",
+            "acc,none": 0.3731853116994022,
+            "acc_stderr,none": 0.014139658563776776,
+            "acc_norm,none": 0.4107600341588386,
+            "acc_norm_stderr,none": 0.014382926383899684
+        },
+        "arc_zh": {
+            "alias": "arc_zh",
+            "acc,none": 0.4170940170940171,
+            "acc_stderr,none": 0.014421451740900868,
+            "acc_norm,none": 0.4393162393162393,
+            "acc_norm_stderr,none": 0.014515779479003057
+        }
+    },
+    "group_subtasks": {
+        "arc_challenge": [],
+        "arc_zh": [],
+        "arc_es": [],
+        "arc_id": [],
+        "arc_fr": [],
+        "arc_pt": [],
+        "arc_tr": []
+    },
+    "configs": {
+        "arc_challenge": {
+            "task": "arc_challenge",
+            "tag": [
+                "ai2_arc"
+            ],
+            "dataset_path": "allenai/ai2_arc",
+            "dataset_name": "ARC-Challenge",
+            "training_split": "train",
+            "validation_split": "validation",
+            "test_split": "test",
+            "doc_to_text": "Question: {{question}}\nAnswer:",
+            "doc_to_target": "{{choices.label.index(answerKey)}}",
+            "doc_to_choice": "{{choices.text}}",
+            "description": "",
+            "target_delimiter": " ",
+            "fewshot_delimiter": "\n\n",
+            "num_fewshot": 25,
+            "metric_list": [
+                {
+                    "metric": "acc",
+                    "aggregation": "mean",
+                    "higher_is_better": true
+                },
+                {
+                    "metric": "acc_norm",
+                    "aggregation": "mean",
+                    "higher_is_better": true
+                }
+            ],
+            "output_type": "multiple_choice",
+            "repeats": 1,
+            "should_decontaminate": true,
+            "doc_to_decontamination_query": "Question: {{question}}\nAnswer:",
+            "metadata": {
+                "version": 1.0
+            }
+        },
+        "arc_es": {
+            "task": "arc_es",
+            "tag": [
+                "arc_multilingual"
+            ],
+            "dataset_path": "alexandrainst/m_arc",
+            "dataset_name": "es",
+            "training_split": "train",
+            "validation_split": "validation",
+            "test_split": "test",
+            "process_docs": "def process_docs(dataset: datasets.Dataset) -> datasets.Dataset:\n    def _process_doc(doc):\n        # breakpoint()\n        out_doc = {\n            \"id\": doc[\"id\"],\n            \"query\": \"Question: \" + preprocess(doc[\"instruction\"]) + \"\\nAnswer:\",\n            \"choices\": [\n                preprocess(option)\n                for option in [\n                    doc[\"option_a\"],\n                    doc[\"option_b\"],\n                    doc[\"option_c\"],\n                    doc[\"option_d\"],\n                    doc[\"option_e\"],\n                ]\n                if option\n            ],\n            \"gold\": [\"A\", \"B\", \"C\", \"D\", \"E\"].index(doc[\"answer\"]),\n        }\n        return out_doc\n\n    return dataset.map(_process_doc)\n",
+            "doc_to_text": "query",
+            "doc_to_target": "gold",
+            "doc_to_choice": "choices",
+            "description": "",
+            "target_delimiter": " ",
+            "fewshot_delimiter": "\n\n",
+            "num_fewshot": 25,
+            "metric_list": [
+                {
+                    "metric": "acc",
+                    "aggregation": "mean",
+                    "higher_is_better": true
+                },
+                {
+                    "metric": "acc_norm",
+                    "aggregation": "mean",
+                    "higher_is_better": true
+                }
+            ],
+            "output_type": "multiple_choice",
+            "repeats": 1,
+            "should_decontaminate": true,
+            "doc_to_decontamination_query": "query",
+            "metadata": {
+                "version": 2.0
+            }
+        },
+        "arc_fr": {
+            "task": "arc_fr",
+            "tag": [
+                "arc_multilingual"
+            ],
+            "dataset_path": "alexandrainst/m_arc",
+            "dataset_name": "fr",
+            "training_split": "train",
+            "validation_split": "validation",
+            "test_split": "test",
+            "process_docs": "def process_docs(dataset: datasets.Dataset) -> datasets.Dataset:\n    def _process_doc(doc):\n        # breakpoint()\n        out_doc = {\n            \"id\": doc[\"id\"],\n            \"query\": \"Question: \" + preprocess(doc[\"instruction\"]) + \"\\nAnswer:\",\n            \"choices\": [\n                preprocess(option)\n                for option in [\n                    doc[\"option_a\"],\n                    doc[\"option_b\"],\n                    doc[\"option_c\"],\n                    doc[\"option_d\"],\n                    doc[\"option_e\"],\n                ]\n                if option\n            ],\n            \"gold\": [\"A\", \"B\", \"C\", \"D\", \"E\"].index(doc[\"answer\"]),\n        }\n        return out_doc\n\n    return dataset.map(_process_doc)\n",
+            "doc_to_text": "query",
+            "doc_to_target": "gold",
+            "doc_to_choice": "choices",
+            "description": "",
+            "target_delimiter": " ",
+            "fewshot_delimiter": "\n\n",
+            "num_fewshot": 25,
+            "metric_list": [
+                {
+                    "metric": "acc",
+                    "aggregation": "mean",
+                    "higher_is_better": true
+                },
+                {
+                    "metric": "acc_norm",
+                    "aggregation": "mean",
+                    "higher_is_better": true
+                }
+            ],
+            "output_type": "multiple_choice",
+            "repeats": 1,
+            "should_decontaminate": true,
+            "doc_to_decontamination_query": "query",
+            "metadata": {
+                "version": 2.0
+            }
+        },
+        "arc_id": {
+            "task": "arc_id",
+            "tag": [
+                "arc_multilingual"
+            ],
+            "dataset_path": "alexandrainst/m_arc",
+            "dataset_name": "id",
+            "training_split": "train",
+            "validation_split": "validation",
+            "test_split": "test",
+            "process_docs": "def process_docs(dataset: datasets.Dataset) -> datasets.Dataset:\n    def _process_doc(doc):\n        # breakpoint()\n        out_doc = {\n            \"id\": doc[\"id\"],\n            \"query\": \"Question: \" + preprocess(doc[\"instruction\"]) + \"\\nAnswer:\",\n            \"choices\": [\n                preprocess(option)\n                for option in [\n                    doc[\"option_a\"],\n                    doc[\"option_b\"],\n                    doc[\"option_c\"],\n                    doc[\"option_d\"],\n                    doc[\"option_e\"],\n                ]\n                if option\n            ],\n            \"gold\": [\"A\", \"B\", \"C\", \"D\", \"E\"].index(doc[\"answer\"]),\n        }\n        return out_doc\n\n    return dataset.map(_process_doc)\n",
+            "doc_to_text": "query",
+            "doc_to_target": "gold",
+            "doc_to_choice": "choices",
+            "description": "",
+            "target_delimiter": " ",
+            "fewshot_delimiter": "\n\n",
+            "num_fewshot": 25,
+            "metric_list": [
+                {
+                    "metric": "acc",
+                    "aggregation": "mean",
+                    "higher_is_better": true
+                },
+                {
+                    "metric": "acc_norm",
+                    "aggregation": "mean",
+                    "higher_is_better": true
+                }
+            ],
+            "output_type": "multiple_choice",
+            "repeats": 1,
+            "should_decontaminate": true,
+            "doc_to_decontamination_query": "query",
+            "metadata": {
+                "version": 2.0
+            }
+        },
+        "arc_pt": {
+            "task": "arc_pt",
+            "tag": [
+                "arc_multilingual"
+            ],
+            "dataset_path": "alexandrainst/m_arc",
+            "dataset_name": "pt",
+            "training_split": "train",
+            "validation_split": "validation",
+            "test_split": "test",
+            "process_docs": "def process_docs(dataset: datasets.Dataset) -> datasets.Dataset:\n    def _process_doc(doc):\n        # breakpoint()\n        out_doc = {\n            \"id\": doc[\"id\"],\n            \"query\": \"Question: \" + preprocess(doc[\"instruction\"]) + \"\\nAnswer:\",\n            \"choices\": [\n                preprocess(option)\n                for option in [\n                    doc[\"option_a\"],\n                    doc[\"option_b\"],\n                    doc[\"option_c\"],\n                    doc[\"option_d\"],\n                    doc[\"option_e\"],\n                ]\n                if option\n            ],\n            \"gold\": [\"A\", \"B\", \"C\", \"D\", \"E\"].index(doc[\"answer\"]),\n        }\n        return out_doc\n\n    return dataset.map(_process_doc)\n",
+            "doc_to_text": "query",
+            "doc_to_target": "gold",
+            "doc_to_choice": "choices",
+            "description": "",
+            "target_delimiter": " ",
+            "fewshot_delimiter": "\n\n",
+            "num_fewshot": 25,
+            "metric_list": [
+                {
+                    "metric": "acc",
+                    "aggregation": "mean",
+                    "higher_is_better": true
+                },
+                {
+                    "metric": "acc_norm",
+                    "aggregation": "mean",
+                    "higher_is_better": true
+                }
+            ],
+            "output_type": "multiple_choice",
+            "repeats": 1,
+            "should_decontaminate": true,
+            "doc_to_decontamination_query": "query",
+            "metadata": {
+                "version": 2.0
+            }
+        },
+        "arc_tr": {
+            "task": "arc_tr",
+            "tag": [
+                "arc_multilingual"
+            ],
+            "dataset_path": "json",
+            "dataset_kwargs": {
+                "data_files": {
+                    "train": "/root/work/huangxin/nanda/data/eval/arc_tr_train.json",
+                    "test": "/root/work/huangxin/nanda/data/eval/arc_tr_test.json",
+                    "validation": "/root/work/huangxin/nanda/data/eval/arc_tr_validation.json"
+                }
+            },
+            "training_split": "train",
+            "validation_split": "validation",
+            "test_split": "test",
+            "process_docs": "def process_docs(dataset: datasets.Dataset) -> datasets.Dataset:\n    def _process_doc(doc):\n        # breakpoint()\n        out_doc = {\n            \"id\": doc[\"id\"],\n            \"query\": \"Question: \" + preprocess(doc[\"instruction\"]) + \"\\nAnswer:\",\n            \"choices\": [\n                preprocess(option)\n                for option in [\n                    doc[\"option_a\"],\n                    doc[\"option_b\"],\n                    doc[\"option_c\"],\n                    doc[\"option_d\"],\n                    doc[\"option_e\"],\n                ]\n                if option\n            ],\n            \"gold\": [\"A\", \"B\", \"C\", \"D\", \"E\"].index(doc[\"answer\"]),\n        }\n        return out_doc\n\n    return dataset.map(_process_doc)\n",
+            "doc_to_text": "query",
+            "doc_to_target": "gold",
+            "doc_to_choice": "choices",
+            "description": "",
+            "target_delimiter": " ",
+            "fewshot_delimiter": "\n\n",
+            "num_fewshot": 25,
+            "metric_list": [
+                {
+                    "metric": "acc",
+                    "aggregation": "mean",
+                    "higher_is_better": true
+                },
+                {
+                    "metric": "acc_norm",
+                    "aggregation": "mean",
+                    "higher_is_better": true
+                }
+            ],
+            "output_type": "multiple_choice",
+            "repeats": 1,
+            "should_decontaminate": true,
+            "doc_to_decontamination_query": "query",
+            "metadata": {
+                "version": 2.0
+            }
+        },
+        "arc_zh": {
+            "task": "arc_zh",
+            "tag": [
+                "arc_multilingual"
+            ],
+            "dataset_path": "alexandrainst/m_arc",
+            "dataset_name": "zh",
+            "training_split": "train",
+            "validation_split": "validation",
+            "test_split": "test",
+            "process_docs": "def process_docs(dataset: datasets.Dataset) -> datasets.Dataset:\n    def _process_doc(doc):\n        # breakpoint()\n        out_doc = {\n            \"id\": doc[\"id\"],\n            \"query\": \"Question: \" + preprocess(doc[\"instruction\"]) + \"\\nAnswer:\",\n            \"choices\": [\n                preprocess(option)\n                for option in [\n                    doc[\"option_a\"],\n                    doc[\"option_b\"],\n                    doc[\"option_c\"],\n                    doc[\"option_d\"],\n                    doc[\"option_e\"],\n                ]\n                if option\n            ],\n            \"gold\": [\"A\", \"B\", \"C\", \"D\", \"E\"].index(doc[\"answer\"]),\n        }\n        return out_doc\n\n    return dataset.map(_process_doc)\n",
+            "doc_to_text": "query",
+            "doc_to_target": "gold",
+            "doc_to_choice": "choices",
+            "description": "",
+            "target_delimiter": " ",
+            "fewshot_delimiter": "\n\n",
+            "num_fewshot": 25,
+            "metric_list": [
+                {
+                    "metric": "acc",
+                    "aggregation": "mean",
+                    "higher_is_better": true
+                },
+                {
+                    "metric": "acc_norm",
+                    "aggregation": "mean",
+                    "higher_is_better": true
+                }
+            ],
+            "output_type": "multiple_choice",
+            "repeats": 1,
+            "should_decontaminate": true,
+            "doc_to_decontamination_query": "query",
+            "metadata": {
+                "version": 2.0
+            }
+        }
+    },
+    "versions": {
+        "arc_challenge": 1.0,
+        "arc_es": 2.0,
+        "arc_fr": 2.0,
+        "arc_id": 2.0,
+        "arc_pt": 2.0,
+        "arc_tr": 2.0,
+        "arc_zh": 2.0
+    },
+    "n-shot": {
+        "arc_challenge": 25,
+        "arc_es": 25,
+        "arc_fr": 25,
+        "arc_id": 25,
+        "arc_pt": 25,
+        "arc_tr": 25,
+        "arc_zh": 25
+    },
+    "higher_is_better": {
+        "arc_challenge": {
+            "acc": true,
+            "acc_norm": true
+        },
+        "arc_es": {
+            "acc": true,
+            "acc_norm": true
+        },
+        "arc_fr": {
+            "acc": true,
+            "acc_norm": true
+        },
+        "arc_id": {
+            "acc": true,
+            "acc_norm": true
+        },
+        "arc_pt": {
+            "acc": true,
+            "acc_norm": true
+        },
+        "arc_tr": {
+            "acc": true,
+            "acc_norm": true
+        },
+        "arc_zh": {
+            "acc": true,
+            "acc_norm": true
+        }
+    },
+    "n-samples": {
+        "arc_tr": {
+            "original": 1171,
+            "effective": 1171
+        },
+        "arc_pt": {
+            "original": 1170,
+            "effective": 1170
+        },
+        "arc_fr": {
+            "original": 1169,
+            "effective": 1169
+        },
+        "arc_id": {
+            "original": 1170,
+            "effective": 1170
+        },
+        "arc_es": {
+            "original": 1170,
+            "effective": 1170
+        },
+        "arc_zh": {
+            "original": 1170,
+            "effective": 1170
+        },
+        "arc_challenge": {
+            "original": 1172,
+            "effective": 1172
+        }
+    },
+    "config": {
+        "model": "HarnessWrapper",
+        "model_args": null,
+        "batch_size": 16,
+        "batch_sizes": [],
+        "device": null,
+        "use_cache": null,
+        "limit": null,
+        "bootstrap_iters": 100000,
+        "gen_kwargs": null,
+        "random_seed": 0,
+        "numpy_seed": 1234,
+        "torch_seed": 1234,
+        "fewshot_seed": 1234
+    },
+    "git_hash": null,
+    "date": 1727964112.4717324,
+    "pretty_env_info": "PyTorch version: 2.3.1+cu121\nIs debug build: False\nCUDA used to build PyTorch: 12.1\nROCM used to build PyTorch: N/A\n\nOS: Ubuntu 18.04.6 LTS (x86_64)\nGCC version: (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0\nClang version: Could not collect\nCMake version: version 3.10.2\nLibc version: glibc-2.27\n\nPython version: 3.10.0 (default, Mar  3 2022, 09:58:08) [GCC 7.5.0] (64-bit runtime)\nPython platform: Linux-4.19.90-2107.6.0.0192.8.oe1.bclinux.x86_64-x86_64-with-glibc2.27\nIs CUDA available: True\nCUDA runtime version: 12.1.66\nCUDA_MODULE_LOADING set to: LAZY\nGPU models and configuration: \nGPU 0: NVIDIA A800-SXM4-80GB\nGPU 1: NVIDIA A800-SXM4-80GB\nGPU 2: NVIDIA A800-SXM4-80GB\nGPU 3: NVIDIA A800-SXM4-80GB\n\nNvidia driver version: 535.104.12\ncuDNN version: Could not collect\nHIP runtime version: N/A\nMIOpen runtime version: N/A\nIs XNNPACK available: True\n\nCPU:\nArchitecture:        x86_64\nCPU op-mode(s):      32-bit, 64-bit\nByte Order:          Little Endian\nCPU(s):              112\nOn-line CPU(s) list: 0-111\nThread(s) per core:  2\nCore(s) per socket:  28\nSocket(s):           2\nNUMA node(s):        2\nVendor ID:           GenuineIntel\nCPU family:          6\nModel:               106\nModel name:          Intel(R) Xeon(R) Gold 6348 CPU @ 2.60GHz\nStepping:            6\nCPU MHz:             3400.000\nCPU max MHz:         3500.0000\nCPU min MHz:         800.0000\nBogoMIPS:            5200.00\nVirtualization:      VT-x\nL1d cache:           48K\nL1i cache:           32K\nL2 cache:            1280K\nL3 cache:            43008K\nNUMA node0 CPU(s):   0-27,56-83\nNUMA node1 CPU(s):   28-55,84-111\nFlags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb cat_l3 invpcid_single ssbd mba ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid cqm rdt_a avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb intel_pt avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts hwp hwp_act_window hwp_epp hwp_pkg_req avx512vbmi umip pku ospke avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg tme avx512_vpopcntdq la57 rdpid md_clear pconfig flush_l1d arch_capabilities\n\nVersions of relevant libraries:\n[pip3] numpy==1.26.3\n[pip3] torch==2.3.1+cu121\n[pip3] torchaudio==2.0.2\n[pip3] torchvision==0.15.2\n[pip3] triton==2.3.1\n[conda] No relevant packages",
+    "transformers_version": "4.44.2",
+    "upper_git_hash": null
+}

@@ -1,0 +1,1162 @@
+W1012 13:46:27.957339 139983738782656 torch/distributed/run.py:757] 
+W1012 13:46:27.957339 139983738782656 torch/distributed/run.py:757] *****************************************
+W1012 13:46:27.957339 139983738782656 torch/distributed/run.py:757] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W1012 13:46:27.957339 139983738782656 torch/distributed/run.py:757] *****************************************
+/root/.local/lib/python3.10/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: '/root/.local/lib/python3.10/site-packages/torchvision/image.so: undefined symbol: _ZN3c1017RegisterOperatorsD1Ev'If you don't plan on using image functionality from `torchvision.io`, you can ignore this warning. Otherwise, there might be something wrong with your environment. Did you have `libjpeg` or `libpng` installed before building `torchvision` from source?
+  warn(
+/root/.local/lib/python3.10/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: '/root/.local/lib/python3.10/site-packages/torchvision/image.so: undefined symbol: _ZN3c1017RegisterOperatorsD1Ev'If you don't plan on using image functionality from `torchvision.io`, you can ignore this warning. Otherwise, there might be something wrong with your environment. Did you have `libjpeg` or `libpng` installed before building `torchvision` from source?
+  warn(
+/root/.local/lib/python3.10/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: '/root/.local/lib/python3.10/site-packages/torchvision/image.so: undefined symbol: _ZN3c1017RegisterOperatorsD1Ev'If you don't plan on using image functionality from `torchvision.io`, you can ignore this warning. Otherwise, there might be something wrong with your environment. Did you have `libjpeg` or `libpng` installed before building `torchvision` from source?
+  warn(
+/root/.local/lib/python3.10/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: '/root/.local/lib/python3.10/site-packages/torchvision/image.so: undefined symbol: _ZN3c1017RegisterOperatorsD1Ev'If you don't plan on using image functionality from `torchvision.io`, you can ignore this warning. Otherwise, there might be something wrong with your environment. Did you have `libjpeg` or `libpng` installed before building `torchvision` from source?
+  warn(
+using world size: 4, data-parallel size: 4, context-parallel size: 1, tensor-model-parallel size: 1, encoder-tensor-model-parallel size: 0, pipeline-model-parallel size: 1, encoder-pipeline-model-parallel size: 0
+WARNING: overriding default arguments for no_load_rng:True                        with no_load_rng:True
+WARNING: overriding default arguments for no_load_optim:True                        with no_load_optim:True
+WARNING: overriding default arguments for micro_batch_size:1                        with micro_batch_size:4
+WARNING: overriding default arguments for exit_on_missing_checkpoint:True                        with exit_on_missing_checkpoint:False
+WARNING: Setting args.overlap_p2p_comm to False since non-interleaved schedule does not support overlapping p2p communication
+accumulate and all-reduce gradients in fp32 for bfloat16 data type.
+using torch.bfloat16 for parameters ...
+------------------------ arguments ------------------------
+  accumulate_allreduce_grads_in_fp32 .............. True
+  adam_beta1 ...................................... 0.9
+  adam_beta2 ...................................... 0.999
+  adam_eps ........................................ 1e-08
+  adaptive_seq_len ................................ True
+  add_bias_linear ................................. False
+  add_position_embedding .......................... False
+  add_qkv_bias .................................... True
+  adlr_autoresume ................................. False
+  adlr_autoresume_interval ........................ 1000
+  align_grad_reduce ............................... True
+  align_param_gather .............................. False
+  app_tag_run_name ................................ None
+  app_tag_run_version ............................. 0.0.0
+  apply_layernorm_1p .............................. False
+  apply_query_key_layer_scaling ................... False
+  apply_residual_connection_post_layernorm ........ False
+  apply_rope_fusion ............................... False
+  async_save ...................................... None
+  async_tensor_model_parallel_allreduce ........... True
+  attention_dropout ............................... 0.0
+  attention_softmax_in_fp32 ....................... False
+  auto_detect_ckpt_format ......................... False
+  barrier_with_L1_time ............................ True
+  bert_binary_head ................................ True
+  bert_embedder_type .............................. megatron
+  bert_load ....................................... None
+  bf16 ............................................ True
+  bias_dropout_fusion ............................. True
+  bias_gelu_fusion ................................ False
+  bias_swiglu_fusion .............................. True
+  biencoder_projection_dim ........................ 0
+  biencoder_shared_query_context_model ............ False
+  block_data_path ................................. None
+  bsz ............................................. 16
+  calculate_per_token_loss ........................ False
+  check_for_nan_in_loss_and_grad .................. True
+  check_weight_hash_across_dp_replicas_interval ... None
+  ckpt_assume_constant_structure .................. False
+  ckpt_convert_format ............................. None
+  ckpt_convert_save ............................... None
+  ckpt_convert_update_legacy_dist_opt_format ...... False
+  ckpt_format ..................................... torch
+  ckpt_fully_parallel_load ........................ False
+  ckpt_fully_parallel_save ........................ True
+  ckpt_fully_parallel_save_deprecated ............. False
+  ckpt_step ....................................... None
+  classes_fraction ................................ 1.0
+  clip_grad ....................................... 1.0
+  clone_scatter_output_in_embedding ............... True
+  config_logger_dir ............................... 
+  consumed_train_samples .......................... 0
+  consumed_valid_samples .......................... 0
+  context_parallel_size ........................... 1
+  create_attention_mask_in_dataloader ............. True
+  cross_entropy_loss_fusion ....................... False
+  data_cache_path ................................. None
+  data_parallel_random_init ....................... False
+  data_parallel_size .............................. 4
+  data_path ....................................... ['/root/work/huangxin/nanda/Megatron-LM/llamamoe/data/data-bin/elhutr_qwen2.5_30b_text_document']
+  data_per_class_fraction ......................... 1.0
+  data_sharding ................................... True
+  dataloader_type ................................. single
+  ddp_average_in_collective ....................... False
+  ddp_bucket_size ................................. None
+  decoder_num_layers .............................. None
+  decoder_seq_length .............................. None
+  decoupled_lr .................................... None
+  decoupled_min_lr ................................ None
+  decrease_batch_size_if_needed ................... False
+  defer_embedding_wgrad_compute ................... False
+  deprecated_use_mcore_models ..................... True
+  deterministic_mode .............................. False
+  dino_bottleneck_size ............................ 256
+  dino_freeze_last_layer .......................... 1
+  dino_head_hidden_size ........................... 2048
+  dino_local_crops_number ......................... 10
+  dino_local_img_size ............................. 96
+  dino_norm_last_layer ............................ False
+  dino_teacher_temp ............................... 0.07
+  dino_warmup_teacher_temp ........................ 0.04
+  dino_warmup_teacher_temp_epochs ................. 30
+  disable_straggler_on_startup .................... False
+  dist_ckpt_format_deprecated ..................... None
+  dist_ckpt_strictness ............................ assume_ok_unexpected
+  distribute_saved_activations .................... False
+  distributed_backend ............................. nccl
+  distributed_timeout_minutes ..................... 1000000
+  embedding_path .................................. None
+  empty_unused_memory_level ....................... 0
+  enable_ft_package ............................... False
+  enable_one_logger ............................... True
+  enable_shared_expert ............................ True
+  encoder_num_layers .............................. 36
+  encoder_pipeline_model_parallel_size ............ 0
+  encoder_seq_length .............................. 2048
+  encoder_tensor_model_parallel_size .............. 0
+  end_weight_decay ................................ 0.1
+  eod_mask_loss ................................... False
+  eval_interval ................................... 1000
+  eval_iters ...................................... 1000
+  evidence_data_path .............................. None
+  exit_duration_in_mins ........................... None
+  exit_interval ................................... None
+  exit_on_missing_checkpoint ...................... False
+  exit_signal_handler ............................. False
+  expert_model_parallel_size ...................... 4
+  ffn_hidden_size ................................. 11008
+  finetune ........................................ False
+  fp16 ............................................ False
+  fp16_lm_cross_entropy ........................... False
+  fp32_residual_connection ........................ False
+  fp8 ............................................. None
+  fp8_amax_compute_algo ........................... most_recent
+  fp8_amax_history_len ............................ 1
+  fp8_interval .................................... 1
+  fp8_margin ...................................... 0
+  fp8_wgrad ....................................... True
+  global_batch_size ............................... 1024
+  gradient_accumulation_fusion .................... True
+  group_query_attention ........................... True
+  head_lr_mult .................................... 1.0
+  hidden_dropout .................................. 0.0
+  hidden_size ..................................... 2048
+  hybrid_attention_ratio .......................... 0.0
+  hybrid_mlp_ratio ................................ 0.0
+  hybrid_override_pattern ......................... None
+  hysteresis ...................................... 2
+  ict_head_size ................................... None
+  ict_load ........................................ None
+  img_h ........................................... 224
+  img_w ........................................... 224
+  indexer_batch_size .............................. 128
+  indexer_log_interval ............................ 1000
+  inference_batch_times_seqlen_threshold .......... 512
+  init_method_std ................................. 0.02
+  init_method_xavier_uniform ...................... False
+  initial_loss_scale .............................. 4294967296
+  iter_per_epoch .................................. 1250
+  kv_channels ..................................... 128
+  lazy_mpu_init ................................... None
+  load ............................................ /root/work/huangxin/nanda/models/Qwen2.5-3B-Instruct-qwenmoe-mcore-init-experts-exp12-TP1PP1EP4
+  local_rank ...................................... 0
+  log_interval .................................... 1
+  log_loss_scale_to_tensorboard ................... True
+  log_memory_to_tensorboard ....................... False
+  log_num_zeros_in_grad ........................... False
+  log_params_norm ................................. False
+  log_progress .................................... False
+  log_straggler ................................... False
+  log_throughput .................................. False
+  log_timers_to_tensorboard ....................... False
+  log_validation_ppl_to_tensorboard ............... False
+  log_world_size_to_tensorboard ................... False
+  logging_level ................................... None
+  loss_scale ...................................... None
+  loss_scale_window ............................... 1000
+  lr .............................................. 5e-05
+  lr_decay_iters .................................. 5000
+  lr_decay_samples ................................ None
+  lr_decay_style .................................. cosine
+  lr_warmup_fraction .............................. None
+  lr_warmup_init .................................. 0.0
+  lr_warmup_iters ................................. 300
+  lr_warmup_samples ............................... 0
+  lr_wsd_decay_iters .............................. None
+  lr_wsd_decay_samples ............................ None
+  lr_wsd_decay_style .............................. exponential
+  make_vocab_size_divisible_by .................... 128
+  manual_gc ....................................... False
+  manual_gc_eval .................................. True
+  manual_gc_interval .............................. 0
+  mask_factor ..................................... 1.0
+  mask_prob ....................................... 0.15
+  mask_type ....................................... random
+  masked_softmax_fusion ........................... False
+  max_position_embeddings ......................... 32768
+  max_tokens_to_oom ............................... 12000
+  merge_file ...................................... None
+  micro_batch_size ................................ 4
+  min_loss_scale .................................. 1.0
+  min_lr .......................................... 0.0
+  mmap_bin_files .................................. True
+  mock_data ....................................... False
+  moe_aux_loss_coeff .............................. 0.001
+  moe_expert_capacity_factor ...................... None
+  moe_extended_tp ................................. False
+  moe_ffn_hidden_size ............................. 2752
+  moe_grouped_gemm ................................ False
+  moe_input_jitter_eps ............................ None
+  moe_layer_recompute ............................. False
+  moe_lpr_loss_coeff .............................. 0.001
+  moe_lpr_stage ................................... 1
+  moe_pad_expert_input_to_capacity ................ False
+  moe_per_layer_logging ........................... False
+  moe_router_load_balancing_type .................. aux_loss
+  moe_router_pre_softmax .......................... False
+  moe_router_topk ................................. 4
+  moe_token_dispatcher_type ....................... alltoall
+  moe_token_drop_policy ........................... probs
+  moe_z_loss_coeff ................................ None
+  moelpr_train_embeddings ......................... False
+  nccl_communicator_config_path ................... None
+  no_load_optim ................................... True
+  no_load_rng ..................................... True
+  no_persist_layer_norm ........................... False
+  no_save_optim ................................... True
+  no_save_rng ..................................... True
+  non_persistent_ckpt_type ........................ None
+  non_persistent_global_ckpt_dir .................. None
+  non_persistent_save_interval .................... None
+  norm_epsilon .................................... 1e-05
+  normalization ................................... RMSNorm
+  num_attention_heads ............................. 16
+  num_channels .................................... 3
+  num_classes ..................................... 1000
+  num_dataset_builder_threads ..................... 1
+  num_experts ..................................... 12
+  num_fewshot ..................................... 25
+  num_layers ...................................... 36
+  num_layers_per_virtual_pipeline_stage ........... None
+  num_query_groups ................................ 2
+  num_workers ..................................... 2
+  one_logger_async ................................ False
+  one_logger_project .............................. megatron-lm
+  one_logger_run_name ............................. None
+  onnx_safe ....................................... None
+  openai_gelu ..................................... False
+  optimizer ....................................... adam
+  output_bert_embeddings .......................... False
+  overlap_grad_reduce ............................. True
+  overlap_p2p_comm ................................ False
+  overlap_param_gather ............................ True
+  overlap_param_gather_with_optimizer_step ........ False
+  override_opt_param_scheduler .................... False
+  params_dtype .................................... torch.bfloat16
+  patch_dim ....................................... 16
+  perform_initialization .......................... True
+  pipeline_model_parallel_size .................... 1
+  pipeline_model_parallel_split_rank .............. None
+  position_embedding_type ......................... rope
+  pretrained_checkpoint ........................... None
+  profile ......................................... False
+  profile_ranks ................................... [0]
+  profile_step_end ................................ 12
+  profile_step_start .............................. 10
+  qk_layernorm .................................... False
+  query_in_block_prob ............................. 0.1
+  rampup_batch_size ............................... None
+  rank ............................................ 0
+  recompute_granularity ........................... None
+  recompute_method ................................ None
+  recompute_num_layers ............................ None
+  renormalize_blend_weights ....................... False
+  reset_attention_mask ............................ False
+  reset_position_ids .............................. False
+  results_path .................................... /root/work/huangxin/nanda/Megatron-LM/llamamoe/eval/results/mcore_qwen2.5-3B-instruct-init-experts-share-12exp-arc_shot.json
+  retriever_report_topk_accuracies ................ []
+  retriever_score_scaling ......................... False
+  retriever_seq_length ............................ 256
+  retro_add_retriever ............................. False
+  retro_attention_gate ............................ 1
+  retro_cyclic_train_iters ........................ None
+  retro_encoder_attention_dropout ................. 0.1
+  retro_encoder_hidden_dropout .................... 0.1
+  retro_encoder_layers ............................ 2
+  retro_num_neighbors ............................. 2
+  retro_num_retrieved_chunks ...................... 2
+  retro_project_dir ............................... None
+  retro_verify_neighbor_count ..................... True
+  rotary_base ..................................... 1000000
+  rotary_interleaved .............................. False
+  rotary_percent .................................. 1.0
+  rotary_seq_len_interpolation_factor ............. None
+  s3_cache_path ................................... None
+  sample_rate ..................................... 1.0
+  save ............................................ /root/work/huangxin/nanda/models/Qwen2.5-3B-Instruct-qwenmoe-mcore-init-experts-exp12-TP1PP1EP4
+  save_interval ................................... 1000
+  scatter_gather_tensors_in_pipeline .............. True
+  seed ............................................ 1234
+  seq_length ...................................... 2048
+  sequence_parallel ............................... False
+  sgd_momentum .................................... 0.9
+  short_seq_prob .................................. 0.1
+  skip_train ...................................... False
+  skipped_train_samples ........................... 0
+  spec ............................................ None
+  split ........................................... 99990,8,2
+  squared_relu .................................... False
+  standalone_embedding_stage ...................... False
+  start_weight_decay .............................. 0.1
+  straggler_ctrlr_port ............................ 65535
+  straggler_minmax_count .......................... 1
+  swiglu .......................................... True
+  swin_backbone_type .............................. tiny
+  task_list ....................................... arc_challenge,arc_zh,arc_es,arc_id,arc_fr,arc_pt,arc_tr
+  tensor_model_parallel_size ...................... 1
+  tensorboard_dir ................................. None
+  tensorboard_log_interval ........................ 1
+  tensorboard_queue_size .......................... 1000
+  test_data_path .................................. None
+  test_mode ....................................... False
+  tiktoken_num_special_tokens ..................... 1000
+  tiktoken_pattern ................................ None
+  tiktoken_special_tokens ......................... None
+  timing_log_level ................................ 0
+  timing_log_option ............................... minmax
+  titles_data_path ................................ None
+  tokenizer_model ................................. /root/work/huangxin/nanda/models/Qwen/Qwen2.5-3B-Instruct
+  tokenizer_type .................................. HuggingFaceTokenizer
+  tp_comm_bulk_dgrad .............................. True
+  tp_comm_bulk_wgrad .............................. True
+  tp_comm_overlap ................................. False
+  tp_comm_overlap_ag .............................. True
+  tp_comm_overlap_cfg ............................. None
+  tp_comm_overlap_rs .............................. True
+  tp_comm_overlap_rs_dgrad ........................ False
+  tp_comm_split_ag ................................ True
+  tp_comm_split_rs ................................ True
+  train_data_path ................................. None
+  train_iters ..................................... 5000
+  train_samples ................................... None
+  train_sync_interval ............................. None
+  transformer_impl ................................ transformer_engine
+  transformer_pipeline_model_parallel_size ........ 1
+  untie_embeddings_and_output_weights ............. False
+  use_checkpoint_args ............................. False
+  use_checkpoint_opt_param_scheduler .............. False
+  use_cpu_initialization .......................... None
+  use_dist_ckpt ................................... False
+  use_dist_ckpt_deprecated ........................ False
+  use_distributed_optimizer ....................... True
+  use_flash_attn .................................. True
+  use_legacy_models ............................... False
+  use_one_sent_docs ............................... False
+  use_ring_exchange_p2p ........................... False
+  use_rotary_position_embeddings .................. True
+  use_tp_pp_dp_mapping ............................ False
+  valid_data_path ................................. None
+  variable_seq_lengths ............................ False
+  virtual_pipeline_model_parallel_size ............ None
+  vision_backbone_type ............................ vit
+  vision_pretraining .............................. False
+  vision_pretraining_type ......................... classify
+  vocab_extra_ids ................................. 0
+  vocab_file ...................................... None
+  vocab_size ...................................... None
+  wandb_exp_name .................................. 
+  wandb_project ................................... 
+  wandb_save_dir .................................. 
+  weight_decay .................................... 0.1
+  weight_decay_incr_style ......................... constant
+  wgrad_deferral_limit ............................ 0
+  world_size ...................................... 4
+  yaml_cfg ........................................ None
+  zero_expert_down_proj ........................... False
+-------------------- end of arguments ---------------------
+> building HuggingFaceTokenizer tokenizer ...
+ > padded vocab (size: 151936) with 0 dummy tokens (new size: 151936)
+> initializing torch distributed ...
+WARNING: one_logger package is required to enable e2e metrics tracking. please go to https://confluence.nvidia.com/display/MLWFO/Package+Repositories for details to install it
+> initialized tensor model parallel with size 1
+> initialized pipeline model parallel with size 1
+> setting random seeds to 1234 ...
+> compiling dataset index builder ...
+make: Entering directory '/root/work/huangxin/nanda/Megatron-LM/megatron/core/datasets'
+make: Nothing to be done for 'default'.
+make: Leaving directory '/root/work/huangxin/nanda/Megatron-LM/megatron/core/datasets'
+>>> done with dataset index builder. Compilation time: 0.029 seconds
+WARNING: constraints for invoking optimized fused softmax kernel are not met. We default back to unfused kernel invocations.
+> compiling and loading fused kernels ...
+>>> done with compiling and loading fused kernels. Compilation time: 0.545 seconds
+[INFO     | lm-eval            ]: `group` and `group_alias` keys in TaskConfigs are deprecated and will be removed in v0.4.5 of lm_eval. The new `tag` field will be used to allow for a shortcut to a group of tasks one does not wish to aggregate metrics across. `group`s which aggregate across subtasks must be only defined in a separate group config file, which will be the official way to create groups that support cross-task aggregation as in `mmlu`. Please see the v0.4.4 patch notes and our documentation: https://github.com/EleutherAI/lm-evaluation-harness/blob/main/docs/new_task_guide.md#advanced-group-configs for more information.
+[INFO     | lm-eval            ]: `group` and `group_alias` keys in TaskConfigs are deprecated and will be removed in v0.4.5 of lm_eval. The new `tag` field will be used to allow for a shortcut to a group of tasks one does not wish to aggregate metrics across. `group`s which aggregate across subtasks must be only defined in a separate group config file, which will be the official way to create groups that support cross-task aggregation as in `mmlu`. Please see the v0.4.4 patch notes and our documentation: https://github.com/EleutherAI/lm-evaluation-harness/blob/main/docs/new_task_guide.md#advanced-group-configs for more information.
+[INFO     | lm-eval            ]: `group` and `group_alias` keys in TaskConfigs are deprecated and will be removed in v0.4.5 of lm_eval. The new `tag` field will be used to allow for a shortcut to a group of tasks one does not wish to aggregate metrics across. `group`s which aggregate across subtasks must be only defined in a separate group config file, which will be the official way to create groups that support cross-task aggregation as in `mmlu`. Please see the v0.4.4 patch notes and our documentation: https://github.com/EleutherAI/lm-evaluation-harness/blob/main/docs/new_task_guide.md#advanced-group-configs for more information.
+[INFO     | lm-eval            ]: `group` and `group_alias` keys in TaskConfigs are deprecated and will be removed in v0.4.5 of lm_eval. The new `tag` field will be used to allow for a shortcut to a group of tasks one does not wish to aggregate metrics across. `group`s which aggregate across subtasks must be only defined in a separate group config file, which will be the official way to create groups that support cross-task aggregation as in `mmlu`. Please see the v0.4.4 patch notes and our documentation: https://github.com/EleutherAI/lm-evaluation-harness/blob/main/docs/new_task_guide.md#advanced-group-configs for more information.
+building GPT model ...
+/root/.local/lib/python3.10/site-packages/transformer_engine/pytorch/attention.py:3051: UserWarning: window_size should be (-1, 0) or (>=0, 0) for attn_mask_type=causal
+  warnings.warn(
+/root/.local/lib/python3.10/site-packages/transformer_engine/pytorch/attention.py:3051: UserWarning: window_size should be (-1, 0) or (>=0, 0) for attn_mask_type=causal
+  warnings.warn(
+/root/.local/lib/python3.10/site-packages/transformer_engine/pytorch/attention.py:3051: UserWarning: window_size should be (-1, 0) or (>=0, 0) for attn_mask_type=causal
+  warnings.warn(
+/root/.local/lib/python3.10/site-packages/transformer_engine/pytorch/attention.py:3051: UserWarning: window_size should be (-1, 0) or (>=0, 0) for attn_mask_type=causal
+  warnings.warn(
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[Rank 2] trainable params: 0 || all params: 4,913,065,984 || trainable%: 0.0000
+[Rank 3] trainable params: 0 || all params: 4,913,065,984 || trainable%: 0.0000
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[Rank 1] trainable params: 0 || all params: 4,913,065,984 || trainable%: 0.0000
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+[WARNING  | megatron.core.tensor_parallel.random]: CPU RNG state changed within GPU RNG context
+GPTModel(
+  (embedding): LanguageModelEmbedding(
+    (word_embeddings): VocabParallelEmbedding()
+    (embedding_dropout): Dropout(p=0.0, inplace=False)
+  )
+  (rotary_pos_emb): RotaryEmbedding()
+  (decoder): TransformerBlock(
+    (layers): ModuleList(
+      (0-35): 36 x TransformerLayer(
+        (input_layernorm): IdentityOp()
+        (self_attention): SelfAttention(
+          (core_attention): TEDotProductAttention(
+            (flash_attention): FlashAttention()
+            (fused_attention): FusedAttention()
+            (unfused_attention): UnfusedDotProductAttention(
+              (scale_mask_softmax): FusedScaleMaskSoftmax()
+              (attention_dropout): Dropout(p=0.0, inplace=False)
+            )
+          )
+          (linear_proj): TERowParallelLinear()
+          (linear_qkv): TELayerNormColumnParallelLinear()
+          (q_layernorm): IdentityOp()
+          (k_layernorm): IdentityOp()
+        )
+        (pre_cross_attn_layernorm): IdentityOp()
+        (cross_attention): IdentityOp()
+        (cross_attn_bda): IdentityFuncOp()
+        (pre_mlp_layernorm): RMSNorm()
+        (mlp): MoELayer(
+          (router): TopKRouter()
+          (shared_expert_gate): LanguageRouter()
+          (shared_expert): MLP(
+            (linear_fc1): ColumnParallelLinear()
+            (linear_fc2): RowParallelLinear()
+          )
+          (experts): SequentialMLP(
+            (local_experts): ModuleList(
+              (0-2): 3 x MLP(
+                (linear_fc1): ColumnParallelLinear()
+                (linear_fc2): RowParallelLinear()
+              )
+            )
+          )
+        )
+      )
+    )
+    (final_layernorm): RMSNorm()
+  )
+  (output_layer): ColumnParallelLinear()
+)
+Fine-tuning method: MoE-LPR stage 1
+[Rank 0] trainable params: 0 || all params: 4,913,065,984 || trainable%: 0.0000
+ > number of parameters on (tensor, pipeline) model parallel rank (0, 0): 4913065984
+ loading checkpoint from /root/work/huangxin/nanda/models/Qwen2.5-3B-Instruct-qwenmoe-mcore-init-experts-exp12-TP1PP1EP4 at iteration 12000
+ checkpoint version 3.0
+  successfully loaded checkpoint from /root/work/huangxin/nanda/models/Qwen2.5-3B-Instruct-qwenmoe-mcore-init-experts-exp12-TP1PP1EP4 [ t 0, p 0 ] at iteration 12000
+DistributedDataParallel(
+  (module): Float16Module(
+    (module): GPTModel(
+      (embedding): LanguageModelEmbedding(
+        (word_embeddings): VocabParallelEmbedding()
+        (embedding_dropout): Dropout(p=0.0, inplace=False)
+      )
+      (rotary_pos_emb): RotaryEmbedding()
+      (decoder): TransformerBlock(
+        (layers): ModuleList(
+          (0-35): 36 x TransformerLayer(
+            (input_layernorm): IdentityOp()
+            (self_attention): SelfAttention(
+              (core_attention): TEDotProductAttention(
+                (flash_attention): FlashAttention()
+                (fused_attention): FusedAttention()
+                (unfused_attention): UnfusedDotProductAttention(
+                  (scale_mask_softmax): FusedScaleMaskSoftmax()
+                  (attention_dropout): Dropout(p=0.0, inplace=False)
+                )
+              )
+              (linear_proj): TERowParallelLinear()
+              (linear_qkv): TELayerNormColumnParallelLinear()
+              (q_layernorm): IdentityOp()
+              (k_layernorm): IdentityOp()
+            )
+            (pre_cross_attn_layernorm): IdentityOp()
+            (cross_attention): IdentityOp()
+            (cross_attn_bda): IdentityFuncOp()
+            (pre_mlp_layernorm): RMSNorm()
+            (mlp): MoELayer(
+              (router): TopKRouter()
+              (shared_expert_gate): LanguageRouter()
+              (shared_expert): MLP(
+                (linear_fc1): ColumnParallelLinear()
+                (linear_fc2): RowParallelLinear()
+              )
+              (experts): SequentialMLP(
+                (local_experts): ModuleList(
+                  (0-2): 3 x MLP(
+                    (linear_fc1): ColumnParallelLinear()
+                    (linear_fc2): RowParallelLinear()
+                  )
+                )
+              )
+            )
+          )
+        )
+        (final_layernorm): RMSNorm()
+      )
+      (output_layer): ColumnParallelLinear()
+    )
+  )
+)
+[INFO     | lm-eval            ]: Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+[INFO     | lm-eval            ]: Using pre-initialized model
+Using the latest cached version of the dataset since allenai/ai2_arc couldn't be found on the Hugging Face Hub
+[WARNING  | datasets.load      ]: Using the latest cached version of the dataset since allenai/ai2_arc couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'ARC-Challenge' at /root/work/huangxin/nanda/data/cache/allenai___ai2_arc/ARC-Challenge/0.0.0/210d026faf9955653af8916fad021475a3f00453 (last modified on Fri Sep 13 04:48:05 2024).
+[WARNING  | datasets.packaged_modules.cache.cache]: Found the latest cached dataset configuration 'ARC-Challenge' at /root/work/huangxin/nanda/data/cache/allenai___ai2_arc/ARC-Challenge/0.0.0/210d026faf9955653af8916fad021475a3f00453 (last modified on Fri Sep 13 04:48:05 2024).
+DistributedDataParallel(
+  (module): Float16Module(
+    (module): GPTModel(
+      (embedding): LanguageModelEmbedding(
+        (word_embeddings): VocabParallelEmbedding()
+        (embedding_dropout): Dropout(p=0.0, inplace=False)
+      )
+      (rotary_pos_emb): RotaryEmbedding()
+      (decoder): TransformerBlock(
+        (layers): ModuleList(
+          (0-35): 36 x TransformerLayer(
+            (input_layernorm): IdentityOp()
+            (self_attention): SelfAttention(
+              (core_attention): TEDotProductAttention(
+                (flash_attention): FlashAttention()
+                (fused_attention): FusedAttention()
+                (unfused_attention): UnfusedDotProductAttention(
+                  (scale_mask_softmax): FusedScaleMaskSoftmax()
+                  (attention_dropout): Dropout(p=0.0, inplace=False)
+                )
+              )
+              (linear_proj): TERowParallelLinear()
+              (linear_qkv): TELayerNormColumnParallelLinear()
+              (q_layernorm): IdentityOp()
+              (k_layernorm): IdentityOp()
+            )
+            (pre_cross_attn_layernorm): IdentityOp()
+            (cross_attention): IdentityOp()
+            (cross_attn_bda): IdentityFuncOp()
+            (pre_mlp_layernorm): RMSNorm()
+            (mlp): MoELayer(
+              (router): TopKRouter()
+              (shared_expert_gate): LanguageRouter()
+              (shared_expert): MLP(
+                (linear_fc1): ColumnParallelLinear()
+                (linear_fc2): RowParallelLinear()
+              )
+              (experts): SequentialMLP(
+                (local_experts): ModuleList(
+                  (0-2): 3 x MLP(
+                    (linear_fc1): ColumnParallelLinear()
+                    (linear_fc2): RowParallelLinear()
+                  )
+                )
+              )
+            )
+          )
+        )
+        (final_layernorm): RMSNorm()
+      )
+      (output_layer): ColumnParallelLinear()
+    )
+  )
+)
+[INFO     | lm-eval            ]: Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+[INFO     | lm-eval            ]: Using pre-initialized model
+Using the latest cached version of the dataset since allenai/ai2_arc couldn't be found on the Hugging Face Hub
+[WARNING  | datasets.load      ]: Using the latest cached version of the dataset since allenai/ai2_arc couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'ARC-Challenge' at /root/work/huangxin/nanda/data/cache/allenai___ai2_arc/ARC-Challenge/0.0.0/210d026faf9955653af8916fad021475a3f00453 (last modified on Fri Sep 13 04:48:05 2024).
+[WARNING  | datasets.packaged_modules.cache.cache]: Found the latest cached dataset configuration 'ARC-Challenge' at /root/work/huangxin/nanda/data/cache/allenai___ai2_arc/ARC-Challenge/0.0.0/210d026faf9955653af8916fad021475a3f00453 (last modified on Fri Sep 13 04:48:05 2024).
+DistributedDataParallel(
+  (module): Float16Module(
+    (module): GPTModel(
+      (embedding): LanguageModelEmbedding(
+        (word_embeddings): VocabParallelEmbedding()
+        (embedding_dropout): Dropout(p=0.0, inplace=False)
+      )
+      (rotary_pos_emb): RotaryEmbedding()
+      (decoder): TransformerBlock(
+        (layers): ModuleList(
+          (0-35): 36 x TransformerLayer(
+            (input_layernorm): IdentityOp()
+            (self_attention): SelfAttention(
+              (core_attention): TEDotProductAttention(
+                (flash_attention): FlashAttention()
+                (fused_attention): FusedAttention()
+                (unfused_attention): UnfusedDotProductAttention(
+                  (scale_mask_softmax): FusedScaleMaskSoftmax()
+                  (attention_dropout): Dropout(p=0.0, inplace=False)
+                )
+              )
+              (linear_proj): TERowParallelLinear()
+              (linear_qkv): TELayerNormColumnParallelLinear()
+              (q_layernorm): IdentityOp()
+              (k_layernorm): IdentityOp()
+            )
+            (pre_cross_attn_layernorm): IdentityOp()
+            (cross_attention): IdentityOp()
+            (cross_attn_bda): IdentityFuncOp()
+            (pre_mlp_layernorm): RMSNorm()
+            (mlp): MoELayer(
+              (router): TopKRouter()
+              (shared_expert_gate): LanguageRouter()
+              (shared_expert): MLP(
+                (linear_fc1): ColumnParallelLinear()
+                (linear_fc2): RowParallelLinear()
+              )
+              (experts): SequentialMLP(
+                (local_experts): ModuleList(
+                  (0-2): 3 x MLP(
+                    (linear_fc1): ColumnParallelLinear()
+                    (linear_fc2): RowParallelLinear()
+                  )
+                )
+              )
+            )
+          )
+        )
+        (final_layernorm): RMSNorm()
+      )
+      (output_layer): ColumnParallelLinear()
+    )
+  )
+)
+[INFO     | lm-eval            ]: Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+[INFO     | lm-eval            ]: Using pre-initialized model
+Using the latest cached version of the dataset since allenai/ai2_arc couldn't be found on the Hugging Face Hub
+[WARNING  | datasets.load      ]: Using the latest cached version of the dataset since allenai/ai2_arc couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'ARC-Challenge' at /root/work/huangxin/nanda/data/cache/allenai___ai2_arc/ARC-Challenge/0.0.0/210d026faf9955653af8916fad021475a3f00453 (last modified on Fri Sep 13 04:48:05 2024).
+[WARNING  | datasets.packaged_modules.cache.cache]: Found the latest cached dataset configuration 'ARC-Challenge' at /root/work/huangxin/nanda/data/cache/allenai___ai2_arc/ARC-Challenge/0.0.0/210d026faf9955653af8916fad021475a3f00453 (last modified on Fri Sep 13 04:48:05 2024).
+DistributedDataParallel(
+  (module): Float16Module(
+    (module): GPTModel(
+      (embedding): LanguageModelEmbedding(
+        (word_embeddings): VocabParallelEmbedding()
+        (embedding_dropout): Dropout(p=0.0, inplace=False)
+      )
+      (rotary_pos_emb): RotaryEmbedding()
+      (decoder): TransformerBlock(
+        (layers): ModuleList(
+          (0-35): 36 x TransformerLayer(
+            (input_layernorm): IdentityOp()
+            (self_attention): SelfAttention(
+              (core_attention): TEDotProductAttention(
+                (flash_attention): FlashAttention()
+                (fused_attention): FusedAttention()
+                (unfused_attention): UnfusedDotProductAttention(
+                  (scale_mask_softmax): FusedScaleMaskSoftmax()
+                  (attention_dropout): Dropout(p=0.0, inplace=False)
+                )
+              )
+              (linear_proj): TERowParallelLinear()
+              (linear_qkv): TELayerNormColumnParallelLinear()
+              (q_layernorm): IdentityOp()
+              (k_layernorm): IdentityOp()
+            )
+            (pre_cross_attn_layernorm): IdentityOp()
+            (cross_attention): IdentityOp()
+            (cross_attn_bda): IdentityFuncOp()
+            (pre_mlp_layernorm): RMSNorm()
+            (mlp): MoELayer(
+              (router): TopKRouter()
+              (shared_expert_gate): LanguageRouter()
+              (shared_expert): MLP(
+                (linear_fc1): ColumnParallelLinear()
+                (linear_fc2): RowParallelLinear()
+              )
+              (experts): SequentialMLP(
+                (local_experts): ModuleList(
+                  (0-2): 3 x MLP(
+                    (linear_fc1): ColumnParallelLinear()
+                    (linear_fc2): RowParallelLinear()
+                  )
+                )
+              )
+            )
+          )
+        )
+        (final_layernorm): RMSNorm()
+      )
+      (output_layer): ColumnParallelLinear()
+    )
+  )
+)
+[INFO     | lm-eval            ]: Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+[INFO     | lm-eval            ]: Using pre-initialized model
+Using the latest cached version of the dataset since allenai/ai2_arc couldn't be found on the Hugging Face Hub
+[WARNING  | datasets.load      ]: Using the latest cached version of the dataset since allenai/ai2_arc couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'ARC-Challenge' at /root/work/huangxin/nanda/data/cache/allenai___ai2_arc/ARC-Challenge/0.0.0/210d026faf9955653af8916fad021475a3f00453 (last modified on Fri Sep 13 04:48:05 2024).
+[WARNING  | datasets.packaged_modules.cache.cache]: Found the latest cached dataset configuration 'ARC-Challenge' at /root/work/huangxin/nanda/data/cache/allenai___ai2_arc/ARC-Challenge/0.0.0/210d026faf9955653af8916fad021475a3f00453 (last modified on Fri Sep 13 04:48:05 2024).
+Using the latest cached version of the dataset since alexandrainst/m_arc couldn't be found on the Hugging Face Hub
+[WARNING  | datasets.load      ]: Using the latest cached version of the dataset since alexandrainst/m_arc couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'zh' at /root/work/huangxin/nanda/data/cache/alexandrainst___m_arc/zh/0.0.0/69b0991ee606079105c4f9e271bcc1fef0014e03 (last modified on Fri Sep 13 04:48:44 2024).
+[WARNING  | datasets.packaged_modules.cache.cache]: Found the latest cached dataset configuration 'zh' at /root/work/huangxin/nanda/data/cache/alexandrainst___m_arc/zh/0.0.0/69b0991ee606079105c4f9e271bcc1fef0014e03 (last modified on Fri Sep 13 04:48:44 2024).
+Using the latest cached version of the dataset since alexandrainst/m_arc couldn't be found on the Hugging Face Hub
+[WARNING  | datasets.load      ]: Using the latest cached version of the dataset since alexandrainst/m_arc couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'zh' at /root/work/huangxin/nanda/data/cache/alexandrainst___m_arc/zh/0.0.0/69b0991ee606079105c4f9e271bcc1fef0014e03 (last modified on Fri Sep 13 04:48:44 2024).
+[WARNING  | datasets.packaged_modules.cache.cache]: Found the latest cached dataset configuration 'zh' at /root/work/huangxin/nanda/data/cache/alexandrainst___m_arc/zh/0.0.0/69b0991ee606079105c4f9e271bcc1fef0014e03 (last modified on Fri Sep 13 04:48:44 2024).
+Using the latest cached version of the dataset since alexandrainst/m_arc couldn't be found on the Hugging Face Hub
+[WARNING  | datasets.load      ]: Using the latest cached version of the dataset since alexandrainst/m_arc couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'zh' at /root/work/huangxin/nanda/data/cache/alexandrainst___m_arc/zh/0.0.0/69b0991ee606079105c4f9e271bcc1fef0014e03 (last modified on Fri Sep 13 04:48:44 2024).
+[WARNING  | datasets.packaged_modules.cache.cache]: Found the latest cached dataset configuration 'zh' at /root/work/huangxin/nanda/data/cache/alexandrainst___m_arc/zh/0.0.0/69b0991ee606079105c4f9e271bcc1fef0014e03 (last modified on Fri Sep 13 04:48:44 2024).
+Using the latest cached version of the dataset since alexandrainst/m_arc couldn't be found on the Hugging Face Hub
+[WARNING  | datasets.load      ]: Using the latest cached version of the dataset since alexandrainst/m_arc couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'zh' at /root/work/huangxin/nanda/data/cache/alexandrainst___m_arc/zh/0.0.0/69b0991ee606079105c4f9e271bcc1fef0014e03 (last modified on Fri Sep 13 04:48:44 2024).
+[WARNING  | datasets.packaged_modules.cache.cache]: Found the latest cached dataset configuration 'zh' at /root/work/huangxin/nanda/data/cache/alexandrainst___m_arc/zh/0.0.0/69b0991ee606079105c4f9e271bcc1fef0014e03 (last modified on Fri Sep 13 04:48:44 2024).
+Using the latest cached version of the dataset since alexandrainst/m_arc couldn't be found on the Hugging Face Hub
+[WARNING  | datasets.load      ]: Using the latest cached version of the dataset since alexandrainst/m_arc couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'es' at /root/work/huangxin/nanda/data/cache/alexandrainst___m_arc/es/0.0.0/69b0991ee606079105c4f9e271bcc1fef0014e03 (last modified on Fri Sep 13 04:48:15 2024).
+[WARNING  | datasets.packaged_modules.cache.cache]: Found the latest cached dataset configuration 'es' at /root/work/huangxin/nanda/data/cache/alexandrainst___m_arc/es/0.0.0/69b0991ee606079105c4f9e271bcc1fef0014e03 (last modified on Fri Sep 13 04:48:15 2024).
+Using the latest cached version of the dataset since alexandrainst/m_arc couldn't be found on the Hugging Face Hub
+[WARNING  | datasets.load      ]: Using the latest cached version of the dataset since alexandrainst/m_arc couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'es' at /root/work/huangxin/nanda/data/cache/alexandrainst___m_arc/es/0.0.0/69b0991ee606079105c4f9e271bcc1fef0014e03 (last modified on Fri Sep 13 04:48:15 2024).
+[WARNING  | datasets.packaged_modules.cache.cache]: Found the latest cached dataset configuration 'es' at /root/work/huangxin/nanda/data/cache/alexandrainst___m_arc/es/0.0.0/69b0991ee606079105c4f9e271bcc1fef0014e03 (last modified on Fri Sep 13 04:48:15 2024).
+Using the latest cached version of the dataset since alexandrainst/m_arc couldn't be found on the Hugging Face Hub
+[WARNING  | datasets.load      ]: Using the latest cached version of the dataset since alexandrainst/m_arc couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'es' at /root/work/huangxin/nanda/data/cache/alexandrainst___m_arc/es/0.0.0/69b0991ee606079105c4f9e271bcc1fef0014e03 (last modified on Fri Sep 13 04:48:15 2024).
+[WARNING  | datasets.packaged_modules.cache.cache]: Found the latest cached dataset configuration 'es' at /root/work/huangxin/nanda/data/cache/alexandrainst___m_arc/es/0.0.0/69b0991ee606079105c4f9e271bcc1fef0014e03 (last modified on Fri Sep 13 04:48:15 2024).
+Using the latest cached version of the dataset since alexandrainst/m_arc couldn't be found on the Hugging Face Hub
+[WARNING  | datasets.load      ]: Using the latest cached version of the dataset since alexandrainst/m_arc couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'es' at /root/work/huangxin/nanda/data/cache/alexandrainst___m_arc/es/0.0.0/69b0991ee606079105c4f9e271bcc1fef0014e03 (last modified on Fri Sep 13 04:48:15 2024).
+[WARNING  | datasets.packaged_modules.cache.cache]: Found the latest cached dataset configuration 'es' at /root/work/huangxin/nanda/data/cache/alexandrainst___m_arc/es/0.0.0/69b0991ee606079105c4f9e271bcc1fef0014e03 (last modified on Fri Sep 13 04:48:15 2024).
+Using the latest cached version of the dataset since alexandrainst/m_arc couldn't be found on the Hugging Face Hub
+[WARNING  | datasets.load      ]: Using the latest cached version of the dataset since alexandrainst/m_arc couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'id' at /root/work/huangxin/nanda/data/cache/alexandrainst___m_arc/id/0.0.0/69b0991ee606079105c4f9e271bcc1fef0014e03 (last modified on Fri Sep 13 04:48:30 2024).
+[WARNING  | datasets.packaged_modules.cache.cache]: Found the latest cached dataset configuration 'id' at /root/work/huangxin/nanda/data/cache/alexandrainst___m_arc/id/0.0.0/69b0991ee606079105c4f9e271bcc1fef0014e03 (last modified on Fri Sep 13 04:48:30 2024).
+Using the latest cached version of the dataset since alexandrainst/m_arc couldn't be found on the Hugging Face Hub
+[WARNING  | datasets.load      ]: Using the latest cached version of the dataset since alexandrainst/m_arc couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'id' at /root/work/huangxin/nanda/data/cache/alexandrainst___m_arc/id/0.0.0/69b0991ee606079105c4f9e271bcc1fef0014e03 (last modified on Fri Sep 13 04:48:30 2024).
+[WARNING  | datasets.packaged_modules.cache.cache]: Found the latest cached dataset configuration 'id' at /root/work/huangxin/nanda/data/cache/alexandrainst___m_arc/id/0.0.0/69b0991ee606079105c4f9e271bcc1fef0014e03 (last modified on Fri Sep 13 04:48:30 2024).
+Using the latest cached version of the dataset since alexandrainst/m_arc couldn't be found on the Hugging Face Hub
+[WARNING  | datasets.load      ]: Using the latest cached version of the dataset since alexandrainst/m_arc couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'id' at /root/work/huangxin/nanda/data/cache/alexandrainst___m_arc/id/0.0.0/69b0991ee606079105c4f9e271bcc1fef0014e03 (last modified on Fri Sep 13 04:48:30 2024).
+[WARNING  | datasets.packaged_modules.cache.cache]: Found the latest cached dataset configuration 'id' at /root/work/huangxin/nanda/data/cache/alexandrainst___m_arc/id/0.0.0/69b0991ee606079105c4f9e271bcc1fef0014e03 (last modified on Fri Sep 13 04:48:30 2024).
+Using the latest cached version of the dataset since alexandrainst/m_arc couldn't be found on the Hugging Face Hub
+[WARNING  | datasets.load      ]: Using the latest cached version of the dataset since alexandrainst/m_arc couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'id' at /root/work/huangxin/nanda/data/cache/alexandrainst___m_arc/id/0.0.0/69b0991ee606079105c4f9e271bcc1fef0014e03 (last modified on Fri Sep 13 04:48:30 2024).
+[WARNING  | datasets.packaged_modules.cache.cache]: Found the latest cached dataset configuration 'id' at /root/work/huangxin/nanda/data/cache/alexandrainst___m_arc/id/0.0.0/69b0991ee606079105c4f9e271bcc1fef0014e03 (last modified on Fri Sep 13 04:48:30 2024).
+Using the latest cached version of the dataset since alexandrainst/m_arc couldn't be found on the Hugging Face Hub
+[WARNING  | datasets.load      ]: Using the latest cached version of the dataset since alexandrainst/m_arc couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'fr' at /root/work/huangxin/nanda/data/cache/alexandrainst___m_arc/fr/0.0.0/69b0991ee606079105c4f9e271bcc1fef0014e03 (last modified on Fri Sep 13 04:48:23 2024).
+[WARNING  | datasets.packaged_modules.cache.cache]: Found the latest cached dataset configuration 'fr' at /root/work/huangxin/nanda/data/cache/alexandrainst___m_arc/fr/0.0.0/69b0991ee606079105c4f9e271bcc1fef0014e03 (last modified on Fri Sep 13 04:48:23 2024).
+Using the latest cached version of the dataset since alexandrainst/m_arc couldn't be found on the Hugging Face Hub
+[WARNING  | datasets.load      ]: Using the latest cached version of the dataset since alexandrainst/m_arc couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'fr' at /root/work/huangxin/nanda/data/cache/alexandrainst___m_arc/fr/0.0.0/69b0991ee606079105c4f9e271bcc1fef0014e03 (last modified on Fri Sep 13 04:48:23 2024).
+[WARNING  | datasets.packaged_modules.cache.cache]: Found the latest cached dataset configuration 'fr' at /root/work/huangxin/nanda/data/cache/alexandrainst___m_arc/fr/0.0.0/69b0991ee606079105c4f9e271bcc1fef0014e03 (last modified on Fri Sep 13 04:48:23 2024).
+Using the latest cached version of the dataset since alexandrainst/m_arc couldn't be found on the Hugging Face Hub
+[WARNING  | datasets.load      ]: Using the latest cached version of the dataset since alexandrainst/m_arc couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'fr' at /root/work/huangxin/nanda/data/cache/alexandrainst___m_arc/fr/0.0.0/69b0991ee606079105c4f9e271bcc1fef0014e03 (last modified on Fri Sep 13 04:48:23 2024).
+[WARNING  | datasets.packaged_modules.cache.cache]: Found the latest cached dataset configuration 'fr' at /root/work/huangxin/nanda/data/cache/alexandrainst___m_arc/fr/0.0.0/69b0991ee606079105c4f9e271bcc1fef0014e03 (last modified on Fri Sep 13 04:48:23 2024).
+Using the latest cached version of the dataset since alexandrainst/m_arc couldn't be found on the Hugging Face Hub
+[WARNING  | datasets.load      ]: Using the latest cached version of the dataset since alexandrainst/m_arc couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'fr' at /root/work/huangxin/nanda/data/cache/alexandrainst___m_arc/fr/0.0.0/69b0991ee606079105c4f9e271bcc1fef0014e03 (last modified on Fri Sep 13 04:48:23 2024).
+[WARNING  | datasets.packaged_modules.cache.cache]: Found the latest cached dataset configuration 'fr' at /root/work/huangxin/nanda/data/cache/alexandrainst___m_arc/fr/0.0.0/69b0991ee606079105c4f9e271bcc1fef0014e03 (last modified on Fri Sep 13 04:48:23 2024).
+Using the latest cached version of the dataset since alexandrainst/m_arc couldn't be found on the Hugging Face Hub
+[WARNING  | datasets.load      ]: Using the latest cached version of the dataset since alexandrainst/m_arc couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'pt' at /root/work/huangxin/nanda/data/cache/alexandrainst___m_arc/pt/0.0.0/69b0991ee606079105c4f9e271bcc1fef0014e03 (last modified on Fri Sep 13 04:48:37 2024).
+[WARNING  | datasets.packaged_modules.cache.cache]: Found the latest cached dataset configuration 'pt' at /root/work/huangxin/nanda/data/cache/alexandrainst___m_arc/pt/0.0.0/69b0991ee606079105c4f9e271bcc1fef0014e03 (last modified on Fri Sep 13 04:48:37 2024).
+Using the latest cached version of the dataset since alexandrainst/m_arc couldn't be found on the Hugging Face Hub
+[WARNING  | datasets.load      ]: Using the latest cached version of the dataset since alexandrainst/m_arc couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'pt' at /root/work/huangxin/nanda/data/cache/alexandrainst___m_arc/pt/0.0.0/69b0991ee606079105c4f9e271bcc1fef0014e03 (last modified on Fri Sep 13 04:48:37 2024).
+[WARNING  | datasets.packaged_modules.cache.cache]: Found the latest cached dataset configuration 'pt' at /root/work/huangxin/nanda/data/cache/alexandrainst___m_arc/pt/0.0.0/69b0991ee606079105c4f9e271bcc1fef0014e03 (last modified on Fri Sep 13 04:48:37 2024).
+Using the latest cached version of the dataset since alexandrainst/m_arc couldn't be found on the Hugging Face Hub
+[WARNING  | datasets.load      ]: Using the latest cached version of the dataset since alexandrainst/m_arc couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'pt' at /root/work/huangxin/nanda/data/cache/alexandrainst___m_arc/pt/0.0.0/69b0991ee606079105c4f9e271bcc1fef0014e03 (last modified on Fri Sep 13 04:48:37 2024).
+[WARNING  | datasets.packaged_modules.cache.cache]: Found the latest cached dataset configuration 'pt' at /root/work/huangxin/nanda/data/cache/alexandrainst___m_arc/pt/0.0.0/69b0991ee606079105c4f9e271bcc1fef0014e03 (last modified on Fri Sep 13 04:48:37 2024).
+Using the latest cached version of the dataset since alexandrainst/m_arc couldn't be found on the Hugging Face Hub
+[WARNING  | datasets.load      ]: Using the latest cached version of the dataset since alexandrainst/m_arc couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'pt' at /root/work/huangxin/nanda/data/cache/alexandrainst___m_arc/pt/0.0.0/69b0991ee606079105c4f9e271bcc1fef0014e03 (last modified on Fri Sep 13 04:48:37 2024).
+[WARNING  | datasets.packaged_modules.cache.cache]: Found the latest cached dataset configuration 'pt' at /root/work/huangxin/nanda/data/cache/alexandrainst___m_arc/pt/0.0.0/69b0991ee606079105c4f9e271bcc1fef0014e03 (last modified on Fri Sep 13 04:48:37 2024).
+[WARNING  | lm-eval            ]: Overwriting default num_fewshot of arc_tr from None to 25
+[INFO     | lm-eval            ]: Setting fewshot random generator seed to 1234
+[WARNING  | lm-eval            ]: Overwriting default num_fewshot of arc_pt from None to 25
+[INFO     | lm-eval            ]: Setting fewshot random generator seed to 1234
+[WARNING  | lm-eval            ]: Overwriting default num_fewshot of arc_fr from None to 25
+[INFO     | lm-eval            ]: Setting fewshot random generator seed to 1234
+[WARNING  | lm-eval            ]: Overwriting default num_fewshot of arc_id from None to 25
+[INFO     | lm-eval            ]: Setting fewshot random generator seed to 1234
+[WARNING  | lm-eval            ]: Overwriting default num_fewshot of arc_es from None to 25
+[INFO     | lm-eval            ]: Setting fewshot random generator seed to 1234
+[WARNING  | lm-eval            ]: Overwriting default num_fewshot of arc_zh from None to 25
+[INFO     | lm-eval            ]: Setting fewshot random generator seed to 1234
+[WARNING  | lm-eval            ]: Overwriting default num_fewshot of arc_challenge from None to 25
+[INFO     | lm-eval            ]: Setting fewshot random generator seed to 1234
+[WARNING  | lm-eval            ]: Overwriting default num_fewshot of arc_tr from None to 25
+[INFO     | lm-eval            ]: Setting fewshot random generator seed to 1234
+[WARNING  | lm-eval            ]: Overwriting default num_fewshot of arc_pt from None to 25
+[INFO     | lm-eval            ]: Setting fewshot random generator seed to 1234
+[WARNING  | lm-eval            ]: Overwriting default num_fewshot of arc_fr from None to 25
+[INFO     | lm-eval            ]: Setting fewshot random generator seed to 1234
+[WARNING  | lm-eval            ]: Overwriting default num_fewshot of arc_id from None to 25
+[INFO     | lm-eval            ]: Setting fewshot random generator seed to 1234
+[WARNING  | lm-eval            ]: Overwriting default num_fewshot of arc_es from None to 25
+[INFO     | lm-eval            ]: Setting fewshot random generator seed to 1234
+[WARNING  | lm-eval            ]: Overwriting default num_fewshot of arc_zh from None to 25
+[INFO     | lm-eval            ]: Setting fewshot random generator seed to 1234
+[WARNING  | lm-eval            ]: Overwriting default num_fewshot of arc_challenge from None to 25
+[INFO     | lm-eval            ]: Setting fewshot random generator seed to 1234
+[WARNING  | lm-eval            ]: Overwriting default num_fewshot of arc_tr from None to 25
+[INFO     | lm-eval            ]: Setting fewshot random generator seed to 1234
+[WARNING  | lm-eval            ]: Overwriting default num_fewshot of arc_pt from None to 25
+[INFO     | lm-eval            ]: Setting fewshot random generator seed to 1234
+[WARNING  | lm-eval            ]: Overwriting default num_fewshot of arc_fr from None to 25
+[INFO     | lm-eval            ]: Setting fewshot random generator seed to 1234
+[WARNING  | lm-eval            ]: Overwriting default num_fewshot of arc_id from None to 25
+[INFO     | lm-eval            ]: Setting fewshot random generator seed to 1234
+[WARNING  | lm-eval            ]: Overwriting default num_fewshot of arc_es from None to 25
+[INFO     | lm-eval            ]: Setting fewshot random generator seed to 1234
+[WARNING  | lm-eval            ]: Overwriting default num_fewshot of arc_zh from None to 25
+[INFO     | lm-eval            ]: Setting fewshot random generator seed to 1234
+[WARNING  | lm-eval            ]: Overwriting default num_fewshot of arc_challenge from None to 25
+[INFO     | lm-eval            ]: Setting fewshot random generator seed to 1234
+[WARNING  | lm-eval            ]: Overwriting default num_fewshot of arc_tr from None to 25
+[INFO     | lm-eval            ]: Setting fewshot random generator seed to 1234
+[WARNING  | lm-eval            ]: Overwriting default num_fewshot of arc_pt from None to 25
+[INFO     | lm-eval            ]: Setting fewshot random generator seed to 1234
+[WARNING  | lm-eval            ]: Overwriting default num_fewshot of arc_fr from None to 25
+[INFO     | lm-eval            ]: Setting fewshot random generator seed to 1234
+[WARNING  | lm-eval            ]: Overwriting default num_fewshot of arc_id from None to 25
+[INFO     | lm-eval            ]: Setting fewshot random generator seed to 1234
+[WARNING  | lm-eval            ]: Overwriting default num_fewshot of arc_es from None to 25
+[INFO     | lm-eval            ]: Setting fewshot random generator seed to 1234
+[WARNING  | lm-eval            ]: Overwriting default num_fewshot of arc_zh from None to 25
+[INFO     | lm-eval            ]: Setting fewshot random generator seed to 1234
+[WARNING  | lm-eval            ]: Overwriting default num_fewshot of arc_challenge from None to 25
+[INFO     | lm-eval            ]: Setting fewshot random generator seed to 1234
+[INFO     | lm-eval            ]: Running loglikelihood requests
+[INFO     | lm-eval            ]: Running loglikelihood requests
+[INFO     | lm-eval            ]: Running loglikelihood requests
+[INFO     | lm-eval            ]: Running loglikelihood requests
+  0%|          | 0/8210 [00:00<?, ?it/s]/root/.local/lib/python3.10/site-packages/transformer_engine/pytorch/attention.py:3051: UserWarning: window_size should be (-1, 0) or (>=0, 0) for attn_mask_type=causal
+  warnings.warn(
+/root/.local/lib/python3.10/site-packages/transformer_engine/pytorch/attention.py:3051: UserWarning: window_size should be (-1, 0) or (>=0, 0) for attn_mask_type=causal
+  warnings.warn(
+/root/.local/lib/python3.10/site-packages/transformer_engine/pytorch/attention.py:3051: UserWarning: window_size should be (-1, 0) or (>=0, 0) for attn_mask_type=causal
+  warnings.warn(
+/root/.local/lib/python3.10/site-packages/transformer_engine/pytorch/attention.py:3051: UserWarning: window_size should be (-1, 0) or (>=0, 0) for attn_mask_type=causal
+  warnings.warn(
+/root/.local/lib/python3.10/site-packages/transformer_engine/pytorch/attention.py:3051: UserWarning: window_size should be (-1, 0) or (>=0, 0) for attn_mask_type=causal
+  warnings.warn(
+  0%|          | 16/8210 [00:29<4:09:59,  1.83s/it]/root/.local/lib/python3.10/site-packages/transformer_engine/pytorch/attention.py:3051: UserWarning: window_size should be (-1, 0) or (>=0, 0) for attn_mask_type=causal
+  warnings.warn(
+/root/.local/lib/python3.10/site-packages/transformer_engine/pytorch/attention.py:3051: UserWarning: window_size should be (-1, 0) or (>=0, 0) for attn_mask_type=causal
+  warnings.warn(
+/root/.local/lib/python3.10/site-packages/transformer_engine/pytorch/attention.py:3051: UserWarning: window_size should be (-1, 0) or (>=0, 0) for attn_mask_type=causal
+  warnings.warn(
+/root/.local/lib/python3.10/site-packages/transformer_engine/pytorch/attention.py:3051: UserWarning: window_size should be (-1, 0) or (>=0, 0) for attn_mask_type=causal
+  warnings.warn(
+  0%|          | 32/8210 [00:46<3:11:10,  1.40s/it]  1%|          | 48/8210 [00:58<2:28:12,  1.09s/it]  1%|          | 64/8210 [01:12<2:16:41,  1.01s/it]  1%|          | 80/8210 [01:24<2:03:30,  1.10it/s]  1%|          | 96/8210 [01:38<2:02:01,  1.11it/s]  1%|▏         | 112/8210 [01:49<1:53:00,  1.19it/s]  2%|▏         | 128/8210 [02:02<1:49:42,  1.23it/s]  2%|▏         | 144/8210 [02:13<1:45:43,  1.27it/s]  2%|▏         | 160/8210 [02:26<1:46:57,  1.25it/s]  2%|▏         | 176/8210 [02:38<1:44:04,  1.29it/s]  2%|▏         | 192/8210 [02:50<1:42:41,  1.30it/s]  3%|▎         | 208/8210 [03:01<1:38:52,  1.35it/s]  3%|▎         | 224/8210 [03:13<1:38:53,  1.35it/s]  3%|▎         | 240/8210 [03:24<1:35:59,  1.38it/s]  3%|▎         | 256/8210 [03:36<1:36:55,  1.37it/s]  3%|▎         | 272/8210 [03:46<1:34:44,  1.40it/s]  4%|▎         | 288/8210 [03:58<1:35:38,  1.38it/s]  4%|▎         | 304/8210 [04:09<1:33:54,  1.40it/s]  4%|▍         | 320/8210 [04:21<1:34:31,  1.39it/s]  4%|▍         | 336/8210 [04:32<1:32:09,  1.42it/s]  4%|▍         | 352/8210 [04:44<1:33:42,  1.40it/s]  4%|▍         | 368/8210 [04:54<1:31:46,  1.42it/s]  5%|▍         | 384/8210 [05:06<1:33:14,  1.40it/s]  5%|▍         | 400/8210 [05:17<1:31:18,  1.43it/s]  5%|▌         | 416/8210 [05:29<1:31:57,  1.41it/s]  5%|▌         | 432/8210 [05:39<1:29:34,  1.45it/s]  5%|▌         | 448/8210 [05:51<1:31:00,  1.42it/s]  6%|▌         | 464/8210 [06:01<1:28:36,  1.46it/s]  6%|▌         | 480/8210 [06:13<1:30:47,  1.42it/s]  6%|▌         | 496/8210 [06:24<1:29:01,  1.44it/s]  6%|▌         | 512/8210 [06:35<1:29:43,  1.43it/s]  6%|▋         | 528/8210 [06:46<1:27:45,  1.46it/s]  7%|▋         | 544/8210 [06:57<1:28:23,  1.45it/s]  7%|▋         | 560/8210 [07:07<1:26:15,  1.48it/s]  7%|▋         | 576/8210 [07:19<1:28:25,  1.44it/s]  7%|▋         | 592/8210 [07:30<1:27:02,  1.46it/s]  7%|▋         | 608/8210 [07:40<1:26:12,  1.47it/s]  8%|▊         | 624/8210 [07:50<1:24:22,  1.50it/s]  8%|▊         | 640/8210 [08:01<1:25:00,  1.48it/s]  8%|▊         | 656/8210 [08:12<1:23:59,  1.50it/s]  8%|▊         | 672/8210 [08:23<1:24:22,  1.49it/s]  8%|▊         | 688/8210 [08:33<1:22:59,  1.51it/s]  9%|▊         | 704/8210 [08:44<1:24:26,  1.48it/s]  9%|▉         | 720/8210 [08:55<1:22:59,  1.50it/s]  9%|▉         | 736/8210 [09:06<1:23:43,  1.49it/s]  9%|▉         | 752/8210 [09:16<1:22:36,  1.50it/s]  9%|▉         | 768/8210 [09:27<1:23:23,  1.49it/s] 10%|▉         | 784/8210 [09:37<1:21:41,  1.52it/s] 10%|▉         | 800/8210 [09:48<1:22:44,  1.49it/s] 10%|▉         | 816/8210 [09:58<1:21:19,  1.52it/s] 10%|█         | 832/8210 [10:09<1:22:29,  1.49it/s] 10%|█         | 848/8210 [10:20<1:21:04,  1.51it/s] 11%|█         | 864/8210 [10:31<1:21:35,  1.50it/s] 11%|█         | 880/8210 [10:40<1:19:30,  1.54it/s] 11%|█         | 896/8210 [10:51<1:20:47,  1.51it/s] 11%|█         | 912/8210 [11:01<1:19:06,  1.54it/s] 11%|█▏        | 928/8210 [11:12<1:19:56,  1.52it/s] 11%|█▏        | 944/8210 [11:22<1:18:10,  1.55it/s] 12%|█▏        | 960/8210 [11:33<1:19:43,  1.52it/s] 12%|█▏        | 976/8210 [11:43<1:18:11,  1.54it/s] 12%|█▏        | 992/8210 [11:54<1:19:15,  1.52it/s] 12%|█▏        | 1008/8210 [12:04<1:17:27,  1.55it/s] 12%|█▏        | 1024/8210 [12:15<1:19:34,  1.50it/s] 13%|█▎        | 1040/8210 [12:25<1:18:01,  1.53it/s] 13%|█▎        | 1056/8210 [12:36<1:19:23,  1.50it/s] 13%|█▎        | 1072/8210 [12:47<1:18:23,  1.52it/s] 13%|█▎        | 1088/8210 [12:57<1:18:05,  1.52it/s] 13%|█▎        | 1104/8210 [13:07<1:17:16,  1.53it/s] 14%|█▎        | 1120/8210 [13:18<1:17:04,  1.53it/s] 14%|█▍        | 1136/8210 [13:28<1:16:06,  1.55it/s] 14%|█▍        | 1152/8210 [13:38<1:15:51,  1.55it/s] 14%|█▍        | 1168/8210 [13:48<1:14:59,  1.57it/s] 14%|█▍        | 1184/8210 [13:59<1:16:21,  1.53it/s] 15%|█▍        | 1200/8210 [14:09<1:14:53,  1.56it/s] 15%|█▍        | 1216/8210 [14:19<1:15:02,  1.55it/s] 15%|█▌        | 1232/8210 [14:29<1:13:39,  1.58it/s] 15%|█▌        | 1248/8210 [14:40<1:14:40,  1.55it/s] 15%|█▌        | 1264/8210 [14:50<1:13:28,  1.58it/s] 16%|█▌        | 1280/8210 [15:00<1:14:19,  1.55it/s] 16%|█▌        | 1296/8210 [15:10<1:13:44,  1.56it/s] 16%|█▌        | 1312/8210 [15:21<1:13:44,  1.56it/s] 16%|█▌        | 1328/8210 [15:31<1:12:49,  1.58it/s] 16%|█▋        | 1344/8210 [15:41<1:13:46,  1.55it/s] 17%|█▋        | 1360/8210 [15:51<1:12:44,  1.57it/s] 17%|█▋        | 1376/8210 [16:01<1:12:10,  1.58it/s] 17%|█▋        | 1392/8210 [16:11<1:11:47,  1.58it/s] 17%|█▋        | 1408/8210 [16:22<1:12:08,  1.57it/s] 17%|█▋        | 1424/8210 [16:31<1:11:14,  1.59it/s] 18%|█▊        | 1440/8210 [16:42<1:11:45,  1.57it/s] 18%|█▊        | 1456/8210 [16:52<1:11:10,  1.58it/s] 18%|█▊        | 1472/8210 [17:02<1:10:48,  1.59it/s] 18%|█▊        | 1488/8210 [17:12<1:10:27,  1.59it/s] 18%|█▊        | 1504/8210 [17:22<1:10:31,  1.58it/s] 19%|█▊        | 1520/8210 [17:32<1:10:22,  1.58it/s] 19%|█▊        | 1536/8210 [17:42<1:10:30,  1.58it/s] 19%|█▉        | 1552/8210 [17:52<1:09:58,  1.59it/s] 19%|█▉        | 1568/8210 [18:02<1:08:09,  1.62it/s] 19%|█▉        | 1584/8210 [18:13<1:10:21,  1.57it/s] 19%|█▉        | 1600/8210 [18:22<1:08:11,  1.62it/s] 20%|█▉        | 1616/8210 [18:33<1:10:08,  1.57it/s] 20%|█▉        | 1632/8210 [18:42<1:07:30,  1.62it/s] 20%|██        | 1648/8210 [18:53<1:09:32,  1.57it/s] 20%|██        | 1664/8210 [19:02<1:07:27,  1.62it/s] 20%|██        | 1680/8210 [19:12<1:08:41,  1.58it/s] 21%|██        | 1696/8210 [19:22<1:06:58,  1.62it/s] 21%|██        | 1712/8210 [19:33<1:08:31,  1.58it/s] 21%|██        | 1728/8210 [19:41<1:05:50,  1.64it/s] 21%|██        | 1744/8210 [19:52<1:08:01,  1.58it/s] 21%|██▏       | 1760/8210 [20:01<1:05:22,  1.64it/s] 22%|██▏       | 1776/8210 [20:12<1:06:47,  1.61it/s] 22%|██▏       | 1792/8210 [20:21<1:04:51,  1.65it/s] 22%|██▏       | 1808/8210 [20:31<1:06:11,  1.61it/s] 22%|██▏       | 1824/8210 [20:41<1:04:48,  1.64it/s] 22%|██▏       | 1840/8210 [20:51<1:06:04,  1.61it/s] 23%|██▎       | 1856/8210 [21:00<1:04:44,  1.64it/s] 23%|██▎       | 1872/8210 [21:11<1:06:12,  1.60it/s] 23%|██▎       | 1888/8210 [21:20<1:04:12,  1.64it/s] 23%|██▎       | 1904/8210 [21:31<1:05:26,  1.61it/s] 23%|██▎       | 1920/8210 [21:40<1:03:35,  1.65it/s] 24%|██▎       | 1936/8210 [21:50<1:04:42,  1.62it/s] 24%|██▍       | 1952/8210 [21:59<1:02:43,  1.66it/s] 24%|██▍       | 1968/8210 [22:09<1:03:37,  1.64it/s] 24%|██▍       | 1984/8210 [22:19<1:02:58,  1.65it/s] 24%|██▍       | 2000/8210 [22:29<1:03:33,  1.63it/s] 25%|██▍       | 2016/8210 [22:38<1:02:45,  1.64it/s] 25%|██▍       | 2032/8210 [22:49<1:03:36,  1.62it/s] 25%|██▍       | 2048/8210 [22:58<1:02:04,  1.65it/s] 25%|██▌       | 2064/8210 [23:08<1:03:04,  1.62it/s] 25%|██▌       | 2080/8210 [23:17<1:01:51,  1.65it/s] 26%|██▌       | 2096/8210 [23:28<1:02:54,  1.62it/s] 26%|██▌       | 2112/8210 [23:37<1:01:25,  1.65it/s] 26%|██▌       | 2128/8210 [23:47<1:02:26,  1.62it/s] 26%|██▌       | 2144/8210 [23:56<1:00:58,  1.66it/s] 26%|██▋       | 2160/8210 [24:07<1:02:05,  1.62it/s] 27%|██▋       | 2176/8210 [24:16<1:00:26,  1.66it/s] 27%|██▋       | 2192/8210 [24:26<1:01:41,  1.63it/s] 27%|██▋       | 2208/8210 [24:35<59:57,  1.67it/s]   27%|██▋       | 2224/8210 [24:45<1:01:27,  1.62it/s] 27%|██▋       | 2240/8210 [24:55<59:45,  1.67it/s]   27%|██▋       | 2256/8210 [25:05<1:01:11,  1.62it/s] 28%|██▊       | 2272/8210 [25:14<59:10,  1.67it/s]   28%|██▊       | 2288/8210 [25:24<1:00:27,  1.63it/s] 28%|██▊       | 2304/8210 [25:33<58:31,  1.68it/s]   28%|██▊       | 2320/8210 [25:43<59:33,  1.65it/s] 28%|██▊       | 2336/8210 [25:53<58:51,  1.66it/s] 29%|██▊       | 2352/8210 [26:02<57:36,  1.69it/s] 29%|██▉       | 2368/8210 [26:12<58:32,  1.66it/s] 29%|██▉       | 2384/8210 [26:21<57:06,  1.70it/s] 29%|██▉       | 2400/8210 [26:31<58:08,  1.67it/s] 29%|██▉       | 2416/8210 [26:40<56:34,  1.71it/s] 30%|██▉       | 2432/8210 [26:49<57:22,  1.68it/s] 30%|██▉       | 2448/8210 [26:59<56:26,  1.70it/s] 30%|███       | 2464/8210 [27:09<57:25,  1.67it/s] 30%|███       | 2480/8210 [27:18<56:16,  1.70it/s] 30%|███       | 2496/8210 [27:27<56:34,  1.68it/s] 31%|███       | 2512/8210 [27:36<55:29,  1.71it/s] 31%|███       | 2528/8210 [27:46<56:16,  1.68it/s] 31%|███       | 2544/8210 [27:55<55:17,  1.71it/s] 31%|███       | 2560/8210 [28:05<55:54,  1.68it/s] 31%|███▏      | 2576/8210 [28:14<54:50,  1.71it/s] 32%|███▏      | 2592/8210 [28:24<55:08,  1.70it/s] 32%|███▏      | 2608/8210 [28:33<54:42,  1.71it/s] 32%|███▏      | 2624/8210 [28:43<55:36,  1.67it/s] 32%|███▏      | 2640/8210 [28:52<54:04,  1.72it/s] 32%|███▏      | 2656/8210 [29:02<55:04,  1.68it/s] 33%|███▎      | 2672/8210 [29:11<54:10,  1.70it/s] 33%|███▎      | 2688/8210 [29:20<54:39,  1.68it/s] 33%|███▎      | 2704/8210 [29:29<53:46,  1.71it/s] 33%|███▎      | 2720/8210 [29:39<54:36,  1.68it/s] 33%|███▎      | 2736/8210 [29:48<53:29,  1.71it/s] 34%|███▎      | 2752/8210 [29:58<54:21,  1.67it/s] 34%|███▎      | 2768/8210 [30:07<52:38,  1.72it/s] 34%|███▍      | 2784/8210 [30:17<53:12,  1.70it/s] 34%|███▍      | 2800/8210 [30:25<51:22,  1.75it/s] 34%|███▍      | 2816/8210 [30:35<52:44,  1.70it/s] 34%|███▍      | 2832/8210 [30:44<51:25,  1.74it/s] 35%|███▍      | 2848/8210 [30:54<52:38,  1.70it/s] 35%|███▍      | 2864/8210 [31:02<50:58,  1.75it/s] 35%|███▌      | 2880/8210 [31:12<52:06,  1.70it/s] 35%|███▌      | 2896/8210 [31:21<50:40,  1.75it/s] 35%|███▌      | 2912/8210 [31:31<51:41,  1.71it/s] 36%|███▌      | 2928/8210 [31:39<49:50,  1.77it/s] 36%|███▌      | 2944/8210 [31:49<51:28,  1.71it/s] 36%|███▌      | 2960/8210 [31:58<50:20,  1.74it/s] 36%|███▌      | 2976/8210 [32:08<51:25,  1.70it/s] 36%|███▋      | 2992/8210 [32:17<49:56,  1.74it/s] 37%|███▋      | 3008/8210 [32:26<50:43,  1.71it/s] 37%|███▋      | 3024/8210 [32:35<49:14,  1.76it/s] 37%|███▋      | 3040/8210 [32:45<50:13,  1.72it/s] 37%|███▋      | 3056/8210 [32:53<48:50,  1.76it/s] 37%|███▋      | 3072/8210 [33:03<49:52,  1.72it/s] 38%|███▊      | 3088/8210 [33:12<48:07,  1.77it/s] 38%|███▊      | 3104/8210 [33:21<49:10,  1.73it/s] 38%|███▊      | 3120/8210 [33:30<47:48,  1.77it/s] 38%|███▊      | 3136/8210 [33:39<48:33,  1.74it/s] 38%|███▊      | 3152/8210 [33:48<47:39,  1.77it/s] 39%|███▊      | 3168/8210 [33:58<48:33,  1.73it/s] 39%|███▉      | 3184/8210 [34:06<46:56,  1.78it/s] 39%|███▉      | 3200/8210 [34:16<47:47,  1.75it/s] 39%|███▉      | 3216/8210 [34:24<46:15,  1.80it/s] 39%|███▉      | 3232/8210 [34:34<47:19,  1.75it/s] 40%|███▉      | 3248/8210 [34:42<45:48,  1.81it/s] 40%|███▉      | 3264/8210 [34:53<49:14,  1.67it/s] 40%|███▉      | 3280/8210 [34:59<44:06,  1.86it/s] 40%|████      | 3296/8210 [35:11<48:30,  1.69it/s] 40%|████      | 3312/8210 [35:17<43:50,  1.86it/s] 41%|████      | 3328/8210 [35:29<48:09,  1.69it/s] 41%|████      | 3344/8210 [35:36<43:35,  1.86it/s] 41%|████      | 3360/8210 [35:47<47:50,  1.69it/s] 41%|████      | 3376/8210 [35:54<43:24,  1.86it/s] 41%|████▏     | 3392/8210 [36:05<46:57,  1.71it/s] 42%|████▏     | 3408/8210 [36:11<42:47,  1.87it/s] 42%|████▏     | 3424/8210 [36:23<46:55,  1.70it/s] 42%|████▏     | 3440/8210 [36:29<42:21,  1.88it/s] 42%|████▏     | 3456/8210 [36:41<46:46,  1.69it/s] 42%|████▏     | 3472/8210 [36:47<41:52,  1.89it/s] 42%|████▏     | 3488/8210 [36:58<45:10,  1.74it/s] 43%|████▎     | 3504/8210 [37:05<41:17,  1.90it/s] 43%|████▎     | 3520/8210 [37:16<44:51,  1.74it/s] 43%|████▎     | 3536/8210 [37:22<41:20,  1.88it/s] 43%|████▎     | 3552/8210 [37:34<45:26,  1.71it/s] 43%|████▎     | 3568/8210 [37:41<41:17,  1.87it/s] 44%|████▎     | 3584/8210 [37:51<44:34,  1.73it/s] 44%|████▍     | 3600/8210 [37:58<40:54,  1.88it/s] 44%|████▍     | 3616/8210 [38:09<44:17,  1.73it/s] 44%|████▍     | 3632/8210 [38:16<40:29,  1.88it/s] 44%|████▍     | 3648/8210 [38:27<43:55,  1.73it/s] 45%|████▍     | 3664/8210 [38:34<40:09,  1.89it/s] 45%|████▍     | 3680/8210 [38:45<43:26,  1.74it/s] 45%|████▌     | 3696/8210 [38:51<39:59,  1.88it/s] 45%|████▌     | 3712/8210 [39:02<43:14,  1.73it/s] 45%|████▌     | 3728/8210 [39:09<39:36,  1.89it/s] 46%|████▌     | 3744/8210 [39:20<42:31,  1.75it/s] 46%|████▌     | 3760/8210 [39:27<39:20,  1.89it/s] 46%|████▌     | 3776/8210 [39:37<42:07,  1.75it/s] 46%|████▌     | 3792/8210 [39:44<39:06,  1.88it/s] 46%|████▋     | 3808/8210 [39:55<41:52,  1.75it/s] 47%|████▋     | 3824/8210 [40:02<38:37,  1.89it/s] 47%|████▋     | 3840/8210 [40:12<41:13,  1.77it/s] 47%|████▋     | 3856/8210 [40:19<38:29,  1.89it/s] 47%|████▋     | 3872/8210 [40:30<40:45,  1.77it/s] 47%|████▋     | 3888/8210 [40:37<38:00,  1.90it/s] 48%|████▊     | 3904/8210 [40:47<40:46,  1.76it/s] 48%|████▊     | 3920/8210 [40:54<37:43,  1.90it/s] 48%|████▊     | 3936/8210 [41:05<40:27,  1.76it/s] 48%|████▊     | 3952/8210 [41:12<37:34,  1.89it/s] 48%|████▊     | 3968/8210 [41:22<40:07,  1.76it/s] 49%|████▊     | 3984/8210 [41:29<37:02,  1.90it/s] 49%|████▊     | 4000/8210 [41:40<39:32,  1.77it/s] 49%|████▉     | 4016/8210 [41:47<36:35,  1.91it/s] 49%|████▉     | 4032/8210 [41:57<38:57,  1.79it/s] 49%|████▉     | 4048/8210 [42:04<36:09,  1.92it/s] 50%|████▉     | 4064/8210 [42:14<38:58,  1.77it/s] 50%|████▉     | 4080/8210 [42:21<36:08,  1.90it/s] 50%|████▉     | 4096/8210 [42:32<38:34,  1.78it/s] 50%|█████     | 4112/8210 [42:39<35:46,  1.91it/s] 50%|█████     | 4128/8210 [42:49<38:03,  1.79it/s] 50%|█████     | 4144/8210 [42:56<35:29,  1.91it/s] 51%|█████     | 4160/8210 [43:06<37:23,  1.81it/s] 51%|█████     | 4176/8210 [43:13<34:53,  1.93it/s] 51%|█████     | 4192/8210 [43:23<36:51,  1.82it/s] 51%|█████▏    | 4208/8210 [43:30<34:15,  1.95it/s] 51%|█████▏    | 4224/8210 [43:40<36:22,  1.83it/s] 52%|█████▏    | 4240/8210 [43:47<34:20,  1.93it/s] 52%|█████▏    | 4256/8210 [43:57<36:16,  1.82it/s] 52%|█████▏    | 4272/8210 [44:04<33:47,  1.94it/s] 52%|█████▏    | 4288/8210 [44:14<35:57,  1.82it/s] 52%|█████▏    | 4304/8210 [44:21<33:39,  1.93it/s] 53%|█████▎    | 4320/8210 [44:31<35:29,  1.83it/s] 53%|█████▎    | 4336/8210 [44:38<33:13,  1.94it/s] 53%|█████▎    | 4352/8210 [44:48<34:52,  1.84it/s] 53%|█████▎    | 4368/8210 [44:55<32:47,  1.95it/s] 53%|█████▎    | 4384/8210 [45:05<34:36,  1.84it/s] 54%|█████▎    | 4400/8210 [45:12<32:38,  1.95it/s] 54%|█████▍    | 4416/8210 [45:21<34:02,  1.86it/s] 54%|█████▍    | 4432/8210 [45:29<32:19,  1.95it/s] 54%|█████▍    | 4448/8210 [45:38<33:49,  1.85it/s] 54%|█████▍    | 4464/8210 [45:45<31:49,  1.96it/s] 55%|█████▍    | 4480/8210 [45:55<33:19,  1.87it/s] 55%|█████▍    | 4496/8210 [46:02<31:16,  1.98it/s] 55%|█████▍    | 4512/8210 [46:11<32:52,  1.87it/s] 55%|█████▌    | 4528/8210 [46:18<30:56,  1.98it/s] 55%|█████▌    | 4544/8210 [46:28<32:38,  1.87it/s] 56%|█████▌    | 4560/8210 [46:35<30:51,  1.97it/s] 56%|█████▌    | 4576/8210 [46:45<32:19,  1.87it/s] 56%|█████▌    | 4592/8210 [46:52<30:40,  1.97it/s] 56%|█████▌    | 4608/8210 [47:01<32:02,  1.87it/s] 56%|█████▋    | 4624/8210 [47:08<30:05,  1.99it/s] 57%|█████▋    | 4640/8210 [47:18<31:38,  1.88it/s] 57%|█████▋    | 4656/8210 [47:25<29:52,  1.98it/s] 57%|█████▋    | 4672/8210 [47:34<31:20,  1.88it/s] 57%|█████▋    | 4688/8210 [47:42<30:00,  1.96it/s] 57%|█████▋    | 4704/8210 [47:51<30:52,  1.89it/s] 57%|█████▋    | 4720/8210 [47:58<29:12,  1.99it/s] 58%|█████▊    | 4736/8210 [48:07<30:28,  1.90it/s] 58%|█████▊    | 4752/8210 [48:14<28:53,  1.99it/s] 58%|█████▊    | 4768/8210 [48:24<30:09,  1.90it/s] 58%|█████▊    | 4784/8210 [48:31<28:42,  1.99it/s] 58%|█████▊    | 4800/8210 [48:40<29:55,  1.90it/s] 59%|█████▊    | 4816/8210 [48:47<28:30,  1.98it/s] 59%|█████▉    | 4832/8210 [48:57<29:41,  1.90it/s] 59%|█████▉    | 4848/8210 [49:04<28:15,  1.98it/s] 59%|█████▉    | 4864/8210 [49:13<29:22,  1.90it/s] 59%|█████▉    | 4880/8210 [49:21<28:09,  1.97it/s] 60%|█████▉    | 4896/8210 [49:30<29:06,  1.90it/s] 60%|█████▉    | 4912/8210 [49:37<27:46,  1.98it/s] 60%|██████    | 4928/8210 [49:46<28:27,  1.92it/s] 60%|██████    | 4944/8210 [49:54<27:41,  1.97it/s] 60%|██████    | 4960/8210 [50:03<28:33,  1.90it/s] 61%|██████    | 4976/8210 [50:10<27:21,  1.97it/s] 61%|██████    | 4992/8210 [50:19<27:52,  1.92it/s] 61%|██████    | 5008/8210 [50:26<26:56,  1.98it/s] 61%|██████    | 5024/8210 [50:35<27:31,  1.93it/s] 61%|██████▏   | 5040/8210 [50:43<26:42,  1.98it/s] 62%|██████▏   | 5056/8210 [50:52<27:12,  1.93it/s] 62%|██████▏   | 5072/8210 [50:59<26:29,  1.97it/s] 62%|██████▏   | 5088/8210 [51:08<26:57,  1.93it/s] 62%|██████▏   | 5104/8210 [51:16<26:11,  1.98it/s] 62%|██████▏   | 5120/8210 [51:24<26:37,  1.93it/s] 63%|██████▎   | 5136/8210 [51:32<25:51,  1.98it/s] 63%|██████▎   | 5152/8210 [51:42<27:26,  1.86it/s] 63%|██████▎   | 5168/8210 [51:50<27:01,  1.88it/s] 63%|██████▎   | 5184/8210 [51:59<26:49,  1.88it/s] 63%|██████▎   | 5200/8210 [52:06<25:57,  1.93it/s] 64%|██████▎   | 5216/8210 [52:15<25:45,  1.94it/s] 64%|██████▎   | 5232/8210 [52:22<25:16,  1.96it/s] 64%|██████▍   | 5248/8210 [52:31<25:09,  1.96it/s] 64%|██████▍   | 5264/8210 [52:38<24:34,  2.00it/s] 64%|██████▍   | 5280/8210 [52:47<24:39,  1.98it/s] 65%|██████▍   | 5296/8210 [52:54<24:07,  2.01it/s] 65%|██████▍   | 5312/8210 [53:02<24:19,  1.99it/s] 65%|██████▍   | 5328/8210 [53:10<23:34,  2.04it/s] 65%|██████▌   | 5344/8210 [53:18<23:44,  2.01it/s] 65%|██████▌   | 5360/8210 [53:26<23:21,  2.03it/s] 65%|██████▌   | 5376/8210 [53:34<23:23,  2.02it/s] 66%|██████▌   | 5392/8210 [53:41<23:04,  2.04it/s] 66%|██████▌   | 5408/8210 [53:50<23:17,  2.00it/s] 66%|██████▌   | 5424/8210 [53:58<22:59,  2.02it/s] 66%|██████▋   | 5440/8210 [54:05<22:44,  2.03it/s] 66%|██████▋   | 5456/8210 [54:13<22:47,  2.01it/s] 67%|██████▋   | 5472/8210 [54:21<22:30,  2.03it/s] 67%|██████▋   | 5488/8210 [54:29<22:15,  2.04it/s] 67%|██████▋   | 5504/8210 [54:37<22:05,  2.04it/s] 67%|██████▋   | 5520/8210 [54:45<22:00,  2.04it/s] 67%|██████▋   | 5536/8210 [54:52<21:36,  2.06it/s] 68%|██████▊   | 5552/8210 [55:00<21:23,  2.07it/s] 68%|██████▊   | 5568/8210 [55:07<21:11,  2.08it/s] 68%|██████▊   | 5584/8210 [55:15<21:03,  2.08it/s] 68%|██████▊   | 5600/8210 [55:23<20:52,  2.08it/s] 68%|██████▊   | 5616/8210 [55:30<20:37,  2.10it/s] 69%|██████▊   | 5632/8210 [55:38<20:24,  2.11it/s] 69%|██████▉   | 5648/8210 [55:45<20:16,  2.11it/s] 69%|██████▉   | 5664/8210 [55:53<20:11,  2.10it/s] 69%|██████▉   | 5680/8210 [56:01<19:59,  2.11it/s] 69%|██████▉   | 5696/8210 [56:08<19:48,  2.11it/s] 70%|██████▉   | 5712/8210 [56:16<19:36,  2.12it/s] 70%|██████▉   | 5728/8210 [56:23<19:24,  2.13it/s] 70%|██████▉   | 5744/8210 [56:30<19:05,  2.15it/s] 70%|███████   | 5760/8210 [56:38<18:57,  2.15it/s] 70%|███████   | 5776/8210 [56:45<18:42,  2.17it/s] 71%|███████   | 5792/8210 [56:53<18:53,  2.13it/s] 71%|███████   | 5808/8210 [56:59<17:52,  2.24it/s] 71%|███████   | 5824/8210 [57:06<17:42,  2.25it/s] 71%|███████   | 5840/8210 [57:13<17:39,  2.24it/s] 71%|███████▏  | 5856/8210 [57:20<17:26,  2.25it/s] 72%|███████▏  | 5872/8210 [57:28<17:42,  2.20it/s] 72%|███████▏  | 5888/8210 [57:34<16:44,  2.31it/s] 72%|███████▏  | 5904/8210 [57:41<16:44,  2.29it/s] 72%|███████▏  | 5920/8210 [57:48<16:36,  2.30it/s] 72%|███████▏  | 5936/8210 [57:55<16:31,  2.29it/s] 72%|███████▏  | 5952/8210 [58:02<16:21,  2.30it/s] 73%|███████▎  | 5968/8210 [58:09<16:18,  2.29it/s] 73%|███████▎  | 5984/8210 [58:16<16:02,  2.31it/s] 73%|███████▎  | 6000/8210 [58:23<15:56,  2.31it/s] 73%|███████▎  | 6016/8210 [58:30<15:44,  2.32it/s] 73%|███████▎  | 6032/8210 [58:37<15:43,  2.31it/s] 74%|███████▎  | 6048/8210 [58:43<15:19,  2.35it/s] 74%|███████▍  | 6064/8210 [58:50<15:18,  2.34it/s] 74%|███████▍  | 6080/8210 [58:56<14:51,  2.39it/s] 74%|███████▍  | 6096/8210 [59:03<14:45,  2.39it/s] 74%|███████▍  | 6112/8210 [59:10<14:31,  2.41it/s] 75%|███████▍  | 6128/8210 [59:16<14:30,  2.39it/s] 75%|███████▍  | 6144/8210 [59:23<14:16,  2.41it/s] 75%|███████▌  | 6160/8210 [59:30<14:12,  2.40it/s] 75%|███████▌  | 6176/8210 [59:36<13:57,  2.43it/s] 75%|███████▌  | 6192/8210 [59:43<13:52,  2.42it/s] 76%|███████▌  | 6208/8210 [59:49<13:34,  2.46it/s] 76%|███████▌  | 6224/8210 [59:56<13:28,  2.46it/s] 76%|███████▌  | 6240/8210 [1:00:02<13:14,  2.48it/s] 76%|███████▌  | 6256/8210 [1:00:09<13:22,  2.44it/s] 76%|███████▋  | 6272/8210 [1:00:15<12:51,  2.51it/s] 77%|███████▋  | 6288/8210 [1:00:21<12:51,  2.49it/s] 77%|███████▋  | 6304/8210 [1:00:27<12:34,  2.53it/s] 77%|███████▋  | 6320/8210 [1:00:34<12:39,  2.49it/s] 77%|███████▋  | 6336/8210 [1:00:40<12:13,  2.55it/s] 77%|███████▋  | 6352/8210 [1:00:46<12:18,  2.52it/s] 78%|███████▊  | 6368/8210 [1:00:52<11:59,  2.56it/s] 78%|███████▊  | 6384/8210 [1:00:59<12:05,  2.52it/s] 78%|███████▊  | 6400/8210 [1:01:05<11:45,  2.56it/s] 78%|███████▊  | 6416/8210 [1:01:12<12:02,  2.48it/s] 78%|███████▊  | 6432/8210 [1:01:18<11:32,  2.57it/s] 79%|███████▊  | 6448/8210 [1:01:23<11:06,  2.64it/s] 79%|███████▊  | 6464/8210 [1:01:29<10:49,  2.69it/s] 79%|███████▉  | 6480/8210 [1:01:35<10:57,  2.63it/s] 79%|███████▉  | 6496/8210 [1:01:41<10:51,  2.63it/s] 79%|███████▉  | 6512/8210 [1:01:48<10:55,  2.59it/s] 80%|███████▉  | 6528/8210 [1:01:53<10:31,  2.66it/s] 80%|███████▉  | 6544/8210 [1:02:00<10:31,  2.64it/s] 80%|███████▉  | 6560/8210 [1:02:05<10:17,  2.67it/s] 80%|████████  | 6576/8210 [1:02:12<10:24,  2.62it/s] 80%|████████  | 6592/8210 [1:02:18<10:05,  2.67it/s] 80%|████████  | 6608/8210 [1:02:24<10:08,  2.63it/s] 81%|████████  | 6624/8210 [1:02:29<09:48,  2.69it/s] 81%|████████  | 6640/8210 [1:02:36<09:56,  2.63it/s] 81%|████████  | 6656/8210 [1:02:42<09:37,  2.69it/s] 81%|████████▏ | 6672/8210 [1:02:48<09:44,  2.63it/s] 81%|████████▏ | 6688/8210 [1:02:53<09:18,  2.72it/s] 82%|████████▏ | 6704/8210 [1:03:00<09:38,  2.61it/s] 82%|████████▏ | 6720/8210 [1:03:05<08:52,  2.80it/s] 82%|████████▏ | 6736/8210 [1:03:11<09:05,  2.70it/s] 82%|████████▏ | 6752/8210 [1:03:17<08:45,  2.78it/s] 82%|████████▏ | 6768/8210 [1:03:23<08:56,  2.69it/s] 83%|████████▎ | 6784/8210 [1:03:28<08:33,  2.78it/s] 83%|████████▎ | 6800/8210 [1:03:35<08:43,  2.69it/s] 83%|████████▎ | 6816/8210 [1:03:40<08:22,  2.77it/s] 83%|████████▎ | 6832/8210 [1:03:47<08:35,  2.67it/s] 83%|████████▎ | 6848/8210 [1:03:52<08:09,  2.78it/s] 84%|████████▎ | 6864/8210 [1:03:58<08:21,  2.68it/s] 84%|████████▍ | 6880/8210 [1:04:03<07:57,  2.78it/s] 84%|████████▍ | 6896/8210 [1:04:10<08:10,  2.68it/s] 84%|████████▍ | 6912/8210 [1:04:15<07:45,  2.79it/s] 84%|████████▍ | 6928/8210 [1:04:22<07:56,  2.69it/s] 85%|████████▍ | 6944/8210 [1:04:27<07:32,  2.80it/s] 85%|████████▍ | 6960/8210 [1:04:33<07:41,  2.71it/s] 85%|████████▍ | 6976/8210 [1:04:38<07:12,  2.85it/s] 85%|████████▌ | 6992/8210 [1:04:44<07:18,  2.78it/s] 85%|████████▌ | 7008/8210 [1:04:49<06:56,  2.88it/s] 86%|████████▌ | 7024/8210 [1:04:55<06:59,  2.83it/s] 86%|████████▌ | 7040/8210 [1:05:00<06:42,  2.91it/s] 86%|████████▌ | 7056/8210 [1:05:06<06:47,  2.83it/s] 86%|████████▌ | 7072/8210 [1:05:11<06:30,  2.91it/s] 86%|████████▋ | 7088/8210 [1:05:17<06:35,  2.84it/s] 87%|████████▋ | 7104/8210 [1:05:22<06:18,  2.92it/s] 87%|████████▋ | 7120/8210 [1:05:28<06:23,  2.84it/s] 87%|████████▋ | 7136/8210 [1:05:34<06:11,  2.89it/s] 87%|████████▋ | 7152/8210 [1:05:40<06:17,  2.81it/s] 87%|████████▋ | 7168/8210 [1:05:45<05:59,  2.90it/s] 88%|████████▊ | 7184/8210 [1:05:51<06:04,  2.81it/s] 88%|████████▊ | 7200/8210 [1:05:56<05:46,  2.92it/s] 88%|████████▊ | 7216/8210 [1:06:02<05:52,  2.82it/s] 88%|████████▊ | 7232/8210 [1:06:07<05:34,  2.92it/s] 88%|████████▊ | 7248/8210 [1:06:13<05:37,  2.85it/s] 88%|████████▊ | 7264/8210 [1:06:18<05:18,  2.97it/s] 89%|████████▊ | 7280/8210 [1:06:24<05:23,  2.87it/s] 89%|████████▉ | 7296/8210 [1:06:29<05:06,  2.98it/s] 89%|████████▉ | 7312/8210 [1:06:35<05:12,  2.87it/s] 89%|████████▉ | 7328/8210 [1:06:40<04:52,  3.01it/s] 89%|████████▉ | 7344/8210 [1:06:46<04:59,  2.89it/s] 90%|████████▉ | 7360/8210 [1:06:50<04:43,  3.00it/s] 90%|████████▉ | 7376/8210 [1:06:57<04:56,  2.82it/s] 90%|█████████ | 7392/8210 [1:07:03<04:51,  2.80it/s] 90%|█████████ | 7408/8210 [1:07:08<04:33,  2.93it/s] 90%|█████████ | 7424/8210 [1:07:13<04:20,  3.02it/s] 91%|█████████ | 7440/8210 [1:07:17<04:07,  3.12it/s] 91%|█████████ | 7456/8210 [1:07:22<03:54,  3.22it/s] 91%|█████████ | 7472/8210 [1:07:28<04:02,  3.04it/s] 91%|█████████ | 7488/8210 [1:07:32<03:45,  3.20it/s] 91%|█████████▏| 7504/8210 [1:07:38<03:52,  3.03it/s] 92%|█████████▏| 7520/8210 [1:07:43<03:36,  3.18it/s] 92%|█████████▏| 7536/8210 [1:07:49<03:43,  3.01it/s] 92%|█████████▏| 7552/8210 [1:07:53<03:26,  3.19it/s] 92%|█████████▏| 7568/8210 [1:07:59<03:34,  2.99it/s] 92%|█████████▏| 7584/8210 [1:08:03<03:17,  3.16it/s] 93%|█████████▎| 7600/8210 [1:08:10<03:29,  2.91it/s] 93%|█████████▎| 7616/8210 [1:08:15<03:18,  2.99it/s] 93%|█████████▎| 7632/8210 [1:08:20<03:08,  3.07it/s] 93%|█████████▎| 7648/8210 [1:08:24<02:50,  3.31it/s] 93%|█████████▎| 7664/8210 [1:08:30<02:58,  3.07it/s] 94%|█████████▎| 7680/8210 [1:08:34<02:41,  3.29it/s] 94%|█████████▎| 7696/8210 [1:08:40<02:49,  3.03it/s] 94%|█████████▍| 7712/8210 [1:08:45<02:36,  3.18it/s] 94%|█████████▍| 7728/8210 [1:08:50<02:33,  3.13it/s] 94%|█████████▍| 7744/8210 [1:08:54<02:17,  3.39it/s] 95%|█████████▍| 7760/8210 [1:09:00<02:24,  3.12it/s] 95%|█████████▍| 7776/8210 [1:09:04<02:10,  3.33it/s] 95%|█████████▍| 7792/8210 [1:09:10<02:15,  3.09it/s] 95%|█████████▌| 7808/8210 [1:09:14<02:00,  3.34it/s] 95%|█████████▌| 7824/8210 [1:09:20<02:04,  3.10it/s] 95%|█████████▌| 7840/8210 [1:09:24<01:51,  3.33it/s] 96%|█████████▌| 7856/8210 [1:09:30<01:54,  3.10it/s] 96%|█████████▌| 7872/8210 [1:09:34<01:41,  3.32it/s] 96%|█████████▌| 7888/8210 [1:09:40<01:44,  3.09it/s] 96%|█████████▋| 7904/8210 [1:09:44<01:31,  3.35it/s] 96%|█████████▋| 7920/8210 [1:09:49<01:31,  3.16it/s] 97%|█████████▋| 7936/8210 [1:09:53<01:21,  3.38it/s] 97%|█████████▋| 7952/8210 [1:09:59<01:21,  3.18it/s] 97%|█████████▋| 7968/8210 [1:10:03<01:10,  3.44it/s] 97%|█████████▋| 7984/8210 [1:10:08<01:09,  3.27it/s] 97%|█████████▋| 8000/8210 [1:10:12<01:00,  3.49it/s] 98%|█████████▊| 8016/8210 [1:10:18<00:59,  3.29it/s] 98%|█████████▊| 8032/8210 [1:10:22<00:51,  3.48it/s] 98%|█████████▊| 8048/8210 [1:10:27<00:49,  3.26it/s] 98%|█████████▊| 8064/8210 [1:10:31<00:41,  3.54it/s] 98%|█████████▊| 8080/8210 [1:10:36<00:38,  3.35it/s] 99%|█████████▊| 8096/8210 [1:10:40<00:31,  3.64it/s] 99%|█████████▉| 8112/8210 [1:10:45<00:28,  3.43it/s] 99%|█████████▉| 8128/8210 [1:10:49<00:22,  3.71it/s] 99%|█████████▉| 8144/8210 [1:10:54<00:19,  3.44it/s] 99%|█████████▉| 8160/8210 [1:10:57<00:13,  3.78it/s]100%|█████████▉| 8176/8210 [1:11:02<00:09,  3.55it/s]100%|█████████▉| 8192/8210 [1:11:06<00:04,  3.88it/s]100%|█████████▉| 8208/8210 [1:11:11<00:00,  3.64it/s]100%|██████████| 8210/8210 [1:11:11<00:00,  1.92it/s]
+/root/.local/lib/python3.10/site-packages/transformer_engine/pytorch/attention.py:3051: UserWarning: window_size should be (-1, 0) or (>=0, 0) for attn_mask_type=causal
+  warnings.warn(
+/root/.local/lib/python3.10/site-packages/transformer_engine/pytorch/attention.py:3051: UserWarning: window_size should be (-1, 0) or (>=0, 0) for attn_mask_type=causal
+  warnings.warn(
+/root/.local/lib/python3.10/site-packages/transformer_engine/pytorch/attention.py:3051: UserWarning: window_size should be (-1, 0) or (>=0, 0) for attn_mask_type=causal
+  warnings.warn(
+/root/.local/lib/python3.10/site-packages/transformer_engine/pytorch/attention.py:3051: UserWarning: window_size should be (-1, 0) or (>=0, 0) for attn_mask_type=causal
+  warnings.warn(
+fatal: not a git repository (or any of the parent directories): .git
+{'arc_challenge': {'alias': 'arc_challenge', 'acc,none': 0.5051194539249146, 'acc_stderr,none': 0.01461062489030916, 'acc_norm,none': 0.5332764505119454, 'acc_norm_stderr,none': 0.014578995859605797}, 'arc_es': {'alias': 'arc_es', 'acc,none': 0.39316239316239315, 'acc_stderr,none': 0.014286142338995342, 'acc_norm,none': 0.4341880341880342, 'acc_norm_stderr,none': 0.01449665266681646}, 'arc_fr': {'alias': 'arc_fr', 'acc,none': 0.40633019674935844, 'acc_stderr,none': 0.014371119725222021, 'acc_norm,none': 0.43627031650983744, 'acc_norm_stderr,none': 0.014510816921925731}, 'arc_id': {'alias': 'arc_id', 'acc,none': 0.2965811965811966, 'acc_stderr,none': 0.01335892580109508, 'acc_norm,none': 0.347008547008547, 'acc_norm_stderr,none': 0.013922479232612287}, 'arc_pt': {'alias': 'arc_pt', 'acc,none': 0.4094017094017094, 'acc_stderr,none': 0.014381813845821724, 'acc_norm,none': 0.4478632478632479, 'acc_norm_stderr,none': 0.014544164741853641}, 'arc_tr': {'alias': 'arc_tr', 'acc,none': 0.3381725021349274, 'acc_stderr,none': 0.013830841942307845, 'acc_norm,none': 0.3928266438941076, 'acc_norm_stderr,none': 0.014277885348854722}, 'arc_zh': {'alias': 'arc_zh', 'acc,none': 0.4128205128205128, 'acc_stderr,none': 0.01439987813057693, 'acc_norm,none': 0.4666666666666667, 'acc_norm_stderr,none': 0.014591350804388723}}
